@@ -5,7 +5,7 @@ public class PlayerSlime : MonoBehaviour
 {
     private Animator _anime;
     public TMP_Text playerHpText;
-    public double playerHp;
+    public static double playerHp;
 
     private string _deathAnimeKey;
     private string _idleAnimeKey;
@@ -39,7 +39,7 @@ public class PlayerSlime : MonoBehaviour
            
             playerHp += enemyHp;
             playerHpText.text = playerHp.ToString();
-            Destroy(collision.gameObject);
+            // Destroy(collision.gameObject);
         }
         SoundManager.instance.SfxPlay("Eat");
     }
