@@ -6,30 +6,28 @@ using UnityEngine.EventSystems;
 
 public class Slime_Movement : MonoBehaviour
 {
+#if UNITY_EDITOR
     private Vector2 mousePos; // 기존 마우스포스
+#endif
+#if UNITY_ANDROID || UNITY_IOS
     private Vector2 touchPos;
+#endif
     public bool canMove=true;
-
-    private void OnEnable()
-    {
-        canMove = true;
-    }
 
     void Update()
     {
         if (!canMove) return; //UI켜져있을때 클릭 무시
-
-        if (EventSystem.current.IsPointerOverGameObject()) return; //UI위 클릭은 이동무시 모바일에서 테스트시 주석처리필수
-
-        if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
+#if UNITY_EDITOR    // 유니티에디터에서만 실행
+        if (EventSystem.current.IsPointerOverGameObject()) return; //UI위 클릭은 이동무시
 
         if (Input.GetMouseButtonDown(0))
         {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MoveSlime(mousePos);
-
-            SoundManager.instance.SfxPlay("Move");
-        } // 기존 마우스 클릭 코드 모바일환경에서 테스트시 주석처리필수
+        } // 기존 마우스 클릭 코드 
+#endif
+#if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
+        if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
 
         if (Input.touchCount > 0)
         {
@@ -40,9 +38,11 @@ public class Slime_Movement : MonoBehaviour
                 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
                 MoveSlime(touchPos);
             }
-        }//모바일환경에서 테스트 필요
+        }
+#endif
     }
 
+#if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
     private bool IsPointerOverUI()
     {
         if(Input.touchCount>0)
@@ -51,28 +51,28 @@ public class Slime_Movement : MonoBehaviour
         }
         return false;
     }
-    
+#endif
 
-    private void MoveSlime(Vector2 position)
+    private void MoveSlime(Vector2 position)    // 슬라임 움직임 함수
     {
         if (position.x > 1)
-            transform.position = new Vector2(2, -4);
+            transform.position = new Vector2(2, -6);
         else if (position.x < -1)
         {
-            transform.position = new Vector2(-2, -4);
+            transform.position = new Vector2(-2, -6);
         }
         else
-            transform.position = new Vector2(0, -4);
+            transform.position = new Vector2(0, -6);
 
         SoundManager.instance.SfxPlay("Move");
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
     {
         StartCoroutine(EnableMovement(0.5f));
     }
 
-    IEnumerator EnableMovement(float delay)
+    IEnumerator EnableMovement(float delay) // 딜레이 코루틴
     {
         canMove = false;
         yield return new WaitForSeconds(delay);

@@ -8,7 +8,8 @@ public class GameStartManager : MonoBehaviour
     public GameObject StartWindow;
 
     private Animator _playerAnime;
-    private string _playerIdleKey;
+    private string _playerRunKey;
+    private string _PlayerWakeUpKey;
 
     private void Start()        //게임이시작하면
     {
@@ -19,13 +20,22 @@ public class GameStartManager : MonoBehaviour
         //이미 배경은 멈춰있음
 
         _playerAnime = player.GetComponentInChildren<Animator>();  // 플레이어 애니메이션
-        _playerIdleKey = "Idle";
+        _playerRunKey = "IsRun";
+        _PlayerWakeUpKey = "WakeUp";
     }
 
     public void StartGame()     //게임시작버튼누르면
     {
         player.SetActive(true);     // 플레이어등장
-        _playerAnime.SetBool(_playerIdleKey, true);
+        _playerAnime.SetBool(_playerRunKey, true);
+        enemyspawner.StartSpawning(); // 적생성시작
+        FindObjectOfType<PropsMovement>().StartMoving(); // 배경 움직임 시작
+    }
+
+    public void KeepGame()
+    {
+        _playerAnime.SetTrigger(_PlayerWakeUpKey);  //일어나는동작
+        _playerAnime.SetBool(_playerRunKey, true);  //달리는동작
         enemyspawner.StartSpawning(); // 적생성시작
         FindObjectOfType<PropsMovement>().StartMoving(); // 배경 움직임 시작
     }

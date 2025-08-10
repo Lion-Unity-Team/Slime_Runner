@@ -12,13 +12,9 @@ public class Enemy_Spawner : MonoBehaviour
     private List<GameObject> enemyList = new List<GameObject>();
     public float enemySpeed = 5.0f;
     public float speedTimer = 0f;
+    public Animator _anime;
 
     public Coroutine spawnCoroutine;
-
-    private void Start()
-    {
-        //StartSpawning();
-    }
 
     public void StartSpawning()
     {
@@ -97,13 +93,13 @@ public class Enemy_Spawner : MonoBehaviour
                     else if (digitCount >= 13)
                         fontSize = 0.4f;
                     else if (digitCount >= 12)
-                        fontSize = 0.43f;
+                        fontSize = 0.45f;
                     else if (digitCount >= 11)
-                        fontSize = 0.48f;
+                        fontSize = 0.5f;
                     else if (digitCount >= 10)
                         fontSize = 0.55f;
                     else if (digitCount >= 9)
-                        fontSize = 0.7f;
+                        fontSize = 0.6f;
                     else if (digitCount >= 8)
                         fontSize = 0.7f;
                     else if (digitCount >= 7)
@@ -124,11 +120,15 @@ public class Enemy_Spawner : MonoBehaviour
 
     private void Update()
     {
-        speedTimer += Time.deltaTime;
-        if (speedTimer >= 1f)
+        bool IsRun = _anime.GetBool("IsRun");
+        if (IsRun)
         {
-            enemySpeed += 0.1f;
-            speedTimer = 0f;
+            speedTimer += Time.deltaTime;
+            if (speedTimer >= 1f)
+            {
+                enemySpeed += 0.1f;
+                speedTimer = 0f;
+            }
         }
     }
 
