@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceeb083d-8a9e-4b0e-98a2-697c80ac4a6d" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/02. Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/02. Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UI&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -128,6 +130,8 @@
       <workItem from="1754405011712" duration="2934000" />
       <workItem from="1754470742323" duration="1289000" />
       <workItem from="1754552771029" duration="809000" />
+      <workItem from="1754656519588" duration="1467000" />
+      <workItem from="1754670843583" duration="4484000" />
     </task>
     <servers />
   </component>

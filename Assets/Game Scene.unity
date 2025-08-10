@@ -7477,7 +7477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1a78f17398b03946be3f59ad23ef900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy_Prefab: {fileID: 2516860446555556444, guid: 1168cdeeb939b2c43afd47c732752a17,
+  enemy_Prefab: {fileID: 1345937200885890908, guid: d6ac7894835dab74bb4acb18bfd680c2,
     type: 3}
   playerSlime: {fileID: 1789794412}
   enemySpeed: 5
