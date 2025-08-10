@@ -712,9 +712,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 104
-        y: 395
+        y: 384
         width: 16
-        height: 12
+        height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -747,28 +747,6 @@ TextureImporter:
       bones: []
       spriteID: 3469c3cfe0582ea60800000000000000
       internalID: 7701864612164834883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: momo_spriteSheet1_17
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 384
-        width: 16
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 527c698849a3f9610800000000000000
-      internalID: 1630085999752562469
       vertices: []
       indices: 
       edges: []
@@ -954,9 +932,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 328
+        y: 320
         width: 18
-        height: 14
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,28 +967,6 @@ TextureImporter:
       bones: []
       spriteID: 9995d0549c21706f0800000000000000
       internalID: -718584959886075495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: momo_spriteSheet1_28
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 320
-        width: 18
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19f420bafa9eb90b0800000000000000
-      internalID: -5720721960946479215
       vertices: []
       indices: 
       edges: []
