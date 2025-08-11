@@ -127,6 +127,7 @@ public class Enemy_Spawner : MonoBehaviour
         speedTimer += Time.deltaTime;
         if (speedTimer >= 1f)
         {
+            Map.instance.time++;
             enemySpeed += 0.1f;
             speedTimer = 0f;
         }
@@ -150,7 +151,7 @@ public class Enemy_Spawner : MonoBehaviour
         {
             System.Random rng = new System.Random();
             rng.NextBytes(bytes);
-            bytes[bytes.Length - 1] &= 0x7F; // ¾ç¼ö·Î °­Á¦
+            bytes[bytes.Length - 1] &= 0x7F; // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             result = new BigInteger(bytes);
         } while (result >= range);
 

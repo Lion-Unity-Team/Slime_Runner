@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dango_extra_0: -8611026852741926089
+      dango_extra_1: -7070794622363561201
+      dango_extra_2: -6694359835429440281
+      dango_extra_3: 3690767211903071636
+      dango_extra_4: -196516612401508033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
