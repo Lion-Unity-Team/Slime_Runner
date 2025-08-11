@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private Button[] bgm_Button;
     [SerializeField] private Button[] sfx_Button;
     
+    [SerializeField] private AudioClip[] bgm_Clips;
     [SerializeField] private AudioClip[] sfx_Clips;
     
     [SerializeField] private Slider bgm_Slider;
@@ -118,6 +120,11 @@ public class SoundManager : MonoBehaviour
         Debug.Log($"{clipName} not found");
     }
 
+    public void BgmPlay(string clipName)
+    {
+        StartCoroutine(FadeBgmPlay(clipName));
+    }
+
     public void BgmMute(bool isMute) // 개선 가능할지도
     {
         if (isMute)
@@ -162,6 +169,44 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    IEnumerator FadeBgmPlay(string clipName)
+    {
+        float currentVolume = bgm_Player.volume;
+        float timer = 0f;
+        float fadeDuration = 0.2f;
+
+        while (timer < fadeDuration)
+        {
+            bgm_Player.volume = Mathf.Lerp(bgm_Player.volume, 0f, timer/fadeDuration);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        bgm_Player.volume = 0f;
+        bgm_Player.Stop();
+
+        foreach (var clip in bgm_Clips)
+        {
+            if (clip.name == clipName)
+            {
+               bgm_Player.clip = clip;
+               break;
+            }
+        }
+        bgm_Player.Play();
+        timer = 0;
+        
+        while (timer < fadeDuration)
+        {
+            bgm_Player.volume = Mathf.Lerp(0, currentVolume, timer/fadeDuration);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        bgm_Player.volume = currentVolume;
+        
+        Debug.Log($"배경음 변경 : {clipName}");
+    }
 
     public void SoundSave()
     {
