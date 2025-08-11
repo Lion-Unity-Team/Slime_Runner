@@ -35,10 +35,8 @@ public class PlayerSlime : MonoBehaviour
         }
         else 
         {
-           
             playerHp += enemyHp;
             playerHpText.text = playerHp.ToString();
-            // Destroy(collision.gameObject);
         }
         SoundManager.instance.SfxPlay("Eat");
     }
