@@ -7,10 +7,16 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text playerHpText;
     public static double playerHp;
 
+    private string _deathAnimeKey;
+    private string _runAnimeKey;
+
     private void Start()
     {
         playerHp = double.Parse(playerHpText.text);
         _anime = GetComponentInChildren<Animator>();
+
+        _deathAnimeKey = "Death";
+        _runAnimeKey = "IsRun";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,13 +26,14 @@ public class PlayerSlime : MonoBehaviour
 
         double enemyHp = double.Parse(enemyHpText.text);
 
-        if (playerHp <= enemyHp) //?÷????????
+        if (playerHp <= enemyHp)
         {
             FindObjectOfType<GameStartManager>().EndGame();
             FindObjectOfType<GameOverManager>().Score();
-            gameObject.SetActive(false);
+            _anime.SetTrigger(_deathAnimeKey);
+            _anime.SetBool(_runAnimeKey, false);
         }
-        else //???????
+        else 
         {
            
             playerHp += enemyHp;
@@ -50,13 +57,13 @@ public class PlayerSlime : MonoBehaviour
         else if (digitCount >= 13)
             fontSize = 0.4f;
         else if (digitCount >= 12)
-            fontSize = 0.43f;
+            fontSize = 0.45f;
         else if (digitCount >= 11)
-            fontSize = 0.48f;
+            fontSize = 0.5f;
         else if (digitCount >= 10)
             fontSize = 0.55f;
         else if (digitCount >= 9)
-            fontSize = 0.7f;
+            fontSize = 0.6f;
         else if (digitCount >= 8)
             fontSize = 0.7f;
         else if (digitCount >= 7)
