@@ -10,7 +10,6 @@ public class Slime_Movement : MonoBehaviour
     private Animator _Anime;
     private int currentLane = 1;
     private float laneDistance = 2f; // 레인간 거리
-    private Vector2 targetPosition;
     public bool canMove = true;
     [SerializeField] private float moveDuration = 0.2f; //이동 시간(초)
 
@@ -52,7 +51,7 @@ public class Slime_Movement : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-                CheckAndMove(touchPos);
+                PlayerMove(touchPos);
                 //MoveSlime(touchPos);
             }
         }
