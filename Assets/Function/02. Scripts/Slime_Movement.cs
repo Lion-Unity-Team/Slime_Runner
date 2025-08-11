@@ -6,26 +6,42 @@ using UnityEngine.EventSystems;
 
 public class Slime_Movement : MonoBehaviour
 {
+    // 레인 위치 (0=왼, 1=중앙, 2=오)
+    private Animator _Anime;
+    private int currentLane = 1;
+    private float laneDistance = 2f; // 레인간 거리
+    private Vector2 targetPosition;
+    public bool canMove = true;
+    [SerializeField] private float moveDuration = 0.2f; //이동 시간(초)
+
 #if UNITY_EDITOR
     private Vector2 mousePos; // 기존 마우스포스
 #endif
+
 #if UNITY_ANDROID || UNITY_IOS
     private Vector2 touchPos;
 #endif
-    public bool canMove=true;
+
+    private void Start()
+    {
+        _Anime = GetComponent<Animator>();
+    }
 
     void Update()
     {
         if (!canMove) return; //UI켜져있을때 클릭 무시
+
 #if UNITY_EDITOR    // 유니티에디터에서만 실행
-        if (EventSystem.current.IsPointerOverGameObject()) return; //UI위 클릭은 이동무시
+        if (EventSystem.current.IsPointerOverGameObject()) return; //UI 클릭은 이동무시
 
         if (Input.GetMouseButtonDown(0))
         {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            MoveSlime(mousePos);
+            PlayerMove(mousePos);
+            //MoveSlime(mousePos);
         } // 기존 마우스 클릭 코드 
 #endif
+
 #if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
         if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
 
@@ -36,7 +52,8 @@ public class Slime_Movement : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-                MoveSlime(touchPos);
+                CheckAndMove(touchPos);
+                //MoveSlime(touchPos);
             }
         }
 #endif
@@ -53,19 +70,69 @@ public class Slime_Movement : MonoBehaviour
     }
 #endif
 
-    private void MoveSlime(Vector2 position)    // 슬라임 움직임 함수
+    private void PlayerMove(Vector2 position)
     {
-        if (position.x > 1)
-            transform.position = new Vector2(2, -6);
-        else if (position.x < -1)
+        // 화면 왼쪽 절반 클릭 -> 왼쪽 이동
+        if (position.x < 0)
         {
-            transform.position = new Vector2(-2, -6);
+            if(currentLane>0)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+                _Anime.SetTrigger("Move");
+                currentLane--;
+                MoveToLane(currentLane);
+            }
         }
+        // 화면 오른쪽 절반 클릭 -> 오른쪽 이동
         else
-            transform.position = new Vector2(0, -6);
+        {
+            if(currentLane<2)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+                _Anime.SetTrigger("Move");
+                currentLane++;
+                MoveToLane(currentLane);
+            }
+        }
+    }
 
+    private void MoveToLane(int laneIndex)
+    {
+        Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -6);
+        StopAllCoroutines(); // 이동 중 다시 이동하면 이전 코루틴 중단
+        StartCoroutine(SlideToPosition(targetPos, moveDuration));
         SoundManager.instance.SfxPlay("Move");
     }
+
+    private IEnumerator SlideToPosition(Vector2 targetPos, float duration)
+    {
+        Vector2 startPos = transform.position;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+            transform.position = Vector2.Lerp(startPos, targetPos, t);
+            yield return null;
+        }
+
+        transform.position = targetPos; //마지막 위치 보정
+    }
+
+    //private void MoveSlime(Vector2 position)    // 기존 슬라임 움직임 함수 (순간이동)
+    //{
+    //    if (position.x > 1)
+    //        transform.position = new Vector2(2, -6);
+    //    else if (position.x < -1)
+    //    {
+    //        transform.position = new Vector2(-2, -6);
+    //    }
+    //    else
+    //        transform.position = new Vector2(0, -6);
+
+    //    SoundManager.instance.SfxPlay("Move");
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
     {
