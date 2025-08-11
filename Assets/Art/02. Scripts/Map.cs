@@ -26,6 +26,9 @@ public class Map : MonoBehaviour
 
     public void OnBackground(float len = 0)
     {
+        if (_mapIndex + 1 == background.Length)
+            return;
+        
         background[++_mapIndex].SetActive(true);
         background[_mapIndex].transform.position += new Vector3(0, len, 0);
     }

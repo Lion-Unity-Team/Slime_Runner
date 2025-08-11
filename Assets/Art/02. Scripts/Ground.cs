@@ -6,9 +6,10 @@ public class Ground : MonoBehaviour
     private Enemy_Spawner _enemySpawner;
     private Vector3 _resetPos;
     
-    private static float _speed;
+    private static float _speed = 0;
     public int n;
 
+    public static bool canMoving = false;
     private void Awake()
     {
         _resetPos = new Vector3(0, 10, 0);
@@ -21,6 +22,9 @@ public class Ground : MonoBehaviour
 
     private void Update()
     {
+        if (!canMoving)
+            return;
+        
         _speed = _enemySpawner.enemySpeed;
         transform.position += Time.deltaTime * _speed * Vector3.down;
 

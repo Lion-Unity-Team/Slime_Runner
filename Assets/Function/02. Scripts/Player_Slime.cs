@@ -7,16 +7,10 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text playerHpText;
     public static double playerHp;
 
-    private string _deathAnimeKey;
-    private string _idleAnimeKey;
-
     private void Start()
     {
         playerHp = double.Parse(playerHpText.text);
         _anime = GetComponentInChildren<Animator>();
-
-        _deathAnimeKey = "Death";
-        _idleAnimeKey = "Idle";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,9 +24,7 @@ public class PlayerSlime : MonoBehaviour
         {
             FindObjectOfType<GameStartManager>().EndGame();
             FindObjectOfType<GameOverManager>().Score();
-            _anime.SetBool(_idleAnimeKey, false);
-            _anime.SetTrigger(_deathAnimeKey);
-            // gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
         else //???????
         {
