@@ -131,6 +131,7 @@ public class Enemy_Spawner : MonoBehaviour
             speedTimer += Time.deltaTime;
             if (speedTimer >= 1f)
             {
+                Map.instance.time++;
                 enemySpeed += 0.1f;
                 speedTimer = 0f;
             }
