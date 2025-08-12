@@ -26,15 +26,19 @@ public class Map : MonoBehaviour
 
     public void OnBackground(float len = 0)
     {
-        if (_mapIndex + 1 == background.Length)
-        {
-            _mapIndex++;
-            return;
-        }
-        background[++_mapIndex].SetActive(true);
-        background[_mapIndex].transform.position += new Vector3(0, len, 0);
+        // if (_mapIndex + 1 == background.Length)
+        // {
+        //     _mapIndex++;
+        //     return;
+        // }
+
+        var index = ++_mapIndex % background.Length;
+        background[index].SetActive(true);
+        background[index].transform.GetChild(0).gameObject.SetActive(true);
+        background[index].transform.GetChild(1).gameObject.SetActive(true);
+        background[index].transform.position += new Vector3(0, len, 0);
         
-        string bgmName = background[_mapIndex].name;
+        string bgmName = background[index].name;
         SoundManager.instance.BgmPlay(bgmName);
         Debug.Log($"배경음 요청 : {bgmName}");
     }
