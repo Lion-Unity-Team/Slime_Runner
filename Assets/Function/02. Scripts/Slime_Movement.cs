@@ -10,16 +10,19 @@ public class Slime_Movement : MonoBehaviour
     private Animator _Anime;
     private int currentLane = 1;
     private float laneDistance = 2f; // 레인간 거리
+    [SerializeField] private float moveDuration = 0.2f; //이동 시간(초
     public bool canMove = true;
-    [SerializeField] private float moveDuration = 0.2f; //이동 시간(초)
+    public GameObject UI1;
+    public GameObject UI2;
+    public GameObject UI3;
 
-#if UNITY_EDITOR
-    private Vector2 mousePos; // 기존 마우스포스
-#endif
+//#if UNITY_EDITOR || UNITY_WEBGL
+    //private Vector2 mousePos; // 기존 마우스포스
+//#endif
 
-#if UNITY_ANDROID || UNITY_IOS
+//#if UNITY_ANDROID || UNITY_IOS
     private Vector2 touchPos;
-#endif
+//#endif
 
     private void Start()
     {
@@ -28,37 +31,48 @@ public class Slime_Movement : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return; //UI켜져있을때 클릭 무시
+        if (EventSystem.current.IsPointerOverGameObject()) return;
 
-#if UNITY_EDITOR    // 유니티에디터에서만 실행
-        if (EventSystem.current.IsPointerOverGameObject()) return; //UI 클릭은 이동무시
-
-        if (Input.GetMouseButtonDown(0))
+        if (UI1.activeSelf || UI2.activeSelf || UI3.activeSelf)
         {
-            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            PlayerMove(mousePos);
-            //MoveSlime(mousePos);
-        } // 기존 마우스 클릭 코드 
-#endif
-
-#if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
-        //if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
-
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-                PlayerMove(touchPos);
-                //MoveSlime(touchPos);
-            }
+            canMove = false;
         }
-#endif
+        else
+        {
+            canMove = true;
+        }
+
+        if (!canMove)
+            return;
+
+        Touch touch = Input.GetTouch(0);
+
+        if (touch.phase == TouchPhase.Began)
+        {
+            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+            PlayerMove(touchPos);
+        }
+
+        //if (Input.touchCount > 0)
+        //{
+        //    if (IsPointerOverUI())
+        //    {
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        Touch touch = Input.GetTouch(0);
+
+        //        if (touch.phase == TouchPhase.Began)
+        //        {
+        //            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+        //            PlayerMove(touchPos);
+        //            //MoveSlime(touchPos);
+        //        }
+        //    }
+        //}
     }
 
-#if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
     private bool IsPointerOverUI()
     {
         if(Input.touchCount>0)
@@ -67,7 +81,6 @@ public class Slime_Movement : MonoBehaviour
         }
         return false;
     }
-#endif
 
     private void PlayerMove(Vector2 position)
     {
@@ -119,29 +132,15 @@ public class Slime_Movement : MonoBehaviour
         transform.position = targetPos; //마지막 위치 보정
     }
 
-    //private void MoveSlime(Vector2 position)    // 기존 슬라임 움직임 함수 (순간이동)
+    //private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
     //{
-    //    if (position.x > 1)
-    //        transform.position = new Vector2(2, -6);
-    //    else if (position.x < -1)
-    //    {
-    //        transform.position = new Vector2(-2, -6);
-    //    }
-    //    else
-    //        transform.position = new Vector2(0, -6);
-
-    //    SoundManager.instance.SfxPlay("Move");
+    //    StartCoroutine(EnableMovement(0.5f));
     //}
 
-    private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
-    {
-        StartCoroutine(EnableMovement(0.5f));
-    }
-
-    IEnumerator EnableMovement(float delay) // 딜레이 코루틴
-    {
-        canMove = false;
-        yield return new WaitForSeconds(delay);
-        canMove = true;
-    }
+    //IEnumerator EnableMovement(float delay) // 딜레이 코루틴
+    //{
+    //    canMove = false;
+    //    yield return new WaitForSeconds(delay);
+    //    canMove = true;
+    //}
 }
