@@ -2902,7 +2902,11 @@ MonoBehaviour:
   sfx_Button:
   - {fileID: 496481412}
   - {fileID: 1763262541}
-  bgm_Clips: []
+  bgm_Clips:
+  - {fileID: 8300000, guid: 8af000b4b123eb74fadd6a5cdb39edf8, type: 3}
+  - {fileID: 8300000, guid: 81a70515b357e9247b85238dba45eef0, type: 3}
+  - {fileID: 8300000, guid: 2c4308052399b85448a60b28dea5a680, type: 3}
+  - {fileID: 8300000, guid: 8f588aecadd8f3f469807c230e144601, type: 3}
   sfx_Clips:
   - {fileID: 8300000, guid: fcf1be9e023f84547aa023c5f6117686, type: 3}
   - {fileID: 8300000, guid: 3ae7f005d5c9c834e95296aaadc5a3d7, type: 3}
@@ -4189,6 +4193,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5524650810088019038, guid: df076fd28365de143826ffe1441313c9,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6439672808528557976, guid: df076fd28365de143826ffe1441313c9,
         type: 3}
       propertyPath: m_Name
@@ -5387,8 +5396,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9240ae0ab892e624c90bf466f56a0170, type: 3}
-  m_Resource: {fileID: 8300000, guid: 9240ae0ab892e624c90bf466f56a0170, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8af000b4b123eb74fadd6a5cdb39edf8, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8af000b4b123eb74fadd6a5cdb39edf8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1

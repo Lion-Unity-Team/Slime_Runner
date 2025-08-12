@@ -31,8 +31,11 @@ public class Map : MonoBehaviour
             _mapIndex++;
             return;
         }
-        
         background[++_mapIndex].SetActive(true);
         background[_mapIndex].transform.position += new Vector3(0, len, 0);
+        
+        string bgmName = background[_mapIndex].name;
+        SoundManager.instance.BgmPlay(bgmName);
+        Debug.Log($"배경음 요청 : {bgmName}");
     }
 }
