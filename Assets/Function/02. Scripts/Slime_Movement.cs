@@ -42,7 +42,7 @@ public class Slime_Movement : MonoBehaviour
 #endif
 
 #if UNITY_ANDROID || UNITY_IOS  // 모바일에서만 실행
-        if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
+        //if (IsPointerOverUI()) return; // 모바일 UI위 터치 이동무시
 
         if (Input.touchCount > 0)
         {
