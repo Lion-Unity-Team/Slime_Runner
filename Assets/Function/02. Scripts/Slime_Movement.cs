@@ -16,11 +16,11 @@ public class Slime_Movement : MonoBehaviour
     public GameObject UI2;
     public GameObject UI3;
 
-//#if UNITY_EDITOR || UNITY_WEBGL
-    //private Vector2 mousePos; // 기존 마우스포스
-//#endif
+#if UNITY_EDITOR || UNITY_WEBGL
+    private Vector2 mousePos; // 기존 마우스포스
+#endif
 
-//#if UNITY_ANDROID || UNITY_IOS
+    //#if UNITY_ANDROID || UNITY_IOS
     private Vector2 touchPos;
 //#endif
 
@@ -45,6 +45,7 @@ public class Slime_Movement : MonoBehaviour
         if (!canMove)
             return;
 
+#if UNITY_ANDROID || UNITY_IOS
         Touch touch = Input.GetTouch(0);
 
         if (touch.phase == TouchPhase.Began)
@@ -52,25 +53,15 @@ public class Slime_Movement : MonoBehaviour
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             PlayerMove(touchPos);
         }
+#endif
 
-        //if (Input.touchCount > 0)
-        //{
-        //    if (IsPointerOverUI())
-        //    {
-        //        return;
-        //    }
-        //    else
-        //    {
-        //        Touch touch = Input.GetTouch(0);
-
-        //        if (touch.phase == TouchPhase.Began)
-        //        {
-        //            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-        //            PlayerMove(touchPos);
-        //            //MoveSlime(touchPos);
-        //        }
-        //    }
-        //}
+#if UNITY_EDITOR || UNITY_WEBGL
+        if (Input.GetMouseButtonDown(0))
+        {
+            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            PlayerMove(mousePos);
+        }
+#endif
     }
 
     private bool IsPointerOverUI()
