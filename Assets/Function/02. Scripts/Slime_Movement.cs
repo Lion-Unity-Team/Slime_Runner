@@ -125,7 +125,7 @@ public class Slime_Movement : MonoBehaviour
 
     //private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
     //{
-    //    StartCoroutine(EnableMovement(0.5f));
+    //    StartCoroutine(EnableMovement(2f));
     //}
 
     //IEnumerator EnableMovement(float delay) // 딜레이 코루틴

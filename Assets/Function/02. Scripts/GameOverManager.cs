@@ -24,7 +24,7 @@ public class GameOverManager : MonoBehaviour
     public void Score()
     {
         double currentHP = double.Parse(playerSlime.playerHpText.text);
-        currentScoreText.text = "슬라임 크기 : " + currentHP.ToString();
+        currentScoreText.text = "최종 점수 : " + currentHP.ToString();
 
         double bestHp = PlayerPrefs.HasKey(BestScoreKey)
             ? double.Parse(PlayerPrefs.GetString(BestScoreKey)) : currentHP;
@@ -32,10 +32,10 @@ public class GameOverManager : MonoBehaviour
         if(currentHP >= bestHp)
         {
             bestHp = currentHP;
-            PlayerPrefs.SetString(BestScoreKey, bestHp.ToString());
+            PlayerPrefs.SetString(BestScoreKey, bestHp.ToString()); 
             PlayerPrefs.Save();
         }
 
-        bestScoreText.text = "역대 최고 슬라임 크기 : " + bestHp.ToString();
+        bestScoreText.text = "역대 최고 점수 : " + bestHp.ToString();
     }
 }

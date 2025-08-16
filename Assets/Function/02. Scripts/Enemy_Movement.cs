@@ -36,7 +36,7 @@ public class Enemy_Movement : MonoBehaviour
         transform.position += new Vector3(0, -1, 0) * (speed * Time.deltaTime);   
     }
 
-    private void AttackCheak() // 현제 슬라임이 플레이어 보다 점수가 높다면 공격
+    private void AttackCheak() // 현재 슬라임이 플레이어 보다 점수가 높다면 공격
     {
         if (hit.collider != null)
         {

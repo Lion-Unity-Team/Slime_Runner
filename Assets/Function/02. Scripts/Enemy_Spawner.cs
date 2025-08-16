@@ -16,11 +16,6 @@ public class Enemy_Spawner : MonoBehaviour
 
     public Coroutine spawnCoroutine;
 
-    private void Start()
-    {
-        //StartSpawning();
-    }
-
     public void StartSpawning()
     {
         if (spawnCoroutine == null)
@@ -41,12 +36,12 @@ public class Enemy_Spawner : MonoBehaviour
         while (true)
         {
             yield return new WaitUntil(() => AllEnemiesDead());
-
+            yield return new WaitForSeconds(2.5f);
             TMP_Text playerText = playerSlime.GetComponentInChildren<TMP_Text>();
             BigInteger playerHp = BigInteger.Parse(playerText.text);
 
-            BigInteger minHp = playerHp * 8 / 10;
-            BigInteger maxHp = playerHp * 12 / 10;
+            BigInteger minHp = playerHp * 9 / 10;
+            BigInteger maxHp = playerHp * 11 / 10;
 
             int spawnCount = Random.Range(1, 4);
 
@@ -118,8 +113,6 @@ public class Enemy_Spawner : MonoBehaviour
                     enemy_count++;
                 }
             }
-
-            yield return new WaitForSeconds(2f);
         }
     }
 

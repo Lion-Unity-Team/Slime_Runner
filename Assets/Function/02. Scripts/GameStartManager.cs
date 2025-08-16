@@ -1,5 +1,4 @@
 using UnityEngine;
-//배경움직임오류알림때문에 임시 주석처리//배경움직임오류알림때문에 임시 주석처리
 public class GameStartManager : MonoBehaviour
 {
     public GameObject player;
@@ -29,7 +28,6 @@ public class GameStartManager : MonoBehaviour
         player.SetActive(true);     // 플레이어등장
         _playerAnime.SetBool(_playerRunKey, true);
         enemyspawner.StartSpawning(); // 적생성시작
-        //FindObjectOfType<PropsMovement>().StartMoving(); // 배경 움직임 시작 임시 주석처리
         Ground.canMoving = true;
     }
 
@@ -38,7 +36,6 @@ public class GameStartManager : MonoBehaviour
         _playerAnime.SetTrigger(_PlayerWakeUpKey);  //일어나는동작
         _playerAnime.SetBool(_playerRunKey, true);  //달리는동작
         enemyspawner.StartSpawning(); // 적생성시작
-        //FindObjectOfType<PropsMovement>().StartMoving(); // 배경 움직임 시작 임시 주석처리
         Ground.canMoving = true;
     }
 
@@ -46,7 +43,6 @@ public class GameStartManager : MonoBehaviour
     {
         GameOver.SetActive(true);   // 게임오버UI켜짐
         enemyspawner.StopSpawning();    // 적생성정지
-        //FindObjectOfType<PropsMovement>().StopMoving(); // 배경 움직임 정지 임시 주석처리
         Ground.canMoving = false;
     }
 }

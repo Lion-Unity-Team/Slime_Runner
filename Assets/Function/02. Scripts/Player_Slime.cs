@@ -7,6 +7,8 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text playerHpText;
     public static double playerHp;
 
+    public GameObject UI1;
+
     private string _deathAnimeKey;
     private string _runAnimeKey;
 
@@ -36,6 +38,15 @@ public class PlayerSlime : MonoBehaviour
         else 
         {
             playerHp += enemyHp;
+            if(playerHp > 100000000)    //엔딩조건1 : 1억점 넘기기
+            {
+                playerHp = 100000000;
+                playerHpText.text = playerHp.ToString();
+                UI1.SetActive(false);
+                FindObjectOfType<GameStartManager>().EndGame();
+                FindObjectOfType<GameOverManager>().Score();
+                _anime.speed = 0f;
+            }
             playerHpText.text = playerHp.ToString();
         }
         SoundManager.instance.SfxPlay("Eat");
