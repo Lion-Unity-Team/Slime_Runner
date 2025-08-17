@@ -16,9 +16,9 @@ public class Slime_Movement : MonoBehaviour
     public GameObject UI2;
     public GameObject UI3;
 
-#if UNITY_EDITOR || UNITY_WEBGL
-    private Vector2 mousePos; // 기존 마우스포스
-#endif
+
+    private Vector2 mousePos;
+
 
     //#if UNITY_ANDROID || UNITY_IOS
     private Vector2 touchPos;
@@ -53,7 +53,7 @@ public class Slime_Movement : MonoBehaviour
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             PlayerMove(touchPos);
         }
-#endif
+        #endif
 
 #if UNITY_EDITOR || UNITY_WEBGL
         if (Input.GetMouseButtonDown(0))

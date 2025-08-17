@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerSlime : MonoBehaviour
 {
@@ -7,7 +8,9 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text playerHpText;
     public static double playerHp;
 
-    public GameObject UI1;
+    public Button UI1;
+    public TMP_Text OVER;
+    public TMP_Text CLAER;
 
     private string _deathAnimeKey;
     private string _runAnimeKey;
@@ -38,11 +41,13 @@ public class PlayerSlime : MonoBehaviour
         else 
         {
             playerHp += enemyHp;
-            if(playerHp > 100000000)    //엔딩조건1 : 1억점 넘기기
+            if(playerHp >= 100000000)    //엔딩조건1 : 1억점 넘기기
             {
+                OVER.gameObject.SetActive(false);
+                CLAER.gameObject.SetActive(true);
                 playerHp = 100000000;
                 playerHpText.text = playerHp.ToString();
-                UI1.SetActive(false);
+                UI1.interactable=false;
                 FindObjectOfType<GameStartManager>().EndGame();
                 FindObjectOfType<GameOverManager>().Score();
                 _anime.speed = 0f;

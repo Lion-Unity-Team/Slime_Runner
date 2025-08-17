@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayTimeUI : MonoBehaviour
 {
@@ -8,7 +9,9 @@ public class PlayTimeUI : MonoBehaviour
     public GameObject UI1;    // 플레이타임을 측정할 UI
     public GameObject UI2;    // 플레이타임을 측정할 UI
     public GameObject UI3;    // 플레이타임을 측정할 UI
-    public GameObject UI4;    // 플레이타임을 측정할 UI
+    public Button UI4;    
+    public TMP_Text OVER;
+    public TMP_Text CLAER;
 
     private float playTime; // 누적 시간
     private Animator _anime;
@@ -16,6 +19,7 @@ public class PlayTimeUI : MonoBehaviour
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
+        playTime = 110;
     }
 
     void Update()
@@ -35,7 +39,9 @@ public class PlayTimeUI : MonoBehaviour
         playTimeText.text = $"{minutes:00}:{seconds:00}";
         if(minutes == 2)
         {
-            UI4.SetActive(false);
+            UI4.interactable = false;
+            OVER.gameObject.SetActive(false);
+            CLAER.gameObject.SetActive(true);
             FindObjectOfType<GameStartManager>().EndGame();
             FindObjectOfType<GameOverManager>().Score();
             _anime.speed = 0f;
