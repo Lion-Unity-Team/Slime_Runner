@@ -19,7 +19,7 @@ public class PlayTimeUI : MonoBehaviour
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
-        playTime = 110;
+        //playTime = 110;
     }
 
     void Update()
