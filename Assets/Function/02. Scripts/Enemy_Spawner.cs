@@ -2,22 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using System.Numerics; 
+using System.Numerics;
+using UnityEditor.ShaderGraph.Internal;
 
 public class Enemy_Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemy_Prefab;
-    [SerializeField] private GameObject playerSlime; 
+    [SerializeField] private GameObject playerSlime;
+    [SerializeField] private GameObject fruitPrefab;
     private bool[] spawn = new bool[3];
     private List<GameObject> enemyList = new List<GameObject>();
+    private float fruitSpeed = 10;
+
     public float enemySpeed = 5.0f;
     public float speedTimer = 0f;
     public Animator _anime;
+   
 
     public Coroutine spawnCoroutine;
 
     public void StartSpawning()
     {
+        StartCoroutine(SpawnFruits());
         if (spawnCoroutine == null)
             spawnCoroutine = StartCoroutine(SpawnEnemies());
     }
@@ -72,7 +78,7 @@ public class Enemy_Spawner : MonoBehaviour
                 if (!spawn[enemy_Pos])
                 {
                     spawn[enemy_Pos] = true;
-                    GameObject enemy = Instantiate(enemy_Prefab, new UnityEngine.Vector3(-2 + 2 * enemy_Pos, 7, -1), UnityEngine.Quaternion.identity);
+                    GameObject enemy = Instantiate(enemy_Prefab, new UnityEngine.Vector3(-2 + 2 * enemy_Pos, 7, 0), UnityEngine.Quaternion.identity);
 
                     
                     Enemy_Movement enemyscript = enemy.GetComponent<Enemy_Movement>();
@@ -116,7 +122,7 @@ public class Enemy_Spawner : MonoBehaviour
         }
     }
 
-    private void Update()
+private void Update()
     {
         bool IsRun = _anime.GetBool("IsRun");
         if (IsRun)
@@ -149,7 +155,7 @@ public class Enemy_Spawner : MonoBehaviour
         {
             System.Random rng = new System.Random();
             rng.NextBytes(bytes);
-            bytes[bytes.Length - 1] &= 0x7F; // ����� ����
+            bytes[bytes.Length - 1] &= 0x7F; 
             result = new BigInteger(bytes);
         } while (result >= range);
 
@@ -161,6 +167,22 @@ public class Enemy_Spawner : MonoBehaviour
     public float GetCurrentSpeed()
     {
         return enemySpeed;
+    }
+
+    public IEnumerator SpawnFruits()
+    {
+        float spawnInterval = 2f;
+        while (true)
+        {
+            yield return new WaitForSeconds(spawnInterval);
+
+            if (Time.timeSinceLevelLoad > 60f) spawnInterval = 7f;
+            if (Time.timeSinceLevelLoad > 120f) spawnInterval = 4f;
+
+            int lane = Random.Range(0, 3);
+
+            GameObject fruit = Instantiate(fruitPrefab, new UnityEngine.Vector3(-2 + 2 * lane, 7, 0), UnityEngine.Quaternion.identity);
+        }
     }
 
 }

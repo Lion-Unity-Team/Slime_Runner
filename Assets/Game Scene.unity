@@ -5866,6 +5866,8 @@ MonoBehaviour:
   enemy_Prefab: {fileID: 1345937200885890908, guid: d6ac7894835dab74bb4acb18bfd680c2,
     type: 3}
   playerSlime: {fileID: 572090346}
+  fruitPrefab: {fileID: 5889551063303200395, guid: dde0e15680c584142816047cc99abe46,
+    type: 3}
   enemySpeed: 5
   speedTimer: 0
   _anime: {fileID: 572090350}
