@@ -135,7 +135,6 @@ public class Enemy_Spawner : MonoBehaviour
 
 private void Update()
     {
-        Debug.Log(playTimeUI.playTime);
         bool IsRun = _anime.GetBool("IsRun");
         if (IsRun)
         {
