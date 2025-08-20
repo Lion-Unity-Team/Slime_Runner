@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FruitMovement : MonoBehaviour
 {
-    [SerializeField] private float fruitSpeed = 10f;
+    [SerializeField] private float fruitSpeed = 7f;
     
     void Update()
     {

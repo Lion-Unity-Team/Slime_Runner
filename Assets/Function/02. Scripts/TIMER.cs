@@ -13,7 +13,7 @@ public class PlayTimeUI : MonoBehaviour
     public TMP_Text OVER;
     public TMP_Text CLAER;
 
-    private float playTime; // 누적 시간
+    public float playTime; // 누적 시간
     private Animator _anime;
 
     private void Start()

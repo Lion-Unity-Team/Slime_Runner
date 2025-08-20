@@ -5866,8 +5866,15 @@ MonoBehaviour:
   enemy_Prefab: {fileID: 1345937200885890908, guid: d6ac7894835dab74bb4acb18bfd680c2,
     type: 3}
   playerSlime: {fileID: 572090346}
-  fruitPrefab: {fileID: 5889551063303200395, guid: dde0e15680c584142816047cc99abe46,
+  springFruitPrefab: {fileID: 5516289485800519547, guid: 7b912931debf6224ba1f4876cab4c0a7,
     type: 3}
+  summerFruitPrefab: {fileID: 5889551063303200395, guid: dde0e15680c584142816047cc99abe46,
+    type: 3}
+  fallFruitPrefab: {fileID: 7352171603277194719, guid: c5a70025406ac8c45b99be9751afd206,
+    type: 3}
+  winterFruitPrefab: {fileID: 3558889864747363022, guid: c7b096d4925a37c49b6d78347b1c5edc,
+    type: 3}
+  playTimeUI: {fileID: 2126359518}
   enemySpeed: 5
   speedTimer: 0
   _anime: {fileID: 572090350}
@@ -6175,6 +6182,7 @@ MonoBehaviour:
   UI4: {fileID: 567793192}
   OVER: {fileID: 1014887128}
   CLAER: {fileID: 392099950}
+  playTime: 0
 --- !u!4 &2126359519
 Transform:
   m_ObjectHideFlags: 0

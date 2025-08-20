@@ -54,6 +54,7 @@ public class Enemy_Movement : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ground"))
@@ -65,6 +66,7 @@ public class Enemy_Movement : MonoBehaviour
         {
             speed = 0;
             animator.Play("Dead");
+            DestroySlime();         //플레이어와 닿았을때 슬라임이 안없어져서 재시작해도 그자리에 있는 버그가있어서 바로 없어지게함.
         }
     }
 }
