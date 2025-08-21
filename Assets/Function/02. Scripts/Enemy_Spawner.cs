@@ -188,36 +188,48 @@ private void Update()
     // 배고픔에 대한 내 생각은 후반으로 갈수록 더 빠르게 배고픔이 닳고, 그만큼 자주 과일을 먹어줘야 한다는것 = 난이도가 적당히 올라갈수있음 
     // 또한 후반에 과일 스폰 속도를 늘린다면 난이도가 조금은 내려갈수있음(EX5초마다 스폰하던 과일을 초반에는 15~10초에 한개씩 먹으면 되던것을 후반에는 5초마다 나오는 과일을 90퍼센트는 먹어야한다거나...)
 
-    public IEnumerator SpawnFruits()    
+    public IEnumerator SpawnFruits()
     {
-        float spawnInterval = 5f;
+        int spawnInterval = Random.Range(3, 6);
         while (true)
         {
             yield return new WaitForSeconds(spawnInterval);
 
-            //if (Time.timeSinceLevelLoad > 60f) spawnInterval = 5f;        //후반으로 갈수록 자주 스폰할것인가에 대한 조건
-            //if (Time.timeSinceLevelLoad > 120f) spawnInterval = 3f;
-
             int lane = Random.Range(0, 3);
 
-            
+            GameObject fruitPrefab;
+
             if (playTimeUI.playTime > 92f)
             {
-                Instantiate(winterFruitPrefab, new UnityEngine.Vector3(-2 + 2 * lane, 7, 0), UnityEngine.Quaternion.identity);
+                fruitPrefab = winterFruitPrefab;
             }
             else if (playTimeUI.playTime > 62f)
             {
-                Instantiate(fallFruitPrefab, new UnityEngine.Vector3(-2 + 2 * lane, 7, 0), UnityEngine.Quaternion.identity);
+                fruitPrefab = fallFruitPrefab;
             }
             else if (playTimeUI.playTime > 32f)
             {
-                Instantiate(summerFruitPrefab, new UnityEngine.Vector3(-2 + 2 * lane, 7, 0), UnityEngine.Quaternion.identity);
+                fruitPrefab = summerFruitPrefab;
             }
             else
             {
-                Instantiate(springFruitPrefab, new UnityEngine.Vector3(-2 + 2 * lane, 7, 0), UnityEngine.Quaternion.identity);
+                fruitPrefab = springFruitPrefab;
+            }
+
+            // 프리펩 생성
+            GameObject fruit = Instantiate(
+                fruitPrefab,
+                new UnityEngine.Vector3(-2 + 2 * lane, 7, 0),
+                UnityEngine.Quaternion.identity
+            );
+
+            // 50% 확률로 스케일을 0.7로 변경
+            if (Random.value < 0.5f)
+            {
+                fruit.transform.localScale *= 0.7f;
             }
         }
     }
+
 
 }
