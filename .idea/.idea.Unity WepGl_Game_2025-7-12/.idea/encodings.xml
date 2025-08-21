@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/Assets/Function/02. Scripts/GameStartManager.cs" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Assets/Function/02. Scripts/Slime_Movement.cs" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/Assets/Function/02. Scripts/TIMER.cs" charset="x-windows-949" />
   </component>
 </project>

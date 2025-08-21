@@ -26,34 +26,44 @@ public class PlayerSlime : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
-        if (enemyHpText == null) return;
-
-        double enemyHp = double.Parse(enemyHpText.text);
-
-        if (playerHp <= enemyHp)
+        if (collision.CompareTag("Enemy"))
         {
-            FindObjectOfType<GameStartManager>().EndGame();
-            FindObjectOfType<GameOverManager>().Score();
-            _anime.SetTrigger(_deathAnimeKey);
-            _anime.SetBool(_runAnimeKey, false);
-        }
-        else 
-        {
-            playerHp += enemyHp;
-            if(playerHp >= 100000000)    //엔딩조건1 : 1억점 넘기기
+            TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
+            if (enemyHpText == null) return;
+
+            double enemyHp = double.Parse(enemyHpText.text);
+
+            if (playerHp <= enemyHp)
             {
-                OVER.gameObject.SetActive(false);
-                CLAER.gameObject.SetActive(true);
-                playerHp = 100000000;
-                playerHpText.text = playerHp.ToString();
-                UI1.interactable=false;
                 FindObjectOfType<GameStartManager>().EndGame();
                 FindObjectOfType<GameOverManager>().Score();
-                _anime.speed = 0f;
+                _anime.SetTrigger(_deathAnimeKey);
+                _anime.SetBool(_runAnimeKey, false);
             }
-            playerHpText.text = playerHp.ToString();
+            else 
+            {
+                playerHp += enemyHp;
+                if(playerHp >= 100000000)    //엔딩조건1 : 1억점 넘기기
+                {
+                    OVER.gameObject.SetActive(false);
+                    CLAER.gameObject.SetActive(true);
+                    playerHp = 100000000;
+                    playerHpText.text = playerHp.ToString();
+                    UI1.interactable=false;
+                    FindObjectOfType<GameStartManager>().EndGame();
+                    FindObjectOfType<GameOverManager>().Score();
+                    _anime.speed = 0f;
+                }
+                playerHpText.text = playerHp.ToString();
+            }
+            StaminaManager.instance.StaminaChange(-20);
         }
+
+        if (collision.CompareTag("Fruit"))
+        {
+            StaminaManager.instance.StaminaChange(30);
+        }
+        
         SoundManager.instance.SfxPlay("Eat");
     }
 

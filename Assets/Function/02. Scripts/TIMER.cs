@@ -14,12 +14,12 @@ public class PlayTimeUI : MonoBehaviour
     public TMP_Text CLAER;
 
     public float playTime; // 누적 시간
+    private float stamina; // 스테미너 감소를 위한 시간
     private Animator _anime;
 
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
-        //playTime = 110;
     }
 
     void Update()
@@ -28,8 +28,8 @@ public class PlayTimeUI : MonoBehaviour
         if (!UI1.activeSelf && !UI2.activeSelf && !UI3.activeSelf)
         {
             playTime += Time.deltaTime;
+            stamina += Time.deltaTime;
         }
-
 
         // 시, 분, 초 변환
         int minutes = (int)((playTime % 3600) / 60);
@@ -46,5 +46,12 @@ public class PlayTimeUI : MonoBehaviour
             FindObjectOfType<GameOverManager>().Score();
             _anime.speed = 0f;
         }
+
+        if (stamina >= 1)
+        {
+            StaminaManager.instance.StaminaChange(-3);
+            stamina = 0;
+        }
+        
     }
 }

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eggs_softboiled_0: -9165664849616552299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
