@@ -25,9 +25,8 @@ public class StaminaManager : MonoBehaviour
     {
         currentStamina = currentStaminaBar.fillAmount;
     }
-
-
-    public void StaminaChange(float value)
+    
+    public void StaminaPlus(float value) // 현재 스테미너에 value 값 만큼 더하는 함수
     {
         currentStamina += (value / 100);
         
@@ -35,12 +34,19 @@ public class StaminaManager : MonoBehaviour
         {
             currentStamina = 1;
         }
-        else if (currentStamina <= 0) // 스태미너가 0 이하일 경우
-        {
-            
-        }
+        
         currentStaminaBar.color = Color.Lerp(minStaminaColor, maxStaminaColor, currentStamina);
         currentStaminaBar.fillAmount = currentStamina;
+    }
+
+    public void StaminaChange(float value) // 현재 스테미너를 value 값으로 만드는 함수
+    {
+        currentStamina = value / 100;
+    }
+
+    public float GetCurrentStamina() // 현재 스테미너를 반환하는 함수
+    {
+        return currentStamina;
     }
     
 }

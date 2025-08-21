@@ -49,7 +49,7 @@ public class PlayTimeUI : MonoBehaviour
 
         if (stamina >= 1)
         {
-            StaminaManager.instance.StaminaChange(-3);
+            StaminaManager.instance.StaminaPlus(-3);
             stamina = 0;
         }
         

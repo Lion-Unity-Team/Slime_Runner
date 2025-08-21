@@ -56,12 +56,12 @@ public class PlayerSlime : MonoBehaviour
                 }
                 playerHpText.text = playerHp.ToString();
             }
-            StaminaManager.instance.StaminaChange(-20);
+            StaminaManager.instance.StaminaPlus(-15);
         }
 
         if (collision.CompareTag("Fruit"))
         {
-            StaminaManager.instance.StaminaChange(30);
+            StaminaManager.instance.StaminaPlus(30);
         }
         
         SoundManager.instance.SfxPlay("Eat");
@@ -96,5 +96,16 @@ public class PlayerSlime : MonoBehaviour
             fontSize = 0.9f;
 
         playerHpText.fontSize = fontSize;
+        
+        
+        float Stamina = StaminaManager.instance.GetCurrentStamina();
+
+        if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
+        {
+            FindObjectOfType<GameStartManager>().EndGame();
+            FindObjectOfType<GameOverManager>().Score();
+            _anime.SetTrigger(_deathAnimeKey);
+            _anime.SetBool(_runAnimeKey, false);
+        }
     }
 }

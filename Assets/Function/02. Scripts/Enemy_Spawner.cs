@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Numerics;
-using UnityEditor.ShaderGraph.Internal;
 
 public class Enemy_Spawner : MonoBehaviour
 {
@@ -142,7 +141,7 @@ private void Update()
             if (speedTimer >= 1f)
             {
                 Map.instance.time++;
-                enemySpeed += 0.1f;
+                enemySpeed += 0.05f;
                 speedTimer = 0f;
             }
         }

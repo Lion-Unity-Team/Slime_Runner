@@ -47,6 +47,9 @@ public class GameStartManager : MonoBehaviour
 
     public void KeepGame()
     {
+        StaminaManager.instance.StaminaChange(70);
+        StaminaManager.instance.StaminaPlus(0); // 스테미너 바를 갱신 하기 위함
+        
         _playerAnime.SetTrigger(_PlayerWakeUpKey);  //일어나는동작
         _playerAnime.SetBool(_playerRunKey, true);  //달리는동작
         enemyspawner.StartSpawning(); // 적생성시작

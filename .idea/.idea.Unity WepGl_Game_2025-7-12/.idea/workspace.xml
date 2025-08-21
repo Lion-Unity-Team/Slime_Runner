@@ -5,114 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceeb083d-8a9e-4b0e-98a2-697c80ac4a6d" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/GameStartManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/GameStartManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/TIMER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/TIMER.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/03. Prefabs/fallFruit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/03. Prefabs/fallFruit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/03. Prefabs/springFruit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/03. Prefabs/springFruit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/03. Prefabs/summerFruit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/03. Prefabs/summerFruit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/03. Prefabs/winterFruit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/03. Prefabs/winterFruit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_coffee.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_coffee.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_mango.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_mango.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_matcha.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_matcha.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_milktea.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_milktea.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_strawberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_strawberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_taro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_taro.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_thai.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/boba_thai.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_cheese.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_cheese.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_chocolate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_chocolate.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_matcha.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_matcha.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_redvelvet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_redvelvet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_strawberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cake_strawberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/canned_soup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/canned_soup.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_camembert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_camembert.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_gouda.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_gouda.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_mozzarella.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/cheese_mozzarella.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_darkroast.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_darkroast.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_espresso.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_espresso.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_foam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_foam.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_greentea.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_greentea.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_lightroast.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_lightroast.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_mediumroast.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_mediumroast.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_milkjug.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_milkjug.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_mocha.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_mocha.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_raw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_raw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_tea.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/coffee_tea.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_brown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_brown.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_fried.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_fried.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_overeasy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_overeasy.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_scrambled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_scrambled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_softboiled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_softboiled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_white.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/eggs_white.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_apple-slice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_apple-slice.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_banana.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_banana.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_blueberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_blueberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_cherry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_cherry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_grape_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_grape_red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_greengrape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_greengrape.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_kiwi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_kiwi.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_lemon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_lemon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_lime.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_lime.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_peach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_peach.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_strawberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_strawberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_watermelon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/fruit_watermelon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_1scoop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_1scoop.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_2scoops.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_2scoops.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_3scoops.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/icecream_3scoops.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_blueberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_blueberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_grape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_grape.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_kiwi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_kiwi.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_peach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_peach.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_strawberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/jam_strawberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/onigiri_5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_baguette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_baguette.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_bread.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_bread.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_brioche.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_brioche.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_croissant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_croissant.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_pretzel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/pastry_pretzel.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_green.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_pink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_pink.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/popsicle_yellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_coke.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_coke.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_fanta.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_fanta.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_pepsi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_pepsi.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_sprite.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soda_sprite.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_almond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_almond.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_banana.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_banana.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_choco.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_choco.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_chocomint.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_chocomint.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_coffee.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_coffee.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_mango.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_mango.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_match.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_match.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_peach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_peach.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_soy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_soy.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_strawberry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/soymilk_strawberry.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_green.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_bellpepper_yellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_carrot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_carrot.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_corn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_corn.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_cucumber.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_cucumber.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_eggplant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_eggplant.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_garlic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_garlic.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_ginger.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_ginger.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_jalapeno.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_jalapeno.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_onion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_onion.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_potato.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_potato.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_tomato.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons/vegetable_tomato.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons_display.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/99. Resources/Free_pixel_food_16x16/Icons_display.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI/02. Scripts/StaminaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/02. Scripts/StaminaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/03. Prefabs/Slime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/03. Prefabs/Slime.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main+art",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UI&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.48f1\Editor\Unity.exe" />
@@ -248,6 +146,9 @@
       <workItem from="1754983381717" duration="1466000" />
       <workItem from="1755620008623" duration="1146000" />
       <workItem from="1755761012968" duration="2297000" />
+      <workItem from="1755772933756" duration="1746000" />
+      <workItem from="1755774704440" duration="684000" />
+      <workItem from="1755775413061" duration="23000" />
     </task>
     <servers />
   </component>
