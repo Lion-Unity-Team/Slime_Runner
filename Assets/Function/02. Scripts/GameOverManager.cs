@@ -6,6 +6,7 @@ public class GameOverManager : MonoBehaviour
     public TMP_Text currentScoreText;
     public TMP_Text bestScoreText;
     public PlayerSlime playerSlime;
+    
 
     private const string BestScoreKey = "BestPlayerHP";
     

@@ -18,7 +18,7 @@ public class CloudSpawner : MonoBehaviour
             _spawnTime = Random.Range(2, 6);
             yield return new WaitForSeconds(_spawnTime);
 
-            _spawnPosX = Random.Range(-8f, 0);
+            _spawnPosX = Random.Range(-6.5f, 0);
             var spawnPos = new Vector2(_spawnPosX, 6);
 
             _scaleX = Random.Range(2, 6);

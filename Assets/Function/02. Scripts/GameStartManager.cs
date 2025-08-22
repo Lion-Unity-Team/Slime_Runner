@@ -8,6 +8,8 @@ public class GameStartManager : MonoBehaviour
     public GameObject GameOver;
     public GameObject StartWindow;
     public Button KeepPlay;
+    
+    [SerializeField] public ParticleSystem[] particles;
 
     private int click = 0;
     private Animator _playerAnime;
@@ -54,6 +56,11 @@ public class GameStartManager : MonoBehaviour
         _playerAnime.SetBool(_playerRunKey, true);  //달리는동작
         enemyspawner.StartSpawning(); // 적생성시작
         Ground.canMoving = true;
+        
+        foreach (var particle in particles) // 파티클 모두 시작
+        {
+            particle.Play();
+        }
     }
 
     public void EndGame()
@@ -61,5 +68,10 @@ public class GameStartManager : MonoBehaviour
         GameOver.SetActive(true);   // 게임오버UI켜짐
         enemyspawner.StopSpawning();    // 적생성정지
         Ground.canMoving = false;
+        
+        foreach (var particle in particles) // 파티클 모두 일시 정지
+        {
+            particle.Pause();
+        }
     }
 }
