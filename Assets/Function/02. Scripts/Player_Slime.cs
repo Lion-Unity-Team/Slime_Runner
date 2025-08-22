@@ -61,7 +61,16 @@ public class PlayerSlime : MonoBehaviour
 
         if (collision.CompareTag("Fruit"))
         {
-            StaminaManager.instance.StaminaPlus(30);
+            if (collision.transform.localScale.x >= 0.9)
+            {
+                StaminaManager.instance.StaminaPlus(40);
+                Debug.Log("큰 과일");
+            }
+            else
+            {
+                StaminaManager.instance.StaminaPlus(15);
+                Debug.Log("작은 과일");
+            }
         }
         
         SoundManager.instance.SfxPlay("Eat");
