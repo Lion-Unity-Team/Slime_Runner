@@ -43,7 +43,7 @@ public class PlayerSlime : MonoBehaviour
             else 
             {
                 playerHp += enemyHp;
-                if(playerHp >= 100000000)    //¿£µùÁ¶°Ç1 : 1¾ïÁ¡ ³Ñ±â±â
+                if(playerHp >= 100000000)    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1 : 1ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ±ï¿½ï¿½
                 {
                     OVER.gameObject.SetActive(false);
                     CLAER.gameObject.SetActive(true);
@@ -57,14 +57,26 @@ public class PlayerSlime : MonoBehaviour
                 playerHpText.text = playerHp.ToString();
             }
             StaminaManager.instance.StaminaPlus(-15);
+            SoundManager.instance.SfxPlay("Attack");
         }
 
         if (collision.CompareTag("Fruit"))
         {
-            StaminaManager.instance.StaminaPlus(30);
+            if (collision.transform.localScale.x >= 0.9)
+            {
+                StaminaManager.instance.StaminaPlus(40);
+                if(GameStartManager.money + 40 < GameStartManager.maxMoeny)
+                    GameStartManager.money += 40;
+            }
+            else
+            {
+                StaminaManager.instance.StaminaPlus(15);
+                if(GameStartManager.money + 15 < GameStartManager.maxMoeny)
+                    GameStartManager.money += 15;
+            }
+            SoundManager.instance.SfxPlay("Fruit");
         }
         
-        SoundManager.instance.SfxPlay("Eat");
     }
 
     void Update()

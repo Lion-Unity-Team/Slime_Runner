@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ceeb083d-8a9e-4b0e-98a2-697c80ac4a6d" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Enemy_Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/GameStartManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/GameStartManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/Player_Slime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Function/02. Scripts/TIMER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Function/02. Scripts/TIMER.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/02. Scripts/StaminaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/02. Scripts/StaminaManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/02. Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/02. Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Dong_Geon/Coding2025/BootCamp/Unity/Unity WepGl_Game_2025-7-12/Assets/Game Scene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Dong_Geon/Coding2025/BootCamp/Unity/Unity WepGl_Game_2025-7-12/Assets/Game Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/021f30a9a92b48ce98ae6b39956dd76a1df600/4d/b238363b/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4027c60e8806/Runtime/UGUI/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -149,6 +146,8 @@
       <workItem from="1755772933756" duration="1746000" />
       <workItem from="1755774704440" duration="684000" />
       <workItem from="1755775413061" duration="23000" />
+      <workItem from="1755846706290" duration="5696000" />
+      <workItem from="1756465629158" duration="1793000" />
     </task>
     <servers />
   </component>
