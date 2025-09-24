@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_base_shadow_0: -259870626615137418
+      human_base_shadow_1: 2607959800201362202
+      human_base_shadow_10: -4377181097551111623
+      human_base_shadow_11: -7316480469671992782
+      human_base_shadow_12: 3504774024880928188
+      human_base_shadow_13: -2060265992069240641
+      human_base_shadow_14: -757231105366822701
+      human_base_shadow_15: 8352396884691927431
+      human_base_shadow_16: -1200264293671470952
+      human_base_shadow_17: 5954554483891439588
+      human_base_shadow_18: -3325620963099148592
+      human_base_shadow_19: 6374503555604588452
+      human_base_shadow_2: 7200971377577032146
+      human_base_shadow_20: 6725106198344079879
+      human_base_shadow_21: 2730498625652324381
+      human_base_shadow_22: -2695881160520303421
+      human_base_shadow_23: 3340695346258520060
+      human_base_shadow_24: 273127449296623839
+      human_base_shadow_25: -3076622575302923722
+      human_base_shadow_26: 5229536556927274924
+      human_base_shadow_27: -9181372127790995497
+      human_base_shadow_28: 7034748422026520009
+      human_base_shadow_29: 3220889742114834993
+      human_base_shadow_3: -2111584905372929842
+      human_base_shadow_30: 2980404961821550316
+      human_base_shadow_31: -3389309181805311160
+      human_base_shadow_32: -3531663419530938740
+      human_base_shadow_4: 6939269604302774849
+      human_base_shadow_5: -4032353790709674821
+      human_base_shadow_6: 8096229005357341109
+      human_base_shadow_7: 9100643519466292048
+      human_base_shadow_8: 510812092985991160
+      human_base_shadow_9: -7701946187320501916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

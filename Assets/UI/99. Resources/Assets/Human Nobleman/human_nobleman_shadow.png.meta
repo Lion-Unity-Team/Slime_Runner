@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_nobleman_shadow_0: -2411875432973611289
+      human_nobleman_shadow_1: 319590701401877459
+      human_nobleman_shadow_10: -1842931435932624189
+      human_nobleman_shadow_11: -9077676772458520273
+      human_nobleman_shadow_12: -3170164385751920414
+      human_nobleman_shadow_13: 9103683467737533758
+      human_nobleman_shadow_14: 2068090881104090829
+      human_nobleman_shadow_15: -1122412834256051321
+      human_nobleman_shadow_16: 4208340052967197070
+      human_nobleman_shadow_17: -4057178598094278171
+      human_nobleman_shadow_18: 2980101692160921394
+      human_nobleman_shadow_19: 158193875305595388
+      human_nobleman_shadow_2: 8208861589367572025
+      human_nobleman_shadow_20: 693146561660486949
+      human_nobleman_shadow_21: 8470347885321143576
+      human_nobleman_shadow_22: 6904395636764754665
+      human_nobleman_shadow_23: -1776217270225009119
+      human_nobleman_shadow_24: -4243427439035304457
+      human_nobleman_shadow_25: -3979141871088488589
+      human_nobleman_shadow_26: -4871551595109053714
+      human_nobleman_shadow_27: 1457484261384404747
+      human_nobleman_shadow_28: 5977811211453524126
+      human_nobleman_shadow_29: 4160306347461848629
+      human_nobleman_shadow_3: -214278276584388806
+      human_nobleman_shadow_30: -1064651671356004800
+      human_nobleman_shadow_31: -4931203374512826757
+      human_nobleman_shadow_32: -8089284993575342804
+      human_nobleman_shadow_4: 7231886129574236540
+      human_nobleman_shadow_5: 8256001359099218535
+      human_nobleman_shadow_6: 5402773057180224623
+      human_nobleman_shadow_7: -7910723535352392462
+      human_nobleman_shadow_8: 3671690944513151184
+      human_nobleman_shadow_9: 7750369807074579346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

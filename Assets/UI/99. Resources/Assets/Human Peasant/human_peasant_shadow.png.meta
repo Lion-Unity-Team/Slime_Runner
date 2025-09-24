@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_peasant_shadow_0: -2487674772183049366
+      human_peasant_shadow_1: -7130968423401123474
+      human_peasant_shadow_10: -331134842068064777
+      human_peasant_shadow_11: -5446164434852063851
+      human_peasant_shadow_12: 780485954769908806
+      human_peasant_shadow_13: 8436102431383836065
+      human_peasant_shadow_14: 2628819665706786577
+      human_peasant_shadow_15: 5174058419520959195
+      human_peasant_shadow_16: 4383112831423963134
+      human_peasant_shadow_17: 1623036347290325477
+      human_peasant_shadow_18: 3580231337265758996
+      human_peasant_shadow_19: -3468518037825948487
+      human_peasant_shadow_2: 6859936546442515921
+      human_peasant_shadow_20: 7225630683037473490
+      human_peasant_shadow_21: -4979196017050609976
+      human_peasant_shadow_22: -6762741854083567807
+      human_peasant_shadow_23: -5850895834633875199
+      human_peasant_shadow_24: 4842986062053149529
+      human_peasant_shadow_25: -6925036223583898999
+      human_peasant_shadow_26: 1696430482229595359
+      human_peasant_shadow_27: -9073888701763942348
+      human_peasant_shadow_28: 1004214041217758417
+      human_peasant_shadow_29: -3350915335096517314
+      human_peasant_shadow_3: -3721016443663601706
+      human_peasant_shadow_30: 8798257198737586351
+      human_peasant_shadow_31: 5753276679095269298
+      human_peasant_shadow_32: -3573604888739530049
+      human_peasant_shadow_4: -8509846338537402252
+      human_peasant_shadow_5: 4415569581120803612
+      human_peasant_shadow_6: -2415081154919826112
+      human_peasant_shadow_7: -4535024852432613196
+      human_peasant_shadow_8: 7962515461986502446
+      human_peasant_shadow_9: -1094082459873389653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

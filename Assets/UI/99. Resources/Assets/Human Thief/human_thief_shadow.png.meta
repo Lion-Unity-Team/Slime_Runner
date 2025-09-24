@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_thief_shadow_0: -336048176572633700
+      human_thief_shadow_1: 6907309473789889306
+      human_thief_shadow_10: -1224068705721189373
+      human_thief_shadow_11: -4822697045657556412
+      human_thief_shadow_12: 252506393018222372
+      human_thief_shadow_13: -3228323454035603297
+      human_thief_shadow_14: 2282347966232592835
+      human_thief_shadow_15: -2346906314757906053
+      human_thief_shadow_16: -5093808644507119895
+      human_thief_shadow_17: 1896386380466120826
+      human_thief_shadow_18: 4865622795326579153
+      human_thief_shadow_19: 8623277131792847737
+      human_thief_shadow_2: 8592535711046539160
+      human_thief_shadow_20: 3804307095930805255
+      human_thief_shadow_21: 2385027684314329335
+      human_thief_shadow_22: -541949815358598595
+      human_thief_shadow_23: 5851741654822204442
+      human_thief_shadow_24: 8100742346847658852
+      human_thief_shadow_25: -498609449888700880
+      human_thief_shadow_26: 582582057972602409
+      human_thief_shadow_27: -311432326257168073
+      human_thief_shadow_28: 8245550574907701103
+      human_thief_shadow_29: -3650060276185259831
+      human_thief_shadow_3: 6883896965450412309
+      human_thief_shadow_30: 4742809242339067610
+      human_thief_shadow_31: -4080622956884009112
+      human_thief_shadow_32: 6660261170875716480
+      human_thief_shadow_4: 7454175012924715110
+      human_thief_shadow_5: -6175790372994649712
+      human_thief_shadow_6: 1554672759950704404
+      human_thief_shadow_7: 2640515329432465663
+      human_thief_shadow_8: -1479954592790921918
+      human_thief_shadow_9: 8849428449894757561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

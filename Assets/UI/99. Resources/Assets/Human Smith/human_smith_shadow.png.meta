@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_smith_shadow_0: 5622690915098758604
+      human_smith_shadow_1: 4055744659670594401
+      human_smith_shadow_10: 5825451610239063233
+      human_smith_shadow_11: -1003633372427407256
+      human_smith_shadow_12: -969418393842915740
+      human_smith_shadow_13: -4770193004090933092
+      human_smith_shadow_14: 5981238985576087949
+      human_smith_shadow_15: -4619750715250832767
+      human_smith_shadow_16: 8419533705232741670
+      human_smith_shadow_17: 522524272742494216
+      human_smith_shadow_18: 6057784108493552242
+      human_smith_shadow_19: 5733024837279783157
+      human_smith_shadow_2: -3609821055937390696
+      human_smith_shadow_20: 2949546373077899802
+      human_smith_shadow_21: 4892561382461871405
+      human_smith_shadow_22: -5347700119973551232
+      human_smith_shadow_23: -8235789455954775995
+      human_smith_shadow_24: -996722429762615647
+      human_smith_shadow_25: 5043838822906951170
+      human_smith_shadow_26: -601091262939802017
+      human_smith_shadow_27: -2174364044928571982
+      human_smith_shadow_28: -7549018235171082257
+      human_smith_shadow_29: 8355672787822764804
+      human_smith_shadow_3: -2318639274463047541
+      human_smith_shadow_30: -3073229537591074115
+      human_smith_shadow_31: 9097993116605834824
+      human_smith_shadow_32: 5392387224274546597
+      human_smith_shadow_4: -3731811734246859198
+      human_smith_shadow_5: 2463591496666935156
+      human_smith_shadow_6: -9068409317663910782
+      human_smith_shadow_7: -3680037339145883971
+      human_smith_shadow_8: 3590974252146891305
+      human_smith_shadow_9: 3779366721933330180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

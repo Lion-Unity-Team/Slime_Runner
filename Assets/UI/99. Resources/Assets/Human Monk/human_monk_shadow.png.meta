@@ -960,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_monk_shadow_0: -7283550092563003358
+      human_monk_shadow_1: 313443938978419799
+      human_monk_shadow_10: 6788004498584577454
+      human_monk_shadow_11: 8624021952841987840
+      human_monk_shadow_12: -2339652907698950597
+      human_monk_shadow_13: 6222521160288108501
+      human_monk_shadow_14: 7608863747227591205
+      human_monk_shadow_15: 1838331425549361007
+      human_monk_shadow_16: -6384377748095047083
+      human_monk_shadow_17: 2438923127762104661
+      human_monk_shadow_18: -4957217363613171958
+      human_monk_shadow_19: -3173597168074288921
+      human_monk_shadow_2: -8980522652794373770
+      human_monk_shadow_20: 1107614279549880353
+      human_monk_shadow_21: 5103254268071295530
+      human_monk_shadow_22: 8472283022405808386
+      human_monk_shadow_23: -8742872331769027247
+      human_monk_shadow_24: 9037048805801977288
+      human_monk_shadow_25: -151832168623716504
+      human_monk_shadow_26: -1596765211069691928
+      human_monk_shadow_27: -2818232978654441737
+      human_monk_shadow_28: -7204405450443917331
+      human_monk_shadow_29: -2595587556870645305
+      human_monk_shadow_3: 2250050541724800509
+      human_monk_shadow_30: 5395765988365598278
+      human_monk_shadow_31: 2473694994775916645
+      human_monk_shadow_32: -2070880367360289325
+      human_monk_shadow_4: -3883639350928942117
+      human_monk_shadow_5: -353147662786386415
+      human_monk_shadow_6: -5464999655811240837
+      human_monk_shadow_7: 6895777878968063502
+      human_monk_shadow_8: -2330613081945532357
+      human_monk_shadow_9: -746515413454936479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
