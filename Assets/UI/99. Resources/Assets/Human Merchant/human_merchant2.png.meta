@@ -1,0 +1,1793 @@
+fileFormatVersion: 2
+guid: 117457897c718de42afc17e8665ebf3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3600407908484521458
+    second: human_merchant2_0
+  - first:
+      213: -2911854440127298313
+    second: human_merchant2_1
+  - first:
+      213: -5361374393762319851
+    second: human_merchant2_2
+  - first:
+      213: 5311503182502546568
+    second: human_merchant2_3
+  - first:
+      213: 7662223079191108644
+    second: human_merchant2_4
+  - first:
+      213: 1756034921049688598
+    second: human_merchant2_5
+  - first:
+      213: -6635558969554407431
+    second: human_merchant2_6
+  - first:
+      213: -7821874987182442311
+    second: human_merchant2_7
+  - first:
+      213: 2401701652962891496
+    second: human_merchant2_8
+  - first:
+      213: -8306651561320231012
+    second: human_merchant2_9
+  - first:
+      213: 5628113518302217582
+    second: human_merchant2_10
+  - first:
+      213: -4970665459725343595
+    second: human_merchant2_11
+  - first:
+      213: 1770189080871410936
+    second: human_merchant2_12
+  - first:
+      213: -8263651646391278827
+    second: human_merchant2_13
+  - first:
+      213: 3864722988055459027
+    second: human_merchant2_14
+  - first:
+      213: 1186406921719590233
+    second: human_merchant2_15
+  - first:
+      213: -3586675940852920716
+    second: human_merchant2_16
+  - first:
+      213: 1600745847891198054
+    second: human_merchant2_17
+  - first:
+      213: 3115835712269458421
+    second: human_merchant2_18
+  - first:
+      213: -4286288186471139222
+    second: human_merchant2_19
+  - first:
+      213: 482227638002894103
+    second: human_merchant2_20
+  - first:
+      213: 5773100452462754910
+    second: human_merchant2_21
+  - first:
+      213: -1132303299981209138
+    second: human_merchant2_22
+  - first:
+      213: -8059921978344165646
+    second: human_merchant2_23
+  - first:
+      213: 3727785693800628818
+    second: human_merchant2_24
+  - first:
+      213: -1458433749185256620
+    second: human_merchant2_25
+  - first:
+      213: -1119477415066812052
+    second: human_merchant2_26
+  - first:
+      213: 4928737078044524780
+    second: human_merchant2_27
+  - first:
+      213: -3729934415083409487
+    second: human_merchant2_28
+  - first:
+      213: 2549350022804594421
+    second: human_merchant2_29
+  - first:
+      213: -6873798377148976711
+    second: human_merchant2_30
+  - first:
+      213: 6750381106868621710
+    second: human_merchant2_31
+  - first:
+      213: -5234605274518218870
+    second: human_merchant2_32
+  - first:
+      213: 4160041978634437447
+    second: human_merchant2_33
+  - first:
+      213: 4241904594401303308
+    second: human_merchant2_34
+  - first:
+      213: 4381310995235969827
+    second: human_merchant2_35
+  - first:
+      213: -1859388247218867880
+    second: human_merchant2_36
+  - first:
+      213: 8473506292445663278
+    second: human_merchant2_37
+  - first:
+      213: -507988463101302158
+    second: human_merchant2_38
+  - first:
+      213: 5928400498226967136
+    second: human_merchant2_39
+  - first:
+      213: 3339624378655640581
+    second: human_merchant2_40
+  - first:
+      213: -2780118518973768283
+    second: human_merchant2_41
+  - first:
+      213: 6707584795554460166
+    second: human_merchant2_42
+  - first:
+      213: 2098129052665157707
+    second: human_merchant2_43
+  - first:
+      213: 8364398286884338085
+    second: human_merchant2_44
+  - first:
+      213: -6377431851402128421
+    second: human_merchant2_45
+  - first:
+      213: -2189528050204104328
+    second: human_merchant2_46
+  - first:
+      213: 3475724205756461139
+    second: human_merchant2_47
+  - first:
+      213: 4877728501324870434
+    second: human_merchant2_48
+  - first:
+      213: -4665207927417576144
+    second: human_merchant2_49
+  - first:
+      213: -5170644818138758058
+    second: human_merchant2_50
+  - first:
+      213: -5511196100553334787
+    second: human_merchant2_51
+  - first:
+      213: 6791580624949857625
+    second: human_merchant2_52
+  - first:
+      213: 2621856471120320749
+    second: human_merchant2_53
+  - first:
+      213: -6537481113485877642
+    second: human_merchant2_54
+  - first:
+      213: 8802503537197188133
+    second: human_merchant2_55
+  - first:
+      213: 5080515409122448134
+    second: human_merchant2_56
+  - first:
+      213: 163628202866826704
+    second: human_merchant2_57
+  - first:
+      213: -7069096543853159236
+    second: human_merchant2_58
+  - first:
+      213: -8204588407833146231
+    second: human_merchant2_59
+  - first:
+      213: 4649706886110403025
+    second: human_merchant2_60
+  - first:
+      213: 370724507286243486
+    second: human_merchant2_61
+  - first:
+      213: -5341970354981649407
+    second: human_merchant2_62
+  - first:
+      213: -1182452193180599914
+    second: human_merchant2_63
+  - first:
+      213: -4002661793863958996
+    second: human_merchant2_64
+  - first:
+      213: 8723514950375132785
+    second: human_merchant2_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_merchant2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 744
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02e5404518c80ec0800000000000000
+      internalID: -3600407908484521458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 744
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4819a70d30797d0800000000000000
+      internalID: -2911854440127298313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 712
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512fbe705629895b0800000000000000
+      internalID: -5361374393762319851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 712
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ccb60c00046b940800000000000000
+      internalID: 5311503182502546568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 680
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c5cf85b4fa55a60800000000000000
+      internalID: 7662223079191108644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 680
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0952f470be5810800000000000000
+      internalID: 1756034921049688598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 648
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff6d8d1642c9e3a0800000000000000
+      internalID: -6635558969554407431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 648
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83a77242e137390800000000000000
+      internalID: -7821874987182442311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 648
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e65259bdee845120800000000000000
+      internalID: 2401701652962891496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 648
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f409e5a68d8bc80800000000000000
+      internalID: -8306651561320231012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 616
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e654af50d631b1e40800000000000000
+      internalID: 5628113518302217582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 616
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59464cf9916a40bb0800000000000000
+      internalID: -4970665459725343595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 616
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc9d961799f09810800000000000000
+      internalID: 1770189080871410936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 616
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513a64d3c9c915d80800000000000000
+      internalID: -8263651646391278827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 584
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4f45ad41142a530800000000000000
+      internalID: 3864722988055459027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 584
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d29283fc6f67010800000000000000
+      internalID: 1186406921719590233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 584
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e850d1c31993ec0800000000000000
+      internalID: -3586675940852920716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 584
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6608c371eddf63610800000000000000
+      internalID: 1600745847891198054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 552
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb1c48621cad3b20800000000000000
+      internalID: 3115835712269458421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 552
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a683f68aa9b0484c0800000000000000
+      internalID: -4286288186471139222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 520
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715c9085b7731b600800000000000000
+      internalID: 482227638002894103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 520
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c70b9364c2e1050800000000000000
+      internalID: 5773100452462754910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 488
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec11e9ad5204940f0800000000000000
+      internalID: -1132303299981209138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 488
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feae6bf9a7652090800000000000000
+      internalID: -8059921978344165646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 456
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25205cd7651cbb330800000000000000
+      internalID: 3727785693800628818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 456
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4532f537b3a92cbe0800000000000000
+      internalID: -1458433749185256620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 456
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61ced4e831d670f0800000000000000
+      internalID: -1119477415066812052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce004284244666440800000000000000
+      internalID: 4928737078044524780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 424
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfe279596c9c3cc0800000000000000
+      internalID: -3729934415083409487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 424
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fed665b65c116320800000000000000
+      internalID: 2549350022804594421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 392
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1f0608bcc5b90a0800000000000000
+      internalID: -6873798377148976711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 392
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8199650adb2ead50800000000000000
+      internalID: 6750381106868621710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 392
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8794f8ac32fa57b0800000000000000
+      internalID: -5234605274518218870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 360
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743083383207bb930800000000000000
+      internalID: 4160041978634437447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_34
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 360
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b136801c54eda30800000000000000
+      internalID: 4241904594401303308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 328
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b9d81132b8dcc30800000000000000
+      internalID: 4381310995235969827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 328
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851bbf89d302236e0800000000000000
+      internalID: -1859388247218867880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 296
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20d2431411f79570800000000000000
+      internalID: 8473506292445663278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 296
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aa9da2f2343f8f0800000000000000
+      internalID: -507988463101302158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 261
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623117d7d8e54250800000000000000
+      internalID: 5928400498226967136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 262
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c0105adaab85e20800000000000000
+      internalID: 3339624378655640581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 263
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad551bcfe80b69d0800000000000000
+      internalID: -2780118518973768283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 264
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602b5df45d0261d50800000000000000
+      internalID: 6707584795554460166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48980dc14d0e1d10800000000000000
+      internalID: 2098129052665157707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a970a9ecef441470800000000000000
+      internalID: 8364398286884338085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_45
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 229
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31aed258fce77a0800000000000000
+      internalID: -6377431851402128421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 232
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879a4d5c6db3d91e0800000000000000
+      internalID: -2189528050204104328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350375dffb04c3030800000000000000
+      internalID: 3475724205756461139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22374488a3c21b340800000000000000
+      internalID: 4877728501324870434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03560fa7b1ad14fb0800000000000000
+      internalID: -4665207927417576144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 200
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6540023eeed2e38b0800000000000000
+      internalID: -5170644818138758058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 168
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff100b985c4483b0800000000000000
+      internalID: -5511196100553334787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 168
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95dcf85589a804e50800000000000000
+      internalID: 6791580624949857625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de89f2db194b26420800000000000000
+      internalID: 2621856471120320749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e59d870933645a0800000000000000
+      internalID: -6537481113485877642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_55
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52402c45456c82a70800000000000000
+      internalID: 8802503537197188133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60354acc8dd918640800000000000000
+      internalID: 5080515409122448134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 71
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dddc1bcbf2554200800000000000000
+      internalID: 163628202866826704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcd0b4a52685ed90800000000000000
+      internalID: -7069096543853159236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_59
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c41d61052732e80800000000000000
+      internalID: -8204588407833146231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d95c4817c3178040800000000000000
+      internalID: 4649706886110403025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 38
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e980456a9f3152500800000000000000
+      internalID: 370724507286243486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 37
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104c6aed3428dd5b0800000000000000
+      internalID: -5341970354981649407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699b695cef5179fe0800000000000000
+      internalID: -1182452193180599914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ef5b43e40b378c0800000000000000
+      internalID: -4002661793863958996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant2_65
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e4be1d0a6201970800000000000000
+      internalID: 8723514950375132785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1793 @@
+fileFormatVersion: 2
+guid: e6fc3f99d5b75df45b7a2fd397f57c0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4109487912368207927
+    second: human_smith2_0
+  - first:
+      213: 5800764173249690718
+    second: human_smith2_1
+  - first:
+      213: 4519920372816405085
+    second: human_smith2_2
+  - first:
+      213: 5488417719887304851
+    second: human_smith2_3
+  - first:
+      213: -334898931361698881
+    second: human_smith2_4
+  - first:
+      213: 2373828892018227883
+    second: human_smith2_5
+  - first:
+      213: -3179701603224585667
+    second: human_smith2_6
+  - first:
+      213: 4319544094382926826
+    second: human_smith2_7
+  - first:
+      213: 1014399490356565235
+    second: human_smith2_8
+  - first:
+      213: -2915922685935241266
+    second: human_smith2_9
+  - first:
+      213: 1213589845946578319
+    second: human_smith2_10
+  - first:
+      213: -3138012779044590277
+    second: human_smith2_11
+  - first:
+      213: 942023747954159650
+    second: human_smith2_12
+  - first:
+      213: 4320880550587726108
+    second: human_smith2_13
+  - first:
+      213: -3561128916788987558
+    second: human_smith2_14
+  - first:
+      213: 4440683016864391396
+    second: human_smith2_15
+  - first:
+      213: 5824074557368712043
+    second: human_smith2_16
+  - first:
+      213: -8408335067365941784
+    second: human_smith2_17
+  - first:
+      213: -7255081010979202686
+    second: human_smith2_18
+  - first:
+      213: 1343175287808592499
+    second: human_smith2_19
+  - first:
+      213: 5777576448227892909
+    second: human_smith2_20
+  - first:
+      213: 7992674357733196011
+    second: human_smith2_21
+  - first:
+      213: 4852256253239047587
+    second: human_smith2_22
+  - first:
+      213: 2789908380397292482
+    second: human_smith2_23
+  - first:
+      213: -7693677554614014429
+    second: human_smith2_24
+  - first:
+      213: 6332113630381471397
+    second: human_smith2_25
+  - first:
+      213: -951811426168874265
+    second: human_smith2_26
+  - first:
+      213: 2547965536403080665
+    second: human_smith2_27
+  - first:
+      213: -1491814130043515360
+    second: human_smith2_28
+  - first:
+      213: 5649274810261603531
+    second: human_smith2_29
+  - first:
+      213: 8472379419384144509
+    second: human_smith2_30
+  - first:
+      213: 2404813524271678606
+    second: human_smith2_31
+  - first:
+      213: 914541691231174931
+    second: human_smith2_32
+  - first:
+      213: -4631250054020820278
+    second: human_smith2_33
+  - first:
+      213: -2853207177263117754
+    second: human_smith2_34
+  - first:
+      213: -8653398681979512004
+    second: human_smith2_35
+  - first:
+      213: -6314292348290960350
+    second: human_smith2_36
+  - first:
+      213: 1220100154879478572
+    second: human_smith2_37
+  - first:
+      213: -7710865599748401495
+    second: human_smith2_38
+  - first:
+      213: -1204949345687695087
+    second: human_smith2_39
+  - first:
+      213: 7741596615351058327
+    second: human_smith2_40
+  - first:
+      213: 3597424201312628744
+    second: human_smith2_41
+  - first:
+      213: 4050697912519962517
+    second: human_smith2_42
+  - first:
+      213: -7959098210039292368
+    second: human_smith2_43
+  - first:
+      213: -7917340945891516472
+    second: human_smith2_44
+  - first:
+      213: 6789590163925952244
+    second: human_smith2_45
+  - first:
+      213: 3892037556252202382
+    second: human_smith2_46
+  - first:
+      213: 3166200443185834941
+    second: human_smith2_47
+  - first:
+      213: -6942002962627791620
+    second: human_smith2_48
+  - first:
+      213: 1497327683643504263
+    second: human_smith2_49
+  - first:
+      213: -7423533617253859998
+    second: human_smith2_50
+  - first:
+      213: -6874878320560437016
+    second: human_smith2_51
+  - first:
+      213: -5543313925091723693
+    second: human_smith2_52
+  - first:
+      213: -4272807977614622825
+    second: human_smith2_53
+  - first:
+      213: 4117875608542504134
+    second: human_smith2_54
+  - first:
+      213: -2323248288344547368
+    second: human_smith2_55
+  - first:
+      213: 5953900893764997108
+    second: human_smith2_56
+  - first:
+      213: -8628942908997490399
+    second: human_smith2_57
+  - first:
+      213: -8527051290683014535
+    second: human_smith2_58
+  - first:
+      213: 2090482058369760321
+    second: human_smith2_59
+  - first:
+      213: -7739155690921544839
+    second: human_smith2_60
+  - first:
+      213: 2444873676577659473
+    second: human_smith2_61
+  - first:
+      213: 3821925256503327408
+    second: human_smith2_62
+  - first:
+      213: -4622151043846307913
+    second: human_smith2_63
+  - first:
+      213: -1426990982199142239
+    second: human_smith2_64
+  - first:
+      213: 1082280655753069923
+    second: human_smith2_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_smith2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 744
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c70886448a28f6c0800000000000000
+      internalID: -4109487912368207927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 744
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c3c542844708050800000000000000
+      internalID: 5800764173249690718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 712
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52e5caa1abf9be30800000000000000
+      internalID: 4519920372816405085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 712
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39897dc56d6ca2c40800000000000000
+      internalID: 5488417719887304851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 680
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb278042333a5bf0800000000000000
+      internalID: -334898931361698881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 680
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa3e4adcc881f020800000000000000
+      internalID: 2373828892018227883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 648
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3afe081d3e6fd3d0800000000000000
+      internalID: -3179701603224585667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 648
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeba459c77a12fb30800000000000000
+      internalID: 4319544094382926826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 648
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f45a0346fed31e00800000000000000
+      internalID: 1014399490356565235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 648
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7b35034cf8887d0800000000000000
+      internalID: -2915922685935241266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 616
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85baa6f88987d010800000000000000
+      internalID: 1213589845946578319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 616
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d296cd00a8374d0800000000000000
+      internalID: -3138012779044590277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 616
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2203ac29b9db21d00800000000000000
+      internalID: 942023747954159650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 616
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19fcaeb7f9d6fb30800000000000000
+      internalID: 4320880550587726108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 584
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59bb6b2e14549ec0800000000000000
+      internalID: -3561128916788987558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 584
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0ef441da970ad30800000000000000
+      internalID: 4440683016864391396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 584
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b3a51e3f443d050800000000000000
+      internalID: 5824074557368712043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 584
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed51353ec79f4b80800000000000000
+      internalID: -8408335067365941784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 552
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28917e37246c05b90800000000000000
+      internalID: -7255081010979202686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 552
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a0aeccecae3a210800000000000000
+      internalID: 1343175287808592499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 520
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae59433b231e2050800000000000000
+      internalID: 5777576448227892909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 520
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be08f0a3bfeabee60800000000000000
+      internalID: 7992674357733196011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 488
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a53b7d9a5da65340800000000000000
+      internalID: 4852256253239047587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 488
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb4771f3eeb7b620800000000000000
+      internalID: 2789908380397292482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 456
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee5d4e6019a3590800000000000000
+      internalID: -7693677554614014429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 456
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6fb404ccf20e750800000000000000
+      internalID: 6332113630381471397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 456
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eadb020d8c7ac2f0800000000000000
+      internalID: -951811426168874265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d54e39d7213c5320800000000000000
+      internalID: 2547965536403080665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 424
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e09d3e3f20c4be0800000000000000
+      internalID: -1491814130043515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 424
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc484304281466e40800000000000000
+      internalID: 5649274810261603531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 392
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72e8be7130f39570800000000000000
+      internalID: 8472379419384144509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 392
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84c449b82d9f5120800000000000000
+      internalID: 2404813524271678606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 392
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3118e1e92da11bc00800000000000000
+      internalID: 914541691231174931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 360
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac294100d9e7abfb0800000000000000
+      internalID: -4631250054020820278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_34
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 360
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a03a0703f5768d0800000000000000
+      internalID: -2853207177263117754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 328
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b17c41fb3f8e780800000000000000
+      internalID: -8653398681979512004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 328
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224762450902f58a0800000000000000
+      internalID: -6314292348290960350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 296
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b8df160aaaee010800000000000000
+      internalID: 1220100154879478572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 296
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6973847908df490800000000000000
+      internalID: -7710865599748401495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 261
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11112f544f8274fe0800000000000000
+      internalID: -1204949345687695087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 262
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fbd5cda1daf6b60800000000000000
+      internalID: 7741596615351058327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 263
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800f1a9404e9ce130800000000000000
+      internalID: 3597424201312628744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 264
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f2b283a48f63830800000000000000
+      internalID: 4050697912519962517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e192ad85a9b8190800000000000000
+      internalID: -7959098210039292368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1b7a8b54ff1290800000000000000
+      internalID: -7917340945891516472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_45
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 229
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6ea430848793e50800000000000000
+      internalID: 6789590163925952244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 232
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8554e8598b430630800000000000000
+      internalID: 3892037556252202382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbba6cf178a90fb20800000000000000
+      internalID: 3166200443185834941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf47cd6f51d09af90800000000000000
+      internalID: -6942002962627791620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 199
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786fde7589397c410800000000000000
+      internalID: 1497327683643504263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 200
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26db965b18f4af890800000000000000
+      internalID: -7423533617253859998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 168
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e806f497968790a0800000000000000
+      internalID: -6874878320560437016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 168
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3567e68da513213b0800000000000000
+      internalID: -5543313925091723693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f33dc58cfe3b4c0800000000000000
+      internalID: -4272807977614622825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4eb6c6c02a52930800000000000000
+      internalID: 4117875608542504134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_55
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df5038adf922cfd0800000000000000
+      internalID: -2323248288344547368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4eb8515180a250800000000000000
+      internalID: 5953900893764997108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 71
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12924127426df3880800000000000000
+      internalID: -8628942908997490399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9728d458704d9a980800000000000000
+      internalID: -8527051290683014535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_59
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cf4723b52e20d10800000000000000
+      internalID: 2090482058369760321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973bd2527eef89490800000000000000
+      internalID: -7739155690921544839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 38
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a5d15c7afede120800000000000000
+      internalID: 2444873676577659473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 37
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba79f775c43a0530800000000000000
+      internalID: 3821925256503327408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bff6556d12dadfb0800000000000000
+      internalID: -4622151043846307913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a89550234f423ce0800000000000000
+      internalID: -1426990982199142239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_smith2_65
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3654071b588050f00800000000000000
+      internalID: 1082280655753069923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

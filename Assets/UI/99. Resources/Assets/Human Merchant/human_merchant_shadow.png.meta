@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: 794a826a9c0198743abdf35b4ef6bc11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4073486428027148252
+    second: human_merchant_shadow_0
+  - first:
+      213: 5054960547549984528
+    second: human_merchant_shadow_1
+  - first:
+      213: 3681088625890875492
+    second: human_merchant_shadow_2
+  - first:
+      213: -5874023937571569812
+    second: human_merchant_shadow_3
+  - first:
+      213: 2960577965092052660
+    second: human_merchant_shadow_4
+  - first:
+      213: -2422343339321504507
+    second: human_merchant_shadow_5
+  - first:
+      213: 3494530046394378088
+    second: human_merchant_shadow_6
+  - first:
+      213: -4704392422267878954
+    second: human_merchant_shadow_7
+  - first:
+      213: -2634728564943945227
+    second: human_merchant_shadow_8
+  - first:
+      213: 6674170031424746603
+    second: human_merchant_shadow_9
+  - first:
+      213: -5148098983225612488
+    second: human_merchant_shadow_10
+  - first:
+      213: 4879189723705921409
+    second: human_merchant_shadow_11
+  - first:
+      213: -3640016812485189185
+    second: human_merchant_shadow_12
+  - first:
+      213: 509712372921595151
+    second: human_merchant_shadow_13
+  - first:
+      213: -7674046552721870545
+    second: human_merchant_shadow_14
+  - first:
+      213: 4876652596122515758
+    second: human_merchant_shadow_15
+  - first:
+      213: 536556568342740458
+    second: human_merchant_shadow_16
+  - first:
+      213: -6405386773679090525
+    second: human_merchant_shadow_17
+  - first:
+      213: 5947074650890915125
+    second: human_merchant_shadow_18
+  - first:
+      213: -6688793063253990115
+    second: human_merchant_shadow_19
+  - first:
+      213: -4901815605877523506
+    second: human_merchant_shadow_20
+  - first:
+      213: 3040345773538271903
+    second: human_merchant_shadow_21
+  - first:
+      213: 6324171373983415053
+    second: human_merchant_shadow_22
+  - first:
+      213: -9093638715408103597
+    second: human_merchant_shadow_23
+  - first:
+      213: 8888414547647057807
+    second: human_merchant_shadow_24
+  - first:
+      213: 4655775676183800153
+    second: human_merchant_shadow_25
+  - first:
+      213: -2645060145514515150
+    second: human_merchant_shadow_26
+  - first:
+      213: 7216910038002112810
+    second: human_merchant_shadow_27
+  - first:
+      213: 1559760791846504118
+    second: human_merchant_shadow_28
+  - first:
+      213: -8772576926040576857
+    second: human_merchant_shadow_29
+  - first:
+      213: 3487256583800137207
+    second: human_merchant_shadow_30
+  - first:
+      213: -3406705763085875307
+    second: human_merchant_shadow_31
+  - first:
+      213: 4421260565873614131
+    second: human_merchant_shadow_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_merchant_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7dee3f25ee78830800000000000000
+      internalID: 4073486428027148252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017b45ee5d3d62640800000000000000
+      internalID: 5054960547549984528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468d4fc1a9ad51330800000000000000
+      internalID: 3681088625890875492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fb7e6c9564b7ea0800000000000000
+      internalID: -5874023937571569812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be192339f5161920800000000000000
+      internalID: 2960577965092052660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d45b7219b126ed0800000000000000
+      internalID: -2422343339321504507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8672448ff801f7030800000000000000
+      internalID: 3494530046394378088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d10fa25404a6beb0800000000000000
+      internalID: -4704392422267878954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f101fe54509f6bd0800000000000000
+      internalID: -2634728564943945227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6431a5484a6f9c50800000000000000
+      internalID: 6674170031424746603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837a94420474e88b0800000000000000
+      internalID: -5148098983225612488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f4a31e33d56b340800000000000000
+      internalID: 4879189723705921409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1ee53aeff0c7dc0800000000000000
+      internalID: -3640016812485189185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05fc9dd3bcd21700800000000000000
+      internalID: 509712372921595151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21b333b15f408590800000000000000
+      internalID: -7674046552721870545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e297ed4d2b95da340800000000000000
+      internalID: 4876652596122515758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedb8f92b5b327700800000000000000
+      internalID: 536556568342740458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a45fd1aaae7b17a0800000000000000
+      internalID: -6405386773679090525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4513d2e0488250800000000000000
+      internalID: 5947074650890915125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1526a0d522ac23a0800000000000000
+      internalID: -6688793063253990115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb34396da049fbb0800000000000000
+      internalID: -4901815605877523506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92eb126f5a713a20800000000000000
+      internalID: 3040345773538271903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bb9f49b58f3c750800000000000000
+      internalID: 6324171373983415053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3574c5cb4c7ecc180800000000000000
+      internalID: -9093638715408103597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fcae030fdf95b70800000000000000
+      internalID: 8888414547647057807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959e6d46f43ac9040800000000000000
+      internalID: 4655775676183800153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2357011dfcbda4bd0800000000000000
+      internalID: -2645060145514515150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a291117517d972460800000000000000
+      internalID: 7216910038002112810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6c79c1d2265a510800000000000000
+      internalID: 1559760791846504118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac209ec3cb814680800000000000000
+      internalID: -8772576926040576857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5ac0ef269356030800000000000000
+      internalID: 3487256583800137207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5978df07823f8b0d0800000000000000
+      internalID: -3406705763085875307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_merchant_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dd6505f097b5d30800000000000000
+      internalID: 4421260565873614131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

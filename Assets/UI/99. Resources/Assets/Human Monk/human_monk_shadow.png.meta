@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: dae8ce65e4ea2a94db6a48e8d360c2d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7283550092563003358
+    second: human_monk_shadow_0
+  - first:
+      213: 313443938978419799
+    second: human_monk_shadow_1
+  - first:
+      213: -8980522652794373770
+    second: human_monk_shadow_2
+  - first:
+      213: 2250050541724800509
+    second: human_monk_shadow_3
+  - first:
+      213: -3883639350928942117
+    second: human_monk_shadow_4
+  - first:
+      213: -353147662786386415
+    second: human_monk_shadow_5
+  - first:
+      213: -5464999655811240837
+    second: human_monk_shadow_6
+  - first:
+      213: 6895777878968063502
+    second: human_monk_shadow_7
+  - first:
+      213: -2330613081945532357
+    second: human_monk_shadow_8
+  - first:
+      213: -746515413454936479
+    second: human_monk_shadow_9
+  - first:
+      213: 6788004498584577454
+    second: human_monk_shadow_10
+  - first:
+      213: 8624021952841987840
+    second: human_monk_shadow_11
+  - first:
+      213: -2339652907698950597
+    second: human_monk_shadow_12
+  - first:
+      213: 6222521160288108501
+    second: human_monk_shadow_13
+  - first:
+      213: 7608863747227591205
+    second: human_monk_shadow_14
+  - first:
+      213: 1838331425549361007
+    second: human_monk_shadow_15
+  - first:
+      213: -6384377748095047083
+    second: human_monk_shadow_16
+  - first:
+      213: 2438923127762104661
+    second: human_monk_shadow_17
+  - first:
+      213: -4957217363613171958
+    second: human_monk_shadow_18
+  - first:
+      213: -3173597168074288921
+    second: human_monk_shadow_19
+  - first:
+      213: 1107614279549880353
+    second: human_monk_shadow_20
+  - first:
+      213: 5103254268071295530
+    second: human_monk_shadow_21
+  - first:
+      213: 8472283022405808386
+    second: human_monk_shadow_22
+  - first:
+      213: -8742872331769027247
+    second: human_monk_shadow_23
+  - first:
+      213: 9037048805801977288
+    second: human_monk_shadow_24
+  - first:
+      213: -151832168623716504
+    second: human_monk_shadow_25
+  - first:
+      213: -1596765211069691928
+    second: human_monk_shadow_26
+  - first:
+      213: -2818232978654441737
+    second: human_monk_shadow_27
+  - first:
+      213: -7204405450443917331
+    second: human_monk_shadow_28
+  - first:
+      213: -2595587556870645305
+    second: human_monk_shadow_29
+  - first:
+      213: 5395765988365598278
+    second: human_monk_shadow_30
+  - first:
+      213: 2473694994775916645
+    second: human_monk_shadow_31
+  - first:
+      213: -2070880367360289325
+    second: human_monk_shadow_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_monk_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c40dd7c1abea90800000000000000
+      internalID: -7283550092563003358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754decf0a93995400800000000000000
+      internalID: 313443938978419799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679b7d66a36ce5380800000000000000
+      internalID: -8980522652794373770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df59e22eb09c93f10800000000000000
+      internalID: 2250050541724800509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbd624369a8a1ac0800000000000000
+      internalID: -3883639350928942117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116ab5e521e591bf0800000000000000
+      internalID: -353147662786386415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c2db194cb6824b0800000000000000
+      internalID: -5464999655811240837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0653ed0279b2bf50800000000000000
+      internalID: 6895777878968063502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3812c500cff7afd0800000000000000
+      internalID: -2330613081945532357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1662aa9cf28d3a5f0800000000000000
+      internalID: -746515413454936479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea523e78026d33e50800000000000000
+      internalID: 6788004498584577454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007315a264eaea770800000000000000
+      internalID: 8624021952841987840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ee4e29312e78fd0800000000000000
+      internalID: -2339652907698950597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dff256e606da5650800000000000000
+      internalID: 6222521160288108501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52229ddb34d189960800000000000000
+      internalID: 7608863747227591205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f9e4f01b0138910800000000000000
+      internalID: 1838331425549361007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ae2e493422667a0800000000000000
+      internalID: -6384377748095047083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551beb8a9abc8d120800000000000000
+      internalID: 2438923127762104661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f307f721d643bb0800000000000000
+      internalID: -4957217363613171958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e01fb8a03e15f3d0800000000000000
+      internalID: -3173597168074288921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12888b0a1590f5f00800000000000000
+      internalID: 1107614279549880353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ab2e6f7b662d640800000000000000
+      internalID: 5103254268071295530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20132135588939570800000000000000
+      internalID: 8472283022405808386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155e05c9fe31ba680800000000000000
+      internalID: -8742872331769027247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5e1bf220c0a6d70800000000000000
+      internalID: 9037048805801977288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867c4b3727594edf0800000000000000
+      internalID: -151832168623716504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e74d74208627d9e0800000000000000
+      internalID: -1596765211069691928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fec20d9900a3e8d0800000000000000
+      internalID: -2818232978654441737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7f664d96fc40c90800000000000000
+      internalID: -7204405450443917331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c91d497ede9afbd0800000000000000
+      internalID: -2595587556870645305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e7aa3149c91ea40800000000000000
+      internalID: 5395765988365598278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560c746dd74545220800000000000000
+      internalID: 2473694994775916645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_monk_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5d8232741c243e0800000000000000
+      internalID: -2070880367360289325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
