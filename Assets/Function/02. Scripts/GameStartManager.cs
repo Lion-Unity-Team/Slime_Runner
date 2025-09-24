@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class GameStartManager : MonoBehaviour
@@ -17,14 +18,27 @@ public class GameStartManager : MonoBehaviour
     private string _playerRunKey;
     private string _PlayerWakeUpKey;
     
-    [SerializeField] private CanvasGroup _canvasGroup;
-    [SerializeField] private RectTransform _rectTransform;
+    [SerializeField] private CanvasGroup _gameEndCanvasGroup;
+    [SerializeField] private RectTransform _gameEndRectTransform;
+
+    [SerializeField] private CanvasGroup _gameStartCanvasGroup;
+    [SerializeField] private RectTransform _gameStartTransform;
 
     public static int maxMoeny = 100000000;
     public static int money;
 
     private void Start()        //게임이시작하면
     {
+        _gameEndCanvasGroup.alpha = 1;
+        _gameEndRectTransform.localScale = Vector3.one;
+        
+        _gameEndCanvasGroup.DOFade(0, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
+        _gameEndRectTransform.DOScale(0, 0.3f).SetEase(Ease.InBack).SetUpdate(UpdateType.Normal,
+            true).OnComplete(() =>
+        {
+            _gameEndCanvasGroup.gameObject.SetActive(false);
+        });
+        
         KeepPlay.onClick.AddListener(CountClick);
         player.SetActive(false);        //일단플레이어숨김
         enemyspawner.StopSpawning();    //일단적생성정지
@@ -53,19 +67,29 @@ public class GameStartManager : MonoBehaviour
         _playerAnime.SetBool(_playerRunKey, true);
         enemyspawner.StartSpawning(); // 적생성시작
         Ground.canMoving = true;
+        
+        _gameStartCanvasGroup.alpha = 1;
+        _gameStartTransform.localScale = Vector3.one;
+        
+        _gameStartCanvasGroup.DOFade(0, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
+        _gameStartTransform.DOScale(0, 0.3f).SetEase(Ease.InBack).SetUpdate(UpdateType.Normal,
+            true).OnComplete(() =>
+        {
+            _gameStartCanvasGroup.gameObject.SetActive(false);
+        });
     }
 
     public void KeepGame()
     {
         CloudSpawner.isPlay = true;
-        _canvasGroup.alpha = 1;
-        _rectTransform.localScale = Vector3.one;
+        _gameEndCanvasGroup.alpha = 1;
+        _gameEndRectTransform.localScale = Vector3.one;
         
-        _canvasGroup.DOFade(0, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
-        _rectTransform.DOScale(0, 0.3f).SetEase(Ease.InBack).SetUpdate(UpdateType.Normal,
+        _gameEndCanvasGroup.DOFade(0, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
+        _gameEndRectTransform.DOScale(0, 0.3f).SetEase(Ease.InBack).SetUpdate(UpdateType.Normal,
             true).OnComplete(() =>
         {
-            _canvasGroup.gameObject.SetActive(false);
+            _gameEndCanvasGroup.gameObject.SetActive(false);
         });
         
         StaminaManager.instance.StaminaChange(70);
@@ -86,11 +110,11 @@ public class GameStartManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("money", money);
         CloudSpawner.isPlay = false;
-        _canvasGroup.alpha = 0;
-        _rectTransform.localScale = Vector3.zero;
+        _gameEndCanvasGroup.alpha = 0;
+        _gameEndRectTransform.localScale = Vector3.zero;
 
-        _canvasGroup.DOFade(1, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
-        _rectTransform.DOScale(1, 0.3f).SetEase(Ease.OutBack).SetUpdate(UpdateType.Normal, true);
+        _gameEndCanvasGroup.DOFade(1, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
+        _gameEndRectTransform.DOScale(1, 0.3f).SetEase(Ease.OutBack).SetUpdate(UpdateType.Normal, true);
         
         GameOver.SetActive(true);   // 게임오버UI켜짐
         enemyspawner.StopSpawning();    // 적생성정지

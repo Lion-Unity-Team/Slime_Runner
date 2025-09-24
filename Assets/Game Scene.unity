@@ -7704,8 +7704,10 @@ MonoBehaviour:
   - {fileID: 1229327832}
   - {fileID: 1251632266}
   - {fileID: 313947258}
-  _canvasGroup: {fileID: 1159267100}
-  _rectTransform: {fileID: 804140215}
+  _gameEndCanvasGroup: {fileID: 1159267100}
+  _gameEndRectTransform: {fileID: 804140215}
+  _gameStartCanvasGroup: {fileID: 1127711446}
+  _gameStartTransform: {fileID: 1983118072}
 --- !u!4 &143622301
 Transform:
   m_ObjectHideFlags: 0
@@ -34557,18 +34559,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1127711444}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 830661850}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: SfxPlay
@@ -42449,6 +42439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127711445}
+  - component: {fileID: 1127711446}
   m_Layer: 5
   m_Name: '[UI] OnEnable'
   m_TagString: Untagged
@@ -42477,6 +42468,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1127711446
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127711444}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1159267098
 GameObject:
   m_ObjectHideFlags: 0
