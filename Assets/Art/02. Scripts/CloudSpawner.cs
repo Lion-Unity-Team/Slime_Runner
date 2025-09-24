@@ -11,12 +11,15 @@ public class CloudSpawner : MonoBehaviour
     private float _spawnTime;
     private float _spawnPosX;
 
+    public static bool isPlay = true;
+
     private IEnumerator Start()
     {
         while (true)
         {
             _spawnTime = Random.Range(2, 6);
             yield return new WaitForSeconds(_spawnTime);
+            yield return new WaitUntil(() => isPlay);
 
             _spawnPosX = Random.Range(-6.5f, 0);
             var spawnPos = new Vector2(_spawnPosX, 6);
