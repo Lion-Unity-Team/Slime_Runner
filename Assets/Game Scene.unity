@@ -33941,6 +33941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
+  staminaBar: {fileID: 74877434}
 --- !u!1 &680793484
 GameObject:
   m_ObjectHideFlags: 0
@@ -68601,6 +68602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
+  staminaBar: {fileID: 74877434}
 --- !u!1 &1983118071
 GameObject:
   m_ObjectHideFlags: 0

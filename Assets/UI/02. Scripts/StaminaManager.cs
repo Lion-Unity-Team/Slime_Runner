@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,9 @@ public class StaminaManager : MonoBehaviour
     private Color minStaminaColor = new Color32(181,108,120,255);
 
     [SerializeField] private Image currentStaminaBar;
-    
+    [SerializeField] private Image staminaBar;
+
+    private Vector3 staminaBarPos;
     private float currentStamina;
     
     private void Awake()
@@ -24,6 +27,7 @@ public class StaminaManager : MonoBehaviour
     private void Start()
     {
         currentStamina = currentStaminaBar.fillAmount;
+        staminaBarPos = staminaBar.transform.position;
     }
     
     public void StaminaPlus(float value) // 현재 스테미너에 value 값 만큼 더하는 함수
@@ -36,7 +40,15 @@ public class StaminaManager : MonoBehaviour
         }
         
         currentStaminaBar.color = Color.Lerp(minStaminaColor, maxStaminaColor, currentStamina);
-        currentStaminaBar.fillAmount = currentStamina;
+        // currentStaminaBar.fillAmount = currentStamina;
+        currentStaminaBar.DOFillAmount(currentStamina, 0.5f).SetEase(Ease.OutQuad);
+        if (value < -10)
+        {
+            staminaBar.transform.DOShakePosition(duration: 0.5f, strength: 10, vibrato: 10, randomness: 90).OnComplete(() =>
+            {
+                staminaBar.transform.position = staminaBarPos;
+            });
+        }
     }
 
     public void StaminaChange(float value) // 현재 스테미너를 value 값으로 만드는 함수
