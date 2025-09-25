@@ -13,13 +13,14 @@ public class PlayTimeUI : MonoBehaviour
     public TMP_Text OVER;
     public TMP_Text CLAER;
 
-    public float playTime; // 누적 시간
+    public float playTime; // 시작 시간
     private float stamina; // 스테미너 감소를 위한 시간
     private Animator _anime;
 
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
+        playTime = 120;
     }
 
     void Update()
@@ -27,7 +28,7 @@ public class PlayTimeUI : MonoBehaviour
         // targetUI가 비활성화되어 있을 때만 시간 증가
         if (!UI1.activeSelf && !UI2.activeSelf && !UI3.activeSelf)
         {
-            playTime += Time.deltaTime;
+            playTime -= Time.deltaTime;
             stamina += Time.deltaTime;
         }
 
@@ -37,7 +38,7 @@ public class PlayTimeUI : MonoBehaviour
 
         // UI에 표시
         playTimeText.text = $"{minutes:00}:{seconds:00}";
-        if(minutes == 2)
+        if(minutes == 0 && seconds == 0)
         {
             UI4.interactable = false;
             OVER.gameObject.SetActive(false);
