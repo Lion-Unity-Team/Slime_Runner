@@ -1,35 +1,82 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerSlime : MonoBehaviour
 {
+    private Animator _anime;
     public TMP_Text playerHpText;
-    private double playerHp;
+    public static double playerHp;
+
+    public Button UI1;
+    public TMP_Text OVER;
+    public TMP_Text CLAER;
+
+    private string _deathAnimeKey;
+    private string _runAnimeKey;
 
     private void Start()
     {
         playerHp = double.Parse(playerHpText.text);
+        _anime = GetComponentInChildren<Animator>();
+
+        _deathAnimeKey = "Death";
+        _runAnimeKey = "IsRun";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
-        if (enemyHpText == null) return;
-
-        double enemyHp = double.Parse(enemyHpText.text);
-
-        if (playerHp < enemyHp)
+        if (collision.CompareTag("Enemy"))
         {
-            
-            Destroy(gameObject);
+            TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
+            if (enemyHpText == null) return;
+
+            double enemyHp = double.Parse(enemyHpText.text);
+
+            if (playerHp <= enemyHp)
+            {
+                FindObjectOfType<GameStartManager>().EndGame();
+                FindObjectOfType<GameOverManager>().Score();
+                _anime.SetTrigger(_deathAnimeKey);
+                _anime.SetBool(_runAnimeKey, false);
+            }
+            else 
+            {
+                playerHp += enemyHp;
+                if(playerHp >= 100000000)    //��������1 : 1���� �ѱ��
+                {
+                    OVER.gameObject.SetActive(false);
+                    CLAER.gameObject.SetActive(true);
+                    playerHp = 100000000;
+                    playerHpText.text = playerHp.ToString();
+                    UI1.interactable=false;
+                    FindObjectOfType<GameStartManager>().EndGame();
+                    FindObjectOfType<GameOverManager>().Score();
+                    _anime.speed = 0f;
+                }
+                playerHpText.text = playerHp.ToString();
+            }
+            StaminaManager.instance.StaminaPlus(-15);
+            SoundManager.instance.SfxPlay("Attack");
         }
-        else
+
+        if (collision.CompareTag("Fruit"))
         {
-           
-            playerHp += enemyHp;
-            playerHpText.text = playerHp.ToString();
-            Destroy(collision.gameObject);
+            if (collision.transform.localScale.x >= 0.9)
+            {
+                StaminaManager.instance.StaminaPlus(40);
+                if(GameStartManager.money + 40 < GameStartManager.maxMoeny)
+                    GameStartManager.money += 40;
+            }
+            else
+            {
+                StaminaManager.instance.StaminaPlus(15);
+                if(GameStartManager.money + 15 < GameStartManager.maxMoeny)
+                    GameStartManager.money += 15;
+            }
+            SoundManager.instance.SfxPlay("Fruit");
         }
+        
     }
 
     void Update()
@@ -46,13 +93,13 @@ public class PlayerSlime : MonoBehaviour
         else if (digitCount >= 13)
             fontSize = 0.4f;
         else if (digitCount >= 12)
-            fontSize = 0.43f;
+            fontSize = 0.45f;
         else if (digitCount >= 11)
-            fontSize = 0.48f;
+            fontSize = 0.5f;
         else if (digitCount >= 10)
             fontSize = 0.55f;
         else if (digitCount >= 9)
-            fontSize = 0.7f;
+            fontSize = 0.6f;
         else if (digitCount >= 8)
             fontSize = 0.7f;
         else if (digitCount >= 7)
@@ -61,5 +108,16 @@ public class PlayerSlime : MonoBehaviour
             fontSize = 0.9f;
 
         playerHpText.fontSize = fontSize;
+        
+        
+        float Stamina = StaminaManager.instance.GetCurrentStamina();
+
+        if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
+        {
+            FindObjectOfType<GameStartManager>().EndGame();
+            FindObjectOfType<GameOverManager>().Score();
+            _anime.SetTrigger(_deathAnimeKey);
+            _anime.SetBool(_runAnimeKey, false);
+        }
     }
 }
