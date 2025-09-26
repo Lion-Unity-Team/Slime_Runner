@@ -21,7 +21,7 @@ public class GameOverManager : MonoBehaviour
             Debug.Log("최고 점수 없음");
         }
     }
-
+    
     public void Score()
     {
         double currentHP = double.Parse(playerSlime.playerHpText.text);
