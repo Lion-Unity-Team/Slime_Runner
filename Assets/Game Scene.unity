@@ -8156,7 +8156,7 @@ MonoBehaviour:
   image: {fileID: 1388134123}
   name: {fileID: 1919798359}
   expText: {fileID: 454616784}
-  imageName: portrait_human_1
+  imageName: 
   portraitName: 
   exp: 
 --- !u!114 &98607245
@@ -8311,7 +8311,7 @@ MonoBehaviour:
   image: {fileID: 96251691}
   name: {fileID: 1102413605}
   expText: {fileID: 2078855379}
-  imageName: portrait_human_3
+  imageName: 
   portraitName: 
   exp: 
 --- !u!114 &142858045
@@ -35505,7 +35505,7 @@ MonoBehaviour:
   image: {fileID: 1070855279}
   name: {fileID: 1601625423}
   expText: {fileID: 894496933}
-  imageName: portrait_human_2
+  imageName: 
   portraitName: 
   exp: 
 --- !u!114 &696241837
