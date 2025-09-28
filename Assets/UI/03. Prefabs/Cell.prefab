@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1311416245237206696}
   - component: {fileID: 8783099379853061647}
   - component: {fileID: 6422249325445378818}
+  - component: {fileID: 230945333931095587}
   m_Layer: 5
   m_Name: Cell
   m_TagString: Untagged
@@ -123,7 +124,36 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8783099379853061647}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 230945333931095587}
+        m_TargetAssemblyTypeName: Cell, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &230945333931095587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109532969370592197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc2c408b021cf94f8efd5384f111f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 6422249325445378818}
+  FileIndex: 0
+  image: {fileID: 4408335882497825908}
+  titleText: {fileID: 8189752125718469420}
+  subtitleText: {fileID: 3605687137359730906}
 --- !u!1 &3664742248857089963
 GameObject:
   m_ObjectHideFlags: 0
