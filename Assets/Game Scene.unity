@@ -34611,7 +34611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
-  staminaBar: {fileID: 0}
+  staminaBar: {fileID: 74877434}
 --- !u!1 &680793484
 GameObject:
   m_ObjectHideFlags: 0
@@ -70436,13 +70436,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949427900}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a118d33fd603f674282494f8d7baf907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
-  staminaBar: {fileID: 0}
+  staminaBar: {fileID: 74877434}
 --- !u!1 &1983118071
 GameObject:
   m_ObjectHideFlags: 0
