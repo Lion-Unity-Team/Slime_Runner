@@ -198,21 +198,21 @@ private void Update()
 
             GameObject fruitPrefab;
 
-            if (playTimeUI.playTime > 92f)
+            if (playTimeUI.playTime > 90f)
             {
-                fruitPrefab = winterFruitPrefab;
+                fruitPrefab = springFruitPrefab;
             }
-            else if (playTimeUI.playTime > 62f)
-            {
-                fruitPrefab = fallFruitPrefab;
-            }
-            else if (playTimeUI.playTime > 32f)
+            else if (playTimeUI.playTime > 60f)
             {
                 fruitPrefab = summerFruitPrefab;
             }
+            else if (playTimeUI.playTime > 30f)
+            {
+                fruitPrefab = fallFruitPrefab;
+            }
             else
             {
-                fruitPrefab = springFruitPrefab;
+                fruitPrefab = winterFruitPrefab;
             }
 
             // ÇÁ¸®Æé »ý¼º
