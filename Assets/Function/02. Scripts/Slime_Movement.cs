@@ -96,7 +96,7 @@ public class Slime_Movement : MonoBehaviour
 
     private void MoveToLane(int laneIndex)
     {
-        Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -6);
+        Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -4);
         StopAllCoroutines(); // 이동 중 다시 이동하면 이전 코루틴 중단
         StartCoroutine(SlideToPosition(targetPos, moveDuration));
         SoundManager.instance.SfxPlay("Move");
