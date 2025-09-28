@@ -10,17 +10,12 @@ public class AnimatorManager : MonoBehaviour
 
     private void Awake()
     {
-        // 싱글톤 초기화
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        Instance = this;
     }
 
-    /// <summary>
-    /// 셀에서 전달된 인덱스를 기반으로 플레이어 애니메이터 교체
-    /// </summary>
     public void ChangeAnimator(int fileIndex)
     {
-        int index = fileIndex - 1; // File Index가 1~18이므로 배열 인덱스(0~17)로 변환
+        int index = fileIndex - 1;
 
         if (index >= 0 && index < animatorControllers.Length)
         {
