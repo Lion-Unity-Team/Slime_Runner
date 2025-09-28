@@ -34610,6 +34610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
+  staminaBar: {fileID: 0}
 --- !u!1 &680793484
 GameObject:
   m_ObjectHideFlags: 0
@@ -45059,7 +45060,7 @@ PrefabInstance:
     - target: {fileID: 151340999839080499, guid: df076fd28365de143826ffe1441313c9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 151340999839080499, guid: df076fd28365de143826ffe1441313c9,
         type: 3}
@@ -45136,6 +45137,16 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278190080
       objectReference: {fileID: 0}
+    - target: {fileID: 2681613538982878024, guid: df076fd28365de143826ffe1441313c9,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.38888896
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681613538982878024, guid: df076fd28365de143826ffe1441313c9,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.018498302
+      objectReference: {fileID: 0}
     - target: {fileID: 2978095610997827028, guid: df076fd28365de143826ffe1441313c9,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -45150,6 +45161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978095610997827028, guid: df076fd28365de143826ffe1441313c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3228625651429388657, guid: df076fd28365de143826ffe1441313c9,
         type: 3}
@@ -70414,6 +70430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStaminaBar: {fileID: 232310452}
+  staminaBar: {fileID: 0}
 --- !u!1 &1983118071
 GameObject:
   m_ObjectHideFlags: 0
