@@ -15,6 +15,6 @@ MonoBehaviour:
   index: 13
   ImageFile: {fileID: 21300000, guid: a6a4d30e6d9bffd43ae1f2b37c61b629, type: 3}
   jobName: "\uB300\uC7A5\uC7A5\uC774"
-  isHave: 0
+  isHave: 1
   story1: " \uD574\uAE08\uC870\uAC74\\n \uC5B4\uCA4C\uAD6C \uC800\uCA4C\uAD6C"
   story2: "\uD574\uAE08 \uB410\uB2E4\uC694"

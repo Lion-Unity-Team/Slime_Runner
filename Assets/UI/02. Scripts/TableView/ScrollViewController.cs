@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,9 @@ public class ScrollViewController : MonoBehaviour
     public static ScrollViewController instance;
     
     [SerializeField] private float cellHeight;
+    [SerializeField] private TextMeshProUGUI textPoint;
+    
+    
 
     [SerializeField]
     private PortraitData[] portraits;
@@ -190,6 +194,8 @@ public class ScrollViewController : MonoBehaviour
     {
         if (secondLock)
         {
+            AnimatorManager.Instance.ChangeAnimator(index + 1);
+            textPoint.text = portraits[index].jobName + " 선택됨.";
             return;
         }
         

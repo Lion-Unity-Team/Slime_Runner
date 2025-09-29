@@ -37,10 +37,5 @@ public class Cell : MonoBehaviour
     public void OnClick()
     {
         ScrollViewController.instance.SecondLoadData(FileIndex -1);
-        
-    }
-    public void SelectCharacter()
-    {
-        AnimatorManager.Instance.ChangeAnimator(FileIndex);
     }
 }
