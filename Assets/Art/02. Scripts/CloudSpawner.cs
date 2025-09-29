@@ -29,6 +29,7 @@ public class CloudSpawner : MonoBehaviour
             var scale = new Vector2(_scaleX, _scaleY);
 
             GameObject obj = Instantiate(cloud, spawnPos, Quaternion.identity);
+            obj.transform.SetParent(transform);
             obj.transform.localScale = scale;
         }
     }
