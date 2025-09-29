@@ -50,6 +50,7 @@ public class GameStartManager : MonoBehaviour
         _playerRunKey = "IsRun";
         _PlayerWakeUpKey = "WakeUp";
         money = PlayerPrefs.GetInt("money", 0);
+        CloudSpawner.isPlay = false;
     }
 
     public void CountClick()
@@ -77,6 +78,7 @@ public class GameStartManager : MonoBehaviour
         {
             _gameStartCanvasGroup.gameObject.SetActive(false);
         });
+        CloudSpawner.isPlay = true;
     }
 
     public void KeepGame()
