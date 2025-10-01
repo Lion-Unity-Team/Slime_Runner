@@ -51,6 +51,7 @@ public class Ground : MonoBehaviour
             {
                 Map.instance.time = 0;
                 Map.instance.OnBackground(len.y);
+                PlayerManager.instance.PlayerData.turnStage++;
                 gameObject.SetActive(false);
             }
         }
