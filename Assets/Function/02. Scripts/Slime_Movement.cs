@@ -81,6 +81,7 @@ public class Slime_Movement : MonoBehaviour
                 _Anime.SetTrigger("Move");
                 currentLane--;
                 MoveToLane(currentLane);
+                PlayerManager.instance.PlayerData.sideTouch++;
             }
         }
         // 화면 오른쪽 절반 클릭 -> 오른쪽 이동
@@ -92,6 +93,7 @@ public class Slime_Movement : MonoBehaviour
                 _Anime.SetTrigger("Move");
                 currentLane++;
                 MoveToLane(currentLane);
+                PlayerManager.instance.PlayerData.sideTouch++;
             }
         }
     }
