@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class ScrollViewController : MonoBehaviour
@@ -8,8 +10,8 @@ public class ScrollViewController : MonoBehaviour
     public static ScrollViewController instance;
     
     [SerializeField] private float cellHeight;
-    [SerializeField] private TextMeshProUGUI textPoint;
-    
+    [SerializeField] private GameObject useSkinInfo;
+    [SerializeField] private RectTransform useSkinInfoPos;
     
     
 
@@ -184,7 +186,16 @@ public class ScrollViewController : MonoBehaviour
         if (secondLock)
         {
             AnimatorManager.Instance.ChangeAnimator(index + 1);
-            textPoint.text = portraits[index].jobName + " 선택됨.";
+            GameObject skinInfo = Instantiate(useSkinInfo, SkinUI.transform);
+            var skinText = skinInfo.GetComponent<TextMeshProUGUI>();
+            skinText.text = portraits[index].jobName + " 선택됨.";
+            var rect = skinInfo.GetComponent<RectTransform>();
+            rect.anchoredPosition = useSkinInfoPos.anchoredPosition;
+            rect.DOAnchorPosY(rect.anchoredPosition.y - 15f, 1f).SetEase(Ease.OutQuad).SetDelay(0.7f);
+            skinText.DOFade(0f, 1f).SetDelay(0.7f).OnComplete(() =>
+            {
+                Destroy(skinInfo);
+            });
             return;
         }
         

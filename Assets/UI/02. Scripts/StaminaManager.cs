@@ -42,7 +42,7 @@ public class StaminaManager : MonoBehaviour
         currentStaminaBar.color = Color.Lerp(minStaminaColor, maxStaminaColor, currentStamina);
         // currentStaminaBar.fillAmount = currentStamina;
         currentStaminaBar.DOFillAmount(currentStamina, 0.5f).SetEase(Ease.OutQuad);
-        if (value < -10 || value > 0)
+        if (value < -10)
         {
             staminaBar.transform.DOShakePosition(duration: 0.5f, strength: 10, vibrato: 10, randomness: 90).OnComplete(() =>
             {
