@@ -28,6 +28,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/PortraitManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/Portrait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/ScrollViewController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -174,6 +175,11 @@
       <workItem from="1759024541292" duration="4059000" />
       <workItem from="1759062500903" duration="15000" />
       <workItem from="1759132095585" duration="3209000" />
+      <workItem from="1759144823378" duration="11225000" />
+      <workItem from="1759160923199" duration="260000" />
+      <workItem from="1759161397080" duration="223000" />
+      <workItem from="1759225224917" duration="6251000" />
+      <workItem from="1759246045141" duration="2893000" />
     </task>
     <servers />
   </component>

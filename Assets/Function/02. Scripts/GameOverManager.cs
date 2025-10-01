@@ -7,7 +7,6 @@ public class GameOverManager : MonoBehaviour
     public TMP_Text bestScoreText;
     public PlayerSlime playerSlime;
     
-
     private const string BestScoreKey = "BestPlayerHP";
     
     private void Start()
@@ -15,11 +14,23 @@ public class GameOverManager : MonoBehaviour
         if (PlayerPrefs.HasKey("BestPlayerHP"))
         {
             Debug.Log("로드된 최고 점수: " + PlayerPrefs.GetString("BestPlayerHP"));
+            SkinManager.instance.LoadData();
+            PlayerManager.instance.LoadData();
         }
         else
         {
-            Debug.Log("최고 점수 없음");
+            Debug.Log("최고 점수 없음 player, skin 초기화");
+            InitData();
         }
+    }
+
+    public void InitData()
+    {
+        PlayerManager.instance.InitData();
+        SkinManager.instance.InitData();
+            
+        PlayerManager.instance.LoadData();
+        SkinManager.instance.LoadData();
     }
     
     public void Score()
@@ -39,4 +50,5 @@ public class GameOverManager : MonoBehaviour
 
         bestScoreText.text = "역대 최고 점수 : " + bestHp.ToString();
     }
+    
 }

@@ -15,6 +15,9 @@ public class PlayerSlime : MonoBehaviour
     private string _deathAnimeKey;
     private string _runAnimeKey;
 
+    private int eatFruit;
+    private int killSlime;
+
     private void Start()
     {
         playerHp = double.Parse(playerHpText.text);
@@ -39,23 +42,35 @@ public class PlayerSlime : MonoBehaviour
                 FindObjectOfType<GameOverManager>().Score();
                 _anime.SetTrigger(_deathAnimeKey);
                 _anime.SetBool(_runAnimeKey, false);
+                
+                PlayerManager.instance.PlayerData.killSlime += killSlime;
+                PlayerManager.instance.PlayerData.eatFruit += eatFruit;
+
+                SkinManager.instance.AchievementCheak();
+                
+                killSlime = 0;
+                eatFruit = 0;
             }
-            else 
+            else
             {
                 playerHp += enemyHp;
-                if(playerHp >= 100000000)    //��������1 : 1���� �ѱ��
+                if (playerHp >= 100000000) //????????1 : 1???? ????
                 {
                     OVER.gameObject.SetActive(false);
                     CLAER.gameObject.SetActive(true);
                     playerHp = 100000000;
                     playerHpText.text = playerHp.ToString();
-                    UI1.interactable=false;
+                    UI1.interactable = false;
                     FindObjectOfType<GameStartManager>().EndGame();
                     FindObjectOfType<GameOverManager>().Score();
                     _anime.speed = 0f;
                 }
+
                 playerHpText.text = playerHp.ToString();
+                killSlime++;
+                Debug.Log(killSlime);
             }
+
             StaminaManager.instance.StaminaPlus(-15);
             SoundManager.instance.SfxPlay("Attack");
         }
@@ -65,18 +80,20 @@ public class PlayerSlime : MonoBehaviour
             if (collision.transform.localScale.x >= 0.9)
             {
                 StaminaManager.instance.StaminaPlus(40);
-                if(GameStartManager.money + 40 < GameStartManager.maxMoeny)
+                if (GameStartManager.money + 40 < GameStartManager.maxMoeny)
                     GameStartManager.money += 40;
             }
             else
             {
                 StaminaManager.instance.StaminaPlus(15);
-                if(GameStartManager.money + 15 < GameStartManager.maxMoeny)
+                if (GameStartManager.money + 15 < GameStartManager.maxMoeny)
                     GameStartManager.money += 15;
             }
+
             SoundManager.instance.SfxPlay("Fruit");
+            eatFruit++;
         }
-        
+
     }
 
     void Update()
@@ -108,8 +125,8 @@ public class PlayerSlime : MonoBehaviour
             fontSize = 0.9f;
 
         playerHpText.fontSize = fontSize;
-        
-        
+
+
         float Stamina = StaminaManager.instance.GetCurrentStamina();
 
         if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
@@ -120,4 +137,5 @@ public class PlayerSlime : MonoBehaviour
             _anime.SetBool(_runAnimeKey, false);
         }
     }
+    
 }

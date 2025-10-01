@@ -19,6 +19,8 @@ public class Slime_Movement : MonoBehaviour
     private Vector2 mousePos;
     private Vector2 touchPos;
 
+    private uint sideTouch;
+
     private void Start()
     {
         _Anime = GetComponent<Animator>();
@@ -36,7 +38,7 @@ public class Slime_Movement : MonoBehaviour
         {
             canMove = true;
         }
-
+        
         if (!canMove)
             return;
 

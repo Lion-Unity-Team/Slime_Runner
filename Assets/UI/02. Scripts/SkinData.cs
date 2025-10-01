@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu]
-public class PortraitData : ScriptableObject
+public class SkinData : ScriptableObject
 {
     public int index;
     

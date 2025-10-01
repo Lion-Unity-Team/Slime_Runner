@@ -11,9 +11,7 @@ public class ScrollViewController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textPoint;
     
     
-
-    [SerializeField]
-    private PortraitData[] portraits;
+    
 
     [SerializeField] private GameObject SkinUI;
     
@@ -32,25 +30,15 @@ public class ScrollViewController : MonoBehaviour
         {
             instance = this;
         }
-        
         _scrollRect = GetComponent<ScrollRect>();
         _rectTransform = GetComponent<RectTransform>();
     }
 
-    private void Start()
+    public void Start()
     {
-        InitData();
         FirstLoadData();
     }
-
-    private void InitData()
-    {
-        foreach (PortraitData portrait in portraits)
-        {
-            
-        }
-        
-    }
+    
     
     /// <summary>
     /// 모든 스크롤뷰 콘텐츠를 지우는 메서드
@@ -161,7 +149,7 @@ public class ScrollViewController : MonoBehaviour
         secondLock = false;
         ClearAllContent();
         _portraits = new List<Portrait>();
-        foreach (PortraitData portrait in portraits)
+        foreach (SkinData portrait in SkinManager.instance.portraits)
         {
             if (portrait.index % 3 == 1)
             {
@@ -192,6 +180,7 @@ public class ScrollViewController : MonoBehaviour
 
     public void SecondLoadData(int index)
     {
+        SkinData[] portraits = SkinManager.instance.portraits;
         if (secondLock)
         {
             AnimatorManager.Instance.ChangeAnimator(index + 1);

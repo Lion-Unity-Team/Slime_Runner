@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c818fa691f2fcf4a9a1ce98e809d7e2, type: 3}
-  m_Name: Info_10
+  m_Name: Skin_03
   m_EditorClassIdentifier: 
-  index: 10
-  ImageFile: {fileID: 21300000, guid: 99e5dc370f81508438697e15789d9788, type: 3}
-  jobName: "\uB3C4\uB451"
-  isHave: 1
-  story1: " \uD574\uAE08\uC870\uAC74\\n \uC5B4\uCA4C\uAD6C \uC800\uCA4C\uAD6C"
-  story2: "\uD574\uAE08 \uB410\uB2E4\uC694"
+  index: 3
+  ImageFile: {fileID: 21300000, guid: 68b68adcdeeffd845aa624a29717d388, type: 3}
+  jobName: "\uC0C1\uC778 3"
+  isHave: 0
+  story1: " \uD574\uAE08\uC870\uAC74\\n \uACFC\uC77C 300\uAC1C \uBA39\uAE30!"
+  story2: "\uB3C8\uC744 \uB9CE\uC774 \uBC8C\uC5B4 \uC740\uD1F4\uD55C \uC0C1\uC778\uC785\uB2C8\uB2E4."
