@@ -69783,7 +69783,7 @@ MonoBehaviour:
           m_StringArgument: UI_Button
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1712672763}
         m_TargetAssemblyTypeName: ScrollViewController, Assembly-CSharp
         m_MethodName: ExitOnclick
         m_Mode: 1
