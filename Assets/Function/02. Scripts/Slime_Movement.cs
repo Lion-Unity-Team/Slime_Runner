@@ -78,10 +78,8 @@ public class Slime_Movement : MonoBehaviour
             if(currentLane>0)
             {
                 GetComponent<SpriteRenderer>().flipX = true;
-                _Anime.SetTrigger("Move");
                 currentLane--;
                 MoveToLane(currentLane);
-                PlayerManager.instance.PlayerData.sideTouch++;
             }
         }
         // 화면 오른쪽 절반 클릭 -> 오른쪽 이동
@@ -90,10 +88,8 @@ public class Slime_Movement : MonoBehaviour
             if(currentLane<2)
             {
                 GetComponent<SpriteRenderer>().flipX = false;
-                _Anime.SetTrigger("Move");
                 currentLane++;
                 MoveToLane(currentLane);
-                PlayerManager.instance.PlayerData.sideTouch++;
             }
         }
     }
@@ -103,6 +99,8 @@ public class Slime_Movement : MonoBehaviour
         Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -4);
         StopAllCoroutines(); // 이동 중 다시 이동하면 이전 코루틴 중단
         StartCoroutine(SlideToPosition(targetPos, moveDuration));
+        _Anime.SetTrigger("Move");
+        PlayerManager.instance.PlayerData.sideTouch++;
         SoundManager.instance.SfxPlay("Move");
     }
 

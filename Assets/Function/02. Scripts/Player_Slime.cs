@@ -45,8 +45,6 @@ public class PlayerSlime : MonoBehaviour
                 
                 PlayerManager.instance.PlayerData.killSlime += killSlime;
                 PlayerManager.instance.PlayerData.eatFruit += eatFruit;
-
-                SkinManager.instance.AchievementCheak();
                 
                 killSlime = 0;
                 eatFruit = 0;
@@ -68,7 +66,6 @@ public class PlayerSlime : MonoBehaviour
 
                 playerHpText.text = playerHp.ToString();
                 killSlime++;
-                Debug.Log(killSlime);
             }
 
             StaminaManager.instance.StaminaPlus(-15);
@@ -80,14 +77,10 @@ public class PlayerSlime : MonoBehaviour
             if (collision.transform.localScale.x >= 0.9)
             {
                 StaminaManager.instance.StaminaPlus(40);
-                if (GameStartManager.money + 40 < GameStartManager.maxMoeny)
-                    GameStartManager.money += 40;
             }
             else
             {
                 StaminaManager.instance.StaminaPlus(15);
-                if (GameStartManager.money + 15 < GameStartManager.maxMoeny)
-                    GameStartManager.money += 15;
             }
 
             SoundManager.instance.SfxPlay("Fruit");

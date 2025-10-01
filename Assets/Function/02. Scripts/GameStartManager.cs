@@ -23,9 +23,7 @@ public class GameStartManager : MonoBehaviour
 
     [SerializeField] private CanvasGroup _gameStartCanvasGroup;
     [SerializeField] private RectTransform _gameStartTransform;
-
-    public static int maxMoeny = 100000000;
-    public static int money;
+    
 
     private void Start()        //게임이시작하면
     {
@@ -49,9 +47,30 @@ public class GameStartManager : MonoBehaviour
         _playerAnime = player.GetComponentInChildren<Animator>();  // 플레이어 애니메이션
         _playerRunKey = "IsRun";
         _PlayerWakeUpKey = "WakeUp";
-        money = PlayerPrefs.GetInt("money", 0);
         CloudSpawner.isPlay = false;
+        
+        if (PlayerPrefs.HasKey("BestPlayerHP"))
+        {
+            Debug.Log("로드된 최고 점수: " + PlayerPrefs.GetString("BestPlayerHP"));
+            SkinManager.instance.LoadData();
+            PlayerManager.instance.LoadData();
+        }
+        else
+        {
+            Debug.Log("최고 점수 없음 player, skin 초기화");
+            InitData();
+        }
     }
+    
+    public void InitData()
+    {
+        PlayerManager.instance.InitData();
+        SkinManager.instance.InitData();
+            
+        PlayerManager.instance.LoadData();
+        SkinManager.instance.LoadData();
+    }
+
 
     public void CountClick()
     {
@@ -110,7 +129,7 @@ public class GameStartManager : MonoBehaviour
 
     public void EndGame()
     {
-        PlayerPrefs.SetInt("money", money);
+        SkinManager.instance.AchievementCheak();
         CloudSpawner.isPlay = false;
         _gameEndCanvasGroup.alpha = 0;
         _gameEndRectTransform.localScale = Vector3.zero;

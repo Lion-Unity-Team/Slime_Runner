@@ -9,30 +9,6 @@ public class GameOverManager : MonoBehaviour
     
     private const string BestScoreKey = "BestPlayerHP";
     
-    private void Start()
-    {
-        if (PlayerPrefs.HasKey("BestPlayerHP"))
-        {
-            Debug.Log("로드된 최고 점수: " + PlayerPrefs.GetString("BestPlayerHP"));
-            SkinManager.instance.LoadData();
-            PlayerManager.instance.LoadData();
-        }
-        else
-        {
-            Debug.Log("최고 점수 없음 player, skin 초기화");
-            InitData();
-        }
-    }
-
-    public void InitData()
-    {
-        PlayerManager.instance.InitData();
-        SkinManager.instance.InitData();
-            
-        PlayerManager.instance.LoadData();
-        SkinManager.instance.LoadData();
-    }
-    
     public void Score()
     {
         double currentHP = double.Parse(playerSlime.playerHpText.text);

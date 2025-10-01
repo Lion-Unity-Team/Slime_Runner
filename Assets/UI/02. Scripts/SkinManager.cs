@@ -43,16 +43,16 @@ public class SkinManager : MonoBehaviour
             int i = portrait.isHave ? 1 : 0;
             PlayerPrefs.SetInt(portrait.name, i);
             PlayerPrefs.Save();
-
-            Debug.Log($"portrait 1" + portrait.isHave);
+            
             portrait.isHave = false;
-            Debug.Log($"portrait 2" + portrait.isHave);
         }
     }
 
+    // 플레이어의 데이터를 확인하고 스킨 해금을 관리하는 함수
     public void AchievementCheak()
     {
         PlayerData PlayerData = PlayerManager.instance.PlayerData;
+        
         
         # region 상인 스킨 조건문
         if (PlayerData.eatFruit >= 3)
@@ -64,6 +64,48 @@ public class SkinManager : MonoBehaviour
                 if (PlayerData.eatFruit >= 500)
                 {
                     portraits[2].isHave = true;
+                }
+            }
+        }
+        # endregion
+        # region 귀족 (남) 스킨 조건문
+        if (PlayerData.playTime1 >= 10)
+        {
+            portraits[3].isHave = true;
+            if (PlayerData.playTime1 >= 30)
+            {
+                portraits[4].isHave = true;
+                if (PlayerData.playTime1 >= 1200)
+                {
+                    portraits[5].isHave = true;
+                }
+            }
+        }
+        # endregion
+        # region 귀족 (여) 스킨 조건문
+        if (PlayerData.playTime2 >= 10)
+        {
+            portraits[6].isHave = true;
+            if (PlayerData.playTime2 >= 30)
+            {
+                portraits[7].isHave = true;
+                if (PlayerData.playTime2 >= 1200)
+                {
+                    portraits[8].isHave = true;
+                }
+            }
+        }
+        # endregion
+        # region 도둑 스킨 조건문
+        if (PlayerData.sideTouch >= 18)
+        {
+            portraits[9].isHave = true;
+            if (PlayerData.sideTouch >= 50)
+            {
+                portraits[10].isHave = true;
+                if (PlayerData.sideTouch >= 10000)
+                {
+                    portraits[11].isHave = true;
                 }
             }
         }
@@ -82,6 +124,21 @@ public class SkinManager : MonoBehaviour
             }
         }
         # endregion
+        # region 농부 스킨 조건문
+        if (PlayerData.turnStage >= 3)
+        {
+            portraits[15].isHave = true;
+            if (PlayerData.turnStage >= 10)
+            {
+                portraits[16].isHave = true;
+                if (PlayerData.turnStage >= 80)
+                {
+                    portraits[17].isHave = true;
+                }
+            }
+        }
+        # endregion
+        
         SaveData();
         PlayerManager.instance.SaveData();
     }
