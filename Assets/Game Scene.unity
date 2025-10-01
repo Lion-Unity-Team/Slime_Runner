@@ -32372,7 +32372,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 861575456}
   - {fileID: 4217149124654969830}
   - {fileID: 1187453280}
   - {fileID: 1712672762}
@@ -57501,7 +57500,7 @@ GameObject:
   - component: {fileID: 1712672766}
   - component: {fileID: 1712672765}
   - component: {fileID: 1712672764}
-  - component: {fileID: 1712672767}
+  - component: {fileID: 1712672763}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -57547,25 +57546,6 @@ MonoBehaviour:
   useSkinInfo: {fileID: 5926218708787133924, guid: c5e41794d587e834aad38414b9a686c3,
     type: 3}
   useSkinInfoPos: {fileID: 4217149124654969830}
-  portraits:
-  - {fileID: 11400000, guid: d335ee75cc3d3c04c8bb4160d4d7e3bd, type: 2}
-  - {fileID: 11400000, guid: aaa04f500853fd648979450318f5602e, type: 2}
-  - {fileID: 11400000, guid: 3fb0f21f69b137944b31ee4d9b4131df, type: 2}
-  - {fileID: 11400000, guid: 3c4d2f7243e73a747a71bf174fe7e48e, type: 2}
-  - {fileID: 11400000, guid: 712b5c8d9b08d2e40a7dc6521528bca2, type: 2}
-  - {fileID: 11400000, guid: ce51c7e8d6f852f439c8933d66f81f7b, type: 2}
-  - {fileID: 11400000, guid: 7c5a6f903b64fb64f97fb8205c2b0618, type: 2}
-  - {fileID: 11400000, guid: c3b892660e7f89646876b0f0c0344077, type: 2}
-  - {fileID: 11400000, guid: 3ee6eda3620fff042a92fcc5702b9be3, type: 2}
-  - {fileID: 11400000, guid: 840c209324d42524f923749e6c0c9e55, type: 2}
-  - {fileID: 11400000, guid: 076284cff86448f4db3ec9efcc72b138, type: 2}
-  - {fileID: 11400000, guid: 8660f0adf2722244394ec7791fac562e, type: 2}
-  - {fileID: 11400000, guid: 78a2436f7d181d04398ea39988722fcd, type: 2}
-  - {fileID: 11400000, guid: 47ded35567a6d85448b4d63d15db5bd6, type: 2}
-  - {fileID: 11400000, guid: 1b0cd287e52aab144b69f57837e1b245, type: 2}
-  - {fileID: 11400000, guid: 0cd97adceb52cc847ba7f36c2c39c0d0, type: 2}
-  - {fileID: 11400000, guid: d82c0f22699b4f340a13e11eb40395d7, type: 2}
-  - {fileID: 11400000, guid: 75f304c452483854392361534db5a7ba, type: 2}
   SkinUI: {fileID: 286166406}
 --- !u!114 &1712672764
 MonoBehaviour:
@@ -57597,7 +57577,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1712672767}
+      - m_Target: {fileID: 1712672763}
         m_TargetAssemblyTypeName: ScrollViewController, Assembly-CSharp
         m_MethodName: OnValueChanged
         m_Mode: 0
@@ -57647,21 +57627,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712672761}
   m_CullTransparentMesh: 1
---- !u!114 &1712672767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712672761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be51d82d53934c6ca5c96da0711605b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cellHeight: 135
-  textPoint: {fileID: 685835286}
-  SkinUI: {fileID: 286166406}
 --- !u!1 &1719777181
 GameObject:
   m_ObjectHideFlags: 0
@@ -69818,7 +69783,7 @@ MonoBehaviour:
           m_StringArgument: UI_Button
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1712672767}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ScrollViewController, Assembly-CSharp
         m_MethodName: ExitOnclick
         m_Mode: 1
