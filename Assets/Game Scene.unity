@@ -32754,6 +32754,7 @@ Transform:
   - {fileID: 1949427901}
   - {fileID: 2080297897}
   - {fileID: 1899021566}
+  - {fileID: 2126359519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392099948
@@ -70660,7 +70661,7 @@ MonoBehaviour:
     type: 3}
   winterFruitPrefab: {fileID: 3558889864747363022, guid: c7b096d4925a37c49b6d78347b1c5edc,
     type: 3}
-  playTimeUI: {fileID: 2126359518}
+  timer: {fileID: 2126359518}
   enemySpeed: 5
   speedTimer: 0
   _anime: {fileID: 572090350}
@@ -70987,7 +70988,7 @@ GameObject:
   - component: {fileID: 2126359519}
   - component: {fileID: 2126359518}
   m_Layer: 0
-  m_Name: TIMER
+  m_Name: TimerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71014,6 +71015,8 @@ MonoBehaviour:
   OVER: {fileID: 1014887128}
   CLAER: {fileID: 392099950}
   playTime: 0
+  playTime2: 0
+  elapsedTime: 0
 --- !u!4 &2126359519
 Transform:
   m_ObjectHideFlags: 0
@@ -71022,12 +71025,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126359517}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 368703294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119430323786024383
 GameObject:
@@ -71602,5 +71605,4 @@ SceneRoots:
   - {fileID: 1561628558}
   - {fileID: 313055444}
   - {fileID: 232622370}
-  - {fileID: 2126359519}
   - {fileID: 368703294}

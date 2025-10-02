@@ -12,6 +12,11 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text OVER;
     public TMP_Text CLAER;
 
+    public int playTime1 = 0;
+    private float elapsedTime = 0f;
+
+    private bool isCounting = true;
+
     private string _deathAnimeKey;
     private string _runAnimeKey;
 
@@ -31,6 +36,7 @@ public class PlayerSlime : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            isCounting = false;
             TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
             if (enemyHpText == null) return;
 
@@ -42,17 +48,22 @@ public class PlayerSlime : MonoBehaviour
                 FindObjectOfType<GameOverManager>().Score();
                 _anime.SetTrigger(_deathAnimeKey);
                 _anime.SetBool(_runAnimeKey, false);
-                
+
                 PlayerManager.instance.PlayerData.killSlime += killSlime;
                 PlayerManager.instance.PlayerData.eatFruit += eatFruit;
-                
+                PlayerManager.instance.PlayerData.playTime1 += playTime1;
+
+                Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
+                int playTime2 = timer.playTime2;
+                PlayerManager.instance.PlayerData.playTime2 += playTime2;
+
                 killSlime = 0;
                 eatFruit = 0;
             }
             else
             {
                 playerHp += enemyHp;
-                if (playerHp >= 100000000) //????????1 : 1???? ????
+                if (playerHp >= 100000000)
                 {
                     OVER.gameObject.SetActive(false);
                     CLAER.gameObject.SetActive(true);
@@ -91,6 +102,12 @@ public class PlayerSlime : MonoBehaviour
 
     void Update()
     {
+        if (isCounting)
+        {
+            elapsedTime += Time.deltaTime;
+            playTime1 = (int)elapsedTime;
+        }
+
         string value = playerHpText.text;
         int digitCount = value.Length;
 
@@ -119,7 +136,6 @@ public class PlayerSlime : MonoBehaviour
 
         playerHpText.fontSize = fontSize;
 
-
         float Stamina = StaminaManager.instance.GetCurrentStamina();
 
         if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
@@ -130,5 +146,4 @@ public class PlayerSlime : MonoBehaviour
             _anime.SetBool(_runAnimeKey, false);
         }
     }
-    
 }

@@ -2,20 +2,22 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class PlayTimeUI : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     public GameObject player;
     public TMP_Text playTimeText;  // 연결할 TMP 텍스트
     public GameObject UI1;    // 플레이타임을 측정할 UI
     public GameObject UI2;    // 플레이타임을 측정할 UI
     public GameObject UI3;    // 플레이타임을 측정할 UI
-    public Button UI4;    
+    public Button UI4;
     public TMP_Text OVER;
     public TMP_Text CLAER;
 
     public float playTime; // 시작 시간
     private float stamina; // 스테미너 감소를 위한 시간
     private Animator _anime;
+    public int playTime2 = 0;
+    public float elapsedTime = 0f;
 
     private void Start()
     {
@@ -30,6 +32,8 @@ public class PlayTimeUI : MonoBehaviour
         {
             playTime -= Time.deltaTime;
             stamina += Time.deltaTime;
+            elapsedTime += Time.deltaTime;
+            playTime2 = (int)elapsedTime;
         }
 
         // 시, 분, 초 변환
@@ -38,7 +42,7 @@ public class PlayTimeUI : MonoBehaviour
 
         // UI에 표시
         playTimeText.text = $"{minutes:00}:{seconds:00}";
-        if(minutes == 0 && seconds == 0)
+        if (minutes == 0 && seconds == 0)
         {
             UI4.interactable = false;
             OVER.gameObject.SetActive(false);
@@ -53,6 +57,6 @@ public class PlayTimeUI : MonoBehaviour
             StaminaManager.instance.StaminaPlus(-3);
             stamina = 0;
         }
-        
+
     }
 }

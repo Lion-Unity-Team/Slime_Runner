@@ -15,7 +15,7 @@ public class Enemy_Spawner : MonoBehaviour
     private bool[] spawn = new bool[3];
     private List<GameObject> enemyList = new List<GameObject>();
 
-    public PlayTimeUI playTimeUI;
+    public Timer timer;
     public float enemySpeed = 5.0f;
     public float speedTimer = 0f;
     public Animator _anime;
@@ -198,15 +198,15 @@ private void Update()
 
             GameObject fruitPrefab;
 
-            if (playTimeUI.playTime > 90f)
+            if (timer.playTime > 90f)
             {
                 fruitPrefab = springFruitPrefab;
             }
-            else if (playTimeUI.playTime > 60f)
+            else if (timer.playTime > 60f)
             {
                 fruitPrefab = summerFruitPrefab;
             }
-            else if (playTimeUI.playTime > 30f)
+            else if (timer.playTime > 30f)
             {
                 fruitPrefab = fallFruitPrefab;
             }
