@@ -30,6 +30,10 @@ public class PlayerSlime : MonoBehaviour
 
         _deathAnimeKey = "Death";
         _runAnimeKey = "IsRun";
+        
+        Debug.Log(PlayerManager.instance.PlayerData.killSlime);
+        Debug.Log(PlayerManager.instance.PlayerData.eatFruit);
+        Debug.Log(PlayerManager.instance.PlayerData.playTime1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,21 +48,20 @@ public class PlayerSlime : MonoBehaviour
 
             if (playerHp <= enemyHp)
             {
+                PlayerManager.instance.PlayerData.killSlime += killSlime;
+                PlayerManager.instance.PlayerData.eatFruit += eatFruit;
+                PlayerManager.instance.PlayerData.playTime1 += playTime1;
+                Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
+                int playTime2 = timer.playTime2;
+                PlayerManager.instance.PlayerData.playTime2 += playTime2;
+                
+                killSlime = 0;
+                eatFruit = 0;
+                
                 FindObjectOfType<GameStartManager>().EndGame();
                 FindObjectOfType<GameOverManager>().Score();
                 _anime.SetTrigger(_deathAnimeKey);
                 _anime.SetBool(_runAnimeKey, false);
-
-                PlayerManager.instance.PlayerData.killSlime += killSlime;
-                PlayerManager.instance.PlayerData.eatFruit += eatFruit;
-                PlayerManager.instance.PlayerData.playTime1 += playTime1;
-
-                Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
-                int playTime2 = timer.playTime2;
-                PlayerManager.instance.PlayerData.playTime2 += playTime2;
-
-                killSlime = 0;
-                eatFruit = 0;
             }
             else
             {
@@ -140,6 +143,16 @@ public class PlayerSlime : MonoBehaviour
 
         if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
         {
+            PlayerManager.instance.PlayerData.killSlime += killSlime;
+            PlayerManager.instance.PlayerData.eatFruit += eatFruit;
+            PlayerManager.instance.PlayerData.playTime1 += playTime1;
+            Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
+            int playTime2 = timer.playTime2;
+            PlayerManager.instance.PlayerData.playTime2 += playTime2;
+            
+            killSlime = 0;
+            eatFruit = 0;
+            
             FindObjectOfType<GameStartManager>().EndGame();
             FindObjectOfType<GameOverManager>().Score();
             _anime.SetTrigger(_deathAnimeKey);
