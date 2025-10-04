@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -5,20 +6,23 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     public GameObject player;
-    public TMP_Text playTimeText;  // ¿¬°áÇÒ TMP ÅØ½ºÆ®
-    public GameObject UI1;    // ÇÃ·¹ÀÌÅ¸ÀÓÀ» ÃøÁ¤ÇÒ UI
-    public GameObject UI2;    // ÇÃ·¹ÀÌÅ¸ÀÓÀ» ÃøÁ¤ÇÒ UI
-    public GameObject UI3;    // ÇÃ·¹ÀÌÅ¸ÀÓÀ» ÃøÁ¤ÇÒ UI
+    public TMP_Text playTimeText;  // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ TMP ï¿½Ø½ï¿½Æ®
+    public GameObject UI1;    // ï¿½Ã·ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ UI
+    public GameObject UI2;    // ï¿½Ã·ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ UI
+    public GameObject UI3;    // ï¿½Ã·ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ UI
     public Button UI4;
     public TMP_Text OVER;
     public TMP_Text CLAER;
 
-    public float playTime; // ½ÃÀÛ ½Ã°£
-    private float stamina; // ½ºÅ×¹Ì³Ê °¨¼Ò¸¦ À§ÇÑ ½Ã°£
+    public float playTime; // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
+    private float stamina; // ï¿½ï¿½ï¿½×¹Ì³ï¿½ ï¿½ï¿½ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
     private Animator _anime;
     public int playTime2 = 0;
     public float elapsedTime = 0f;
 
+    [SerializeField] private CanvasGroup _gameEndCanvasGroup;
+    [SerializeField] private RectTransform _gameEndRectTransform;
+    
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
@@ -27,7 +31,7 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        // targetUI°¡ ºñÈ°¼ºÈ­µÇ¾î ÀÖÀ» ¶§¸¸ ½Ã°£ Áõ°¡
+        // targetUIï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (!UI1.activeSelf && !UI2.activeSelf && !UI3.activeSelf)
         {
             playTime -= Time.deltaTime;
@@ -36,14 +40,19 @@ public class Timer : MonoBehaviour
             playTime2 = (int)elapsedTime;
         }
 
-        // ½Ã, ºÐ, ÃÊ º¯È¯
+        // ï¿½ï¿½, ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½È¯
         int minutes = (int)((playTime % 3600) / 60);
         int seconds = (int)(playTime % 60);
 
-        // UI¿¡ Ç¥½Ã
+        // UIï¿½ï¿½ Ç¥ï¿½ï¿½
         playTimeText.text = $"{minutes:00}:{seconds:00}";
         if (minutes == 0 && seconds == 0)
         {
+            _gameEndCanvasGroup.alpha = 0;
+            _gameEndRectTransform.localScale = Vector3.zero;
+
+            _gameEndCanvasGroup.DOFade(1, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
+            _gameEndRectTransform.DOScale(1, 0.3f).SetEase(Ease.OutBack).SetUpdate(UpdateType.Normal, true);
             UI4.interactable = false;
             OVER.gameObject.SetActive(false);
             CLAER.gameObject.SetActive(true);
