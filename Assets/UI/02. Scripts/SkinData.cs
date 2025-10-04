@@ -13,4 +13,5 @@ public class SkinData : ScriptableObject
     
     public string story1;
     public string story2;
+    public int limitNum;
 }

@@ -16,5 +16,6 @@ MonoBehaviour:
   ImageFile: {fileID: 21300000, guid: a1ba9f82e9212bc4aaaac513cf3434ed, type: 3}
   jobName: "\uB300\uC7A5\uC7A5\uC774"
   isHave: 0
-  story1: " \uD574\uAE08\uC870\uAC74\\n \uC2AC\uB77C\uC784 1000\uB9C8\uB9AC \uCC98\uCE58\uD558\uAE30!"
+  story1: " \uD574\uAE08\uC870\uAC74\\n \uC2AC\uB77C\uC784 1000\uB9C8\uB9AC \uCC98\uCE58\uD558\uAE30!\\n`\uB9C8\uB9AC"
   story2: "\uAC00\uC7A5 \uAC15\uD55C \uB300\uC7A5\uC7A5\uC774\uC785\uB2C8\uB2E4."
+  limitNum: 1000

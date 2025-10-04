@@ -162,7 +162,31 @@ public class ScrollViewController : MonoBehaviour
                 }
                 else
                 {
-                    story = portrait.story1;
+                    string[] splitStory = portrait.story1.Split('`');
+                    string tem = "";
+                    switch (portrait.index / 3)
+                    {
+                        case 0:
+                            tem = $"{PlayerManager.instance.PlayerData.eatFruit}/{portrait.limitNum}";
+                            break;
+                        case 1:
+                            tem = $"{PlayerManager.instance.PlayerData.playTime1}/{portrait.limitNum}";
+                            break;
+                        case 2:
+                            tem = $"{PlayerManager.instance.PlayerData.playTime2}/{portrait.limitNum}";
+                            break;
+                        case 3:
+                            tem = $"{PlayerManager.instance.PlayerData.sideTouch}/{portrait.limitNum}";
+                            break;
+                        case 4:
+                            tem = $"{PlayerManager.instance.PlayerData.killSlime}/{portrait.limitNum}";
+                            break;
+                        case 5:
+                            tem = $"{PlayerManager.instance.PlayerData.turnStage}/{portrait.limitNum}";
+                            break;
+                    }
+
+                    story = splitStory[0] + tem + splitStory[1];
                 }
                 
                 Portrait setPortrait = new Portrait
@@ -211,7 +235,31 @@ public class ScrollViewController : MonoBehaviour
             }
             else
             {
-                story = portraits[i].story1;
+                string[] splitStory = portraits[i].story1.Split('`');
+                string tem = "";
+                switch (i / 3)
+                {
+                    case 0:
+                        tem = $"{PlayerManager.instance.PlayerData.eatFruit}/{portraits[i].limitNum}";
+                        break;
+                    case 1:
+                        tem = $"{PlayerManager.instance.PlayerData.playTime1}/{portraits[i].limitNum}";
+                        break;
+                    case 2:
+                        tem = $"{PlayerManager.instance.PlayerData.playTime2}/{portraits[i].limitNum}";
+                        break;
+                    case 3:
+                        tem = $"{PlayerManager.instance.PlayerData.sideTouch}/{portraits[i].limitNum}";
+                        break;
+                    case 4:
+                        tem = $"{PlayerManager.instance.PlayerData.killSlime}/{portraits[i].limitNum}";
+                        break;
+                    case 5:
+                        tem = $"{PlayerManager.instance.PlayerData.turnStage}/{portraits[i].limitNum}";
+                        break;
+                }
+
+                story = splitStory[0] + tem + splitStory[1];
             }
             Portrait setPortrait = new Portrait
             {

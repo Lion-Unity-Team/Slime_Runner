@@ -17,5 +17,6 @@ MonoBehaviour:
   jobName: "\uADC0\uC871 (\uB0A8) 2"
   isHave: 0
   story1: " \uD574\uAE08\uC870\uAC74\\n 600\uCD08 \uB3D9\uC548 \uC2AC\uB77C\uC784
-    \uD53C\uD558\uAE30!"
+    \uD53C\uD558\uAE30!\\n`\uCD08"
   story2: "\uD68C\uD53C\uC5D0 \uC77C\uAC00\uACAC\uC744 \uAC00\uC9C4 \uADC0\uC871\uC785\uB2C8\uB2E4."
+  limitNum: 600
