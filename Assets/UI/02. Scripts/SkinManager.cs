@@ -55,13 +55,13 @@ public class SkinManager : MonoBehaviour
         
         
         # region 상인 스킨 조건문
-        if (PlayerData.eatFruit >= 3)
+        if (PlayerData.eatFruit >= 36)
         {
             portraits[0].isHave = true;
-            if (PlayerData.eatFruit >= 10)
+            if (PlayerData.eatFruit >= 100)
             {
                 portraits[1].isHave = true;
-                if (PlayerData.eatFruit >= 500)
+                if (PlayerData.eatFruit >= 300)
                 {
                     portraits[2].isHave = true;
                 }
@@ -69,10 +69,10 @@ public class SkinManager : MonoBehaviour
         }
         # endregion
         # region 귀족 (남) 스킨 조건문
-        if (PlayerData.playTime1 >= 10)
+        if (PlayerData.playTime1 >= 180)
         {
             portraits[3].isHave = true;
-            if (PlayerData.playTime1 >= 30)
+            if (PlayerData.playTime1 >= 600)
             {
                 portraits[4].isHave = true;
                 if (PlayerData.playTime1 >= 1200)
@@ -83,10 +83,10 @@ public class SkinManager : MonoBehaviour
         }
         # endregion
         # region 귀족 (여) 스킨 조건문
-        if (PlayerData.playTime2 >= 10)
+        if (PlayerData.playTime2 >= 180)
         {
             portraits[6].isHave = true;
-            if (PlayerData.playTime2 >= 30)
+            if (PlayerData.playTime2 >= 600)
             {
                 portraits[7].isHave = true;
                 if (PlayerData.playTime2 >= 1200)
@@ -97,10 +97,10 @@ public class SkinManager : MonoBehaviour
         }
         # endregion
         # region 도둑 스킨 조건문
-        if (PlayerData.sideTouch >= 18)
+        if (PlayerData.sideTouch >= 180)
         {
             portraits[9].isHave = true;
-            if (PlayerData.sideTouch >= 50)
+            if (PlayerData.sideTouch >= 1800)
             {
                 portraits[10].isHave = true;
                 if (PlayerData.sideTouch >= 10000)
@@ -111,13 +111,13 @@ public class SkinManager : MonoBehaviour
         }
         # endregion
         # region 대장장이 스킨 조건문
-        if (PlayerData.killSlime >= 3)
+        if (PlayerData.killSlime >= 100)
         {
             portraits[12].isHave = true;
-            if (PlayerData.killSlime >= 10)
+            if (PlayerData.killSlime >= 300)
             {
                 portraits[13].isHave = true;
-                if (PlayerData.killSlime >= 500)
+                if (PlayerData.killSlime >= 1000)
                 {
                     portraits[14].isHave = true;
                 }
@@ -125,10 +125,10 @@ public class SkinManager : MonoBehaviour
         }
         # endregion
         # region 농부 스킨 조건문
-        if (PlayerData.turnStage >= 3)
+        if (PlayerData.turnStage >= 10)
         {
             portraits[15].isHave = true;
-            if (PlayerData.turnStage >= 10)
+            if (PlayerData.turnStage >= 30)
             {
                 portraits[16].isHave = true;
                 if (PlayerData.turnStage >= 80)

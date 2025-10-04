@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 18
   ImageFile: {fileID: 21300000, guid: 8b6fda22ab5498f4faed330aaeface59, type: 3}
-  jobName: "\uB18D\uBBFC"
+  jobName: "\uB300\uC9C0\uC8FC"
   isHave: 0
   story1: " \uD574\uAE08\uC870\uAC74\\n \uC2A4\uD14C\uC774\uC9C0\uB97C 80\uBC88 \uC9C0\uB098\uAE30!\\n`\uBC88"
   story2: "\uCD94\uC218\uB97C\uD55C \uCD5C\uAC15\uC758 \uB18D\uBD80\uC785\uB2C8\uB2E4."
