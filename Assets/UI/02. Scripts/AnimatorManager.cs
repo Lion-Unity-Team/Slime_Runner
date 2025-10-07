@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class AnimatorManager : MonoBehaviour
@@ -12,6 +13,7 @@ public class AnimatorManager : MonoBehaviour
     {
         Instance = this;
     }
+    
 
     public void ChangeAnimator(int fileIndex)
     {
@@ -20,7 +22,10 @@ public class AnimatorManager : MonoBehaviour
         if (index >= 0 && index < animatorControllers.Length)
         {
             playerAnimator.runtimeAnimatorController = animatorControllers[index];
+            PlayerPrefs.SetInt("CurrentSkin", fileIndex);
+            PlayerPrefs.Save();
             Debug.Log($"[AnimatorManager] {fileIndex}번 애니메이터로 교체 완료");
+            
         }
         else
         {

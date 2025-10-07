@@ -38,7 +38,7 @@ public class GameStartManager : MonoBehaviour
         });
         
         KeepPlay.onClick.AddListener(CountClick);
-        player.SetActive(false);        //일단플레이어숨김
+        // player.SetActive(false);        //일단플레이어숨김
         enemyspawner.StopSpawning();    //일단적생성정지
         GameOver.SetActive(false);      //게임오버UI숨김
         StartWindow.SetActive(true);    //게임시작UI켜기
@@ -48,6 +48,9 @@ public class GameStartManager : MonoBehaviour
         _playerRunKey = "IsRun";
         _PlayerWakeUpKey = "WakeUp";
         CloudSpawner.isPlay = false;
+
+        AnimatorManager.Instance.ChangeAnimator(PlayerPrefs.GetInt("CurrentSkin" , 0));
+        
         
         if (PlayerPrefs.HasKey("BestPlayerHP"))
         {
