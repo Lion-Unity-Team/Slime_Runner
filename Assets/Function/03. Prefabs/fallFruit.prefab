@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fruitSpeed: 7
+  canMove: 1
+  UI1: {fileID: 0}
 --- !u!58 &6184558963100812688
 CircleCollider2D:
   m_ObjectHideFlags: 0

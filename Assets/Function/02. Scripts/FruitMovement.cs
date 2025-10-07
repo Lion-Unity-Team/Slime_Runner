@@ -1,12 +1,16 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class FruitMovement : MonoBehaviour
 {
     [SerializeField] private float fruitSpeed = 7f;
-    
+    [SerializeField] private bool canMove;
+
     void Update()
     {
+        if (fruitSpeed == 0f) return;
+
         Move();
     }
 
@@ -26,5 +30,28 @@ public class FruitMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnEnable()
+    {
+        if (UIManager.Instance != null)
+        {
+            canMove = UIManager.Instance.IsMenuOpen;
+            if (canMove) fruitSpeed = 0f;
+
+            UIManager.Instance.OnMenuToggle += HandleMenuToggle;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (UIManager.Instance != null)
+            UIManager.Instance.OnMenuToggle -= HandleMenuToggle;
+    }
+
+    private void HandleMenuToggle(bool active)
+    {
+        canMove = active;
+        fruitSpeed = canMove ? 0f : 7f;
     }
 }
