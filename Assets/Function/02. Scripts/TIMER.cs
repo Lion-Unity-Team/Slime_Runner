@@ -20,9 +20,7 @@ public class Timer : MonoBehaviour
     public int playTime2 = 0;
     public float elapsedTime = 0f;
 
-    [SerializeField] private CanvasGroup _gameEndCanvasGroup;
-    [SerializeField] private RectTransform _gameEndRectTransform;
-    
+    private bool flag;
     private void Start()
     {
         _anime = player.GetComponentInChildren<Animator>();
@@ -46,13 +44,9 @@ public class Timer : MonoBehaviour
 
         // UI�� ǥ��
         playTimeText.text = $"{minutes:00}:{seconds:00}";
-        if (minutes == 0 && seconds == 0)
+        if (minutes == 0 && seconds == 0 && !flag)
         {
-            _gameEndCanvasGroup.alpha = 0;
-            _gameEndRectTransform.localScale = Vector3.zero;
-
-            _gameEndCanvasGroup.DOFade(1, 0.3f).SetEase(Ease.Linear).SetUpdate(UpdateType.Normal, true);
-            _gameEndRectTransform.DOScale(1, 0.3f).SetEase(Ease.OutBack).SetUpdate(UpdateType.Normal, true);
+            flag = true;
             UI4.interactable = false;
             OVER.gameObject.SetActive(false);
             CLAER.gameObject.SetActive(true);
