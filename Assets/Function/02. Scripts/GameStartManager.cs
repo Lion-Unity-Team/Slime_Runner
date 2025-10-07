@@ -38,13 +38,13 @@ public class GameStartManager : MonoBehaviour
         });
         
         KeepPlay.onClick.AddListener(CountClick);
-        // player.SetActive(false);        //일단플레이어숨김
         enemyspawner.StopSpawning();    //일단적생성정지
         GameOver.SetActive(false);      //게임오버UI숨김
         StartWindow.SetActive(true);    //게임시작UI켜기
         //이미 배경은 멈춰있음
 
-        _playerAnime = player.GetComponentInChildren<Animator>();  // 플레이어 애니메이션
+        _playerAnime = player.GetComponentInChildren<Animator>(); // 플레이어 애니메이션
+        _playerAnime.speed = 0;         // 플레이어 이동 멈춤
         _playerRunKey = "IsRun";
         _PlayerWakeUpKey = "WakeUp";
         CloudSpawner.isPlay = false;
@@ -86,7 +86,7 @@ public class GameStartManager : MonoBehaviour
 
     public void StartGame()     //게임시작버튼누르면
     {
-        player.SetActive(true);     // 플레이어등장
+        _playerAnime.speed = 1;     // 플레이어 이동 시작
         _playerAnime.SetBool(_playerRunKey, true);
         enemyspawner.StartSpawning(); // 적생성시작
         Ground.canMoving = true;
