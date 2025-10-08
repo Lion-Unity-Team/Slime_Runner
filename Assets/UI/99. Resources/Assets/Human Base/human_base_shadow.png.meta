@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 2b14c0000c76fde40a67f3f44781b746
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -259870626615137418
+    second: human_base_shadow_0
+  - first:
+      213: 2607959800201362202
+    second: human_base_shadow_1
+  - first:
+      213: 7200971377577032146
+    second: human_base_shadow_2
+  - first:
+      213: -2111584905372929842
+    second: human_base_shadow_3
+  - first:
+      213: 6939269604302774849
+    second: human_base_shadow_4
+  - first:
+      213: -4032353790709674821
+    second: human_base_shadow_5
+  - first:
+      213: 8096229005357341109
+    second: human_base_shadow_6
+  - first:
+      213: 9100643519466292048
+    second: human_base_shadow_7
+  - first:
+      213: 510812092985991160
+    second: human_base_shadow_8
+  - first:
+      213: -7701946187320501916
+    second: human_base_shadow_9
+  - first:
+      213: -4377181097551111623
+    second: human_base_shadow_10
+  - first:
+      213: -7316480469671992782
+    second: human_base_shadow_11
+  - first:
+      213: 3504774024880928188
+    second: human_base_shadow_12
+  - first:
+      213: -2060265992069240641
+    second: human_base_shadow_13
+  - first:
+      213: -757231105366822701
+    second: human_base_shadow_14
+  - first:
+      213: 8352396884691927431
+    second: human_base_shadow_15
+  - first:
+      213: -1200264293671470952
+    second: human_base_shadow_16
+  - first:
+      213: 5954554483891439588
+    second: human_base_shadow_17
+  - first:
+      213: -3325620963099148592
+    second: human_base_shadow_18
+  - first:
+      213: 6374503555604588452
+    second: human_base_shadow_19
+  - first:
+      213: 6725106198344079879
+    second: human_base_shadow_20
+  - first:
+      213: 2730498625652324381
+    second: human_base_shadow_21
+  - first:
+      213: -2695881160520303421
+    second: human_base_shadow_22
+  - first:
+      213: 3340695346258520060
+    second: human_base_shadow_23
+  - first:
+      213: 273127449296623839
+    second: human_base_shadow_24
+  - first:
+      213: -3076622575302923722
+    second: human_base_shadow_25
+  - first:
+      213: 5229536556927274924
+    second: human_base_shadow_26
+  - first:
+      213: -9181372127790995497
+    second: human_base_shadow_27
+  - first:
+      213: 7034748422026520009
+    second: human_base_shadow_28
+  - first:
+      213: 3220889742114834993
+    second: human_base_shadow_29
+  - first:
+      213: 2980404961821550316
+    second: human_base_shadow_30
+  - first:
+      213: -3389309181805311160
+    second: human_base_shadow_31
+  - first:
+      213: -3531663419530938740
+    second: human_base_shadow_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_base_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67beb0dba01c46cf0800000000000000
+      internalID: -259870626615137418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b3087ee95513420800000000000000
+      internalID: 2607959800201362202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9fb36c05dfee360800000000000000
+      internalID: 7200971377577032146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec07b2a57b422b2e0800000000000000
+      internalID: -2111584905372929842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142e12570fc3d4060800000000000000
+      internalID: 6939269604302774849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbccc0877933a08c0800000000000000
+      internalID: -4032353790709674821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9d98c72659b5070800000000000000
+      internalID: 8096229005357341109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053cf3d401bfb4e70800000000000000
+      internalID: 9100643519466292048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff576564e4c61700800000000000000
+      internalID: 510812092985991160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4695691dfb03d1590800000000000000
+      internalID: -7701946187320501916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a59eaabf02143c0800000000000000
+      internalID: -4377181097551111623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2322e17f6c3a67a90800000000000000
+      internalID: -7316480469671992782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53b03186573a030800000000000000
+      internalID: 3504774024880928188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb825e7fef67863e0800000000000000
+      internalID: -2060265992069240641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0fbb75256cd75f0800000000000000
+      internalID: -757231105366822701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7814427b6bca9e370800000000000000
+      internalID: 8352396884691927431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8987023fbfdc75fe0800000000000000
+      internalID: -1200264293671470952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e70f0821c3d2a250800000000000000
+      internalID: 5954554483891439588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0def1ec9a5509d1d0800000000000000
+      internalID: -3325620963099148592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7a643d539c67850800000000000000
+      internalID: 6374503555604588452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a931dc470645d50800000000000000
+      internalID: 6725106198344079879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18f2b1880ea4e520800000000000000
+      internalID: 2730498625652324381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccf48e2e5e469ad0800000000000000
+      internalID: -2695881160520303421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72a88b7b88c5e20800000000000000
+      internalID: 3340695346258520060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8dbb1d7f75ac300800000000000000
+      internalID: 273127449296623839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a2f138114ad45d0800000000000000
+      internalID: -3076622575302923722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafc19f8acb039840800000000000000
+      internalID: 5229536556927274924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7685cd1b6359080800000000000000
+      internalID: -9181372127790995497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5612b0b6270a160800000000000000
+      internalID: 7034748422026520009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a447bc726e2bc20800000000000000
+      internalID: 3220889742114834993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce66f2c95868c5920800000000000000
+      internalID: 2980404961821550316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b4688a141c6f0d0800000000000000
+      internalID: -3389309181805311160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_base_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86fd9cd4d20dfec0800000000000000
+      internalID: -3531663419530938740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_base_shadow_0: -259870626615137418
+      human_base_shadow_1: 2607959800201362202
+      human_base_shadow_10: -4377181097551111623
+      human_base_shadow_11: -7316480469671992782
+      human_base_shadow_12: 3504774024880928188
+      human_base_shadow_13: -2060265992069240641
+      human_base_shadow_14: -757231105366822701
+      human_base_shadow_15: 8352396884691927431
+      human_base_shadow_16: -1200264293671470952
+      human_base_shadow_17: 5954554483891439588
+      human_base_shadow_18: -3325620963099148592
+      human_base_shadow_19: 6374503555604588452
+      human_base_shadow_2: 7200971377577032146
+      human_base_shadow_20: 6725106198344079879
+      human_base_shadow_21: 2730498625652324381
+      human_base_shadow_22: -2695881160520303421
+      human_base_shadow_23: 3340695346258520060
+      human_base_shadow_24: 273127449296623839
+      human_base_shadow_25: -3076622575302923722
+      human_base_shadow_26: 5229536556927274924
+      human_base_shadow_27: -9181372127790995497
+      human_base_shadow_28: 7034748422026520009
+      human_base_shadow_29: 3220889742114834993
+      human_base_shadow_3: -2111584905372929842
+      human_base_shadow_30: 2980404961821550316
+      human_base_shadow_31: -3389309181805311160
+      human_base_shadow_32: -3531663419530938740
+      human_base_shadow_4: 6939269604302774849
+      human_base_shadow_5: -4032353790709674821
+      human_base_shadow_6: 8096229005357341109
+      human_base_shadow_7: 9100643519466292048
+      human_base_shadow_8: 510812092985991160
+      human_base_shadow_9: -7701946187320501916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

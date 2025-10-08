@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ceeb083d-8a9e-4b0e-98a2-697c80ac4a6d" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity WepGl_Game_2025-7-12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/02. Scripts/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/02. Scripts/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/99. Resources/Sound/BGM/Autumn.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/99. Resources/Sound/BGM/Autumn.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +15,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZeroDimen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lion-Unity-Team/WepGl_Game.git&quot;,
+    &quot;accountId&quot;: &quot;c90ea740-4758-4e74-a417-d9e3600db255&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Dong_Geon/Coding2025/BootCamp/Unity/Unity WepGl_Game_2025-7-12/Assets/Game Scene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Dong_Geon/Coding2025/BootCamp/Unity/Unity WepGl_Game_2025-7-12/Assets/Game Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/PortraitManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/Portrait.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/02. Scripts/TableView/ScrollViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4027c60e8806/Runtime/UGUI/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -38,7 +47,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UI&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -58,6 +67,7 @@
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
       <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="독립실행형 플레이어" type="RunUnityExe" factoryName="Unity Executable">
@@ -69,6 +79,7 @@
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
       <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
@@ -80,6 +91,7 @@
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
       <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -108,6 +120,9 @@
         <list />
       </option>
       <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="기기에 연결" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
       <method v="2" />
     </configuration>
   </component>
@@ -144,6 +159,31 @@
       <workItem from="1754920179364" duration="353000" />
       <workItem from="1754920554784" duration="29000" />
       <workItem from="1754983381717" duration="1466000" />
+      <workItem from="1755620008623" duration="1146000" />
+      <workItem from="1755761012968" duration="2297000" />
+      <workItem from="1755772933756" duration="1746000" />
+      <workItem from="1755774704440" duration="684000" />
+      <workItem from="1755775413061" duration="23000" />
+      <workItem from="1755846706290" duration="5696000" />
+      <workItem from="1756465629158" duration="2735000" />
+      <workItem from="1758762850592" duration="3175000" />
+      <workItem from="1758784546676" duration="13266000" />
+      <workItem from="1758873175040" duration="5695000" />
+      <workItem from="1758883411054" duration="9856000" />
+      <workItem from="1758903020242" duration="4016000" />
+      <workItem from="1758946784539" duration="3702000" />
+      <workItem from="1759024541292" duration="4059000" />
+      <workItem from="1759062500903" duration="15000" />
+      <workItem from="1759132095585" duration="3209000" />
+      <workItem from="1759144823378" duration="11225000" />
+      <workItem from="1759160923199" duration="260000" />
+      <workItem from="1759161397080" duration="223000" />
+      <workItem from="1759225224917" duration="6251000" />
+      <workItem from="1759246045141" duration="2893000" />
+      <workItem from="1759330518285" duration="1901000" />
+      <workItem from="1759583121837" duration="1607000" />
+      <workItem from="1759841594853" duration="731000" />
+      <workItem from="1759843379099" duration="315000" />
     </task>
     <servers />
   </component>
@@ -157,6 +197,17 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

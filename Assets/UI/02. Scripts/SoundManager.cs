@@ -60,11 +60,10 @@ public class SoundManager : MonoBehaviour
             
             BgmMute(isBgmMute);
             SfxMute(isSfxMute);
-
-            bgm_Slider.onValueChanged.AddListener((temp) => SfxPlay("UI_Button"));
-            sfx_Slider.onValueChanged.AddListener((temp) => SfxPlay("UI_Button"));
-
         }
+        
+        bgm_Slider.onValueChanged.AddListener((temp) => SfxPlay("UI_Button"));
+        sfx_Slider.onValueChanged.AddListener((temp) => SfxPlay("UI_Button"));
     }
 
     private void OnBGMMute()

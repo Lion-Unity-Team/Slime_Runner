@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 4aa16fa758172144aa4d6748b2572a7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -336048176572633700
+    second: human_thief_shadow_0
+  - first:
+      213: 6907309473789889306
+    second: human_thief_shadow_1
+  - first:
+      213: 8592535711046539160
+    second: human_thief_shadow_2
+  - first:
+      213: 6883896965450412309
+    second: human_thief_shadow_3
+  - first:
+      213: 7454175012924715110
+    second: human_thief_shadow_4
+  - first:
+      213: -6175790372994649712
+    second: human_thief_shadow_5
+  - first:
+      213: 1554672759950704404
+    second: human_thief_shadow_6
+  - first:
+      213: 2640515329432465663
+    second: human_thief_shadow_7
+  - first:
+      213: -1479954592790921918
+    second: human_thief_shadow_8
+  - first:
+      213: 8849428449894757561
+    second: human_thief_shadow_9
+  - first:
+      213: -1224068705721189373
+    second: human_thief_shadow_10
+  - first:
+      213: -4822697045657556412
+    second: human_thief_shadow_11
+  - first:
+      213: 252506393018222372
+    second: human_thief_shadow_12
+  - first:
+      213: -3228323454035603297
+    second: human_thief_shadow_13
+  - first:
+      213: 2282347966232592835
+    second: human_thief_shadow_14
+  - first:
+      213: -2346906314757906053
+    second: human_thief_shadow_15
+  - first:
+      213: -5093808644507119895
+    second: human_thief_shadow_16
+  - first:
+      213: 1896386380466120826
+    second: human_thief_shadow_17
+  - first:
+      213: 4865622795326579153
+    second: human_thief_shadow_18
+  - first:
+      213: 8623277131792847737
+    second: human_thief_shadow_19
+  - first:
+      213: 3804307095930805255
+    second: human_thief_shadow_20
+  - first:
+      213: 2385027684314329335
+    second: human_thief_shadow_21
+  - first:
+      213: -541949815358598595
+    second: human_thief_shadow_22
+  - first:
+      213: 5851741654822204442
+    second: human_thief_shadow_23
+  - first:
+      213: 8100742346847658852
+    second: human_thief_shadow_24
+  - first:
+      213: -498609449888700880
+    second: human_thief_shadow_25
+  - first:
+      213: 582582057972602409
+    second: human_thief_shadow_26
+  - first:
+      213: -311432326257168073
+    second: human_thief_shadow_27
+  - first:
+      213: 8245550574907701103
+    second: human_thief_shadow_28
+  - first:
+      213: -3650060276185259831
+    second: human_thief_shadow_29
+  - first:
+      213: 4742809242339067610
+    second: human_thief_shadow_30
+  - first:
+      213: -4080622956884009112
+    second: human_thief_shadow_31
+  - first:
+      213: 6660261170875716480
+    second: human_thief_shadow_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_thief_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d68ffb6fd165bf0800000000000000
+      internalID: -336048176572633700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bcfe2be51bbdf50800000000000000
+      internalID: 6907309473789889306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89799c834b1de3770800000000000000
+      internalID: 8592535711046539160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511bf0051d3888f50800000000000000
+      internalID: 6883896965450412309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66078fa2eac827760800000000000000
+      internalID: 7454175012924715110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0917062606f2b4aa0800000000000000
+      internalID: -6175790372994649712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f76de53ae439510800000000000000
+      internalID: 1554672759950704404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0bbcab3bef4a420800000000000000
+      internalID: 2640515329432465663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d3df49325267be0800000000000000
+      internalID: -1479954592790921918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b47635f94c7fca70800000000000000
+      internalID: 8849428449894757561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cf0de5ffb330fe0800000000000000
+      internalID: -1224068705721189373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a6146b696521db0800000000000000
+      internalID: -4822697045657556412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427cd530a35118300800000000000000
+      internalID: 252506393018222372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9055264ce0b233d0800000000000000
+      internalID: -3228323454035603297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1012502678caf10800000000000000
+      internalID: 2282347966232592835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71ebb3242d1e6fd0800000000000000
+      internalID: -2346906314757906053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec656a6082f49b0800000000000000
+      internalID: -5093808644507119895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7862949d51515a10800000000000000
+      internalID: 1896386380466120826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1eb76372a268340800000000000000
+      internalID: 4865622795326579153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97313400dd80ca770800000000000000
+      internalID: 8623277131792847737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c147dc52d9bc430800000000000000
+      internalID: 3804307095930805255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0370fda02591120800000000000000
+      internalID: 2385027684314329335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d325679a38b9a78f0800000000000000
+      internalID: -541949815358598595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14b80df700953150800000000000000
+      internalID: 5851741654822204442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a1d0be3e9b6070800000000000000
+      internalID: 8100742346847658852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0362bb9d8559419f0800000000000000
+      internalID: -498609449888700880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92619f98b4fb51800800000000000000
+      internalID: 582582057972602409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7313ed503f19dabf0800000000000000
+      internalID: -311432326257168073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6734e2af841e6270800000000000000
+      internalID: 8245550574907701103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0a6358481685dc0800000000000000
+      internalID: -3650060276185259831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad64f0f90e7d1d140800000000000000
+      internalID: 4742809242339067610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fdf907a07be57c0800000000000000
+      internalID: -4080622956884009112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_thief_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083df515f300e6c50800000000000000
+      internalID: 6660261170875716480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_thief_shadow_0: -336048176572633700
+      human_thief_shadow_1: 6907309473789889306
+      human_thief_shadow_10: -1224068705721189373
+      human_thief_shadow_11: -4822697045657556412
+      human_thief_shadow_12: 252506393018222372
+      human_thief_shadow_13: -3228323454035603297
+      human_thief_shadow_14: 2282347966232592835
+      human_thief_shadow_15: -2346906314757906053
+      human_thief_shadow_16: -5093808644507119895
+      human_thief_shadow_17: 1896386380466120826
+      human_thief_shadow_18: 4865622795326579153
+      human_thief_shadow_19: 8623277131792847737
+      human_thief_shadow_2: 8592535711046539160
+      human_thief_shadow_20: 3804307095930805255
+      human_thief_shadow_21: 2385027684314329335
+      human_thief_shadow_22: -541949815358598595
+      human_thief_shadow_23: 5851741654822204442
+      human_thief_shadow_24: 8100742346847658852
+      human_thief_shadow_25: -498609449888700880
+      human_thief_shadow_26: 582582057972602409
+      human_thief_shadow_27: -311432326257168073
+      human_thief_shadow_28: 8245550574907701103
+      human_thief_shadow_29: -3650060276185259831
+      human_thief_shadow_3: 6883896965450412309
+      human_thief_shadow_30: 4742809242339067610
+      human_thief_shadow_31: -4080622956884009112
+      human_thief_shadow_32: 6660261170875716480
+      human_thief_shadow_4: 7454175012924715110
+      human_thief_shadow_5: -6175790372994649712
+      human_thief_shadow_6: 1554672759950704404
+      human_thief_shadow_7: 2640515329432465663
+      human_thief_shadow_8: -1479954592790921918
+      human_thief_shadow_9: 8849428449894757561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

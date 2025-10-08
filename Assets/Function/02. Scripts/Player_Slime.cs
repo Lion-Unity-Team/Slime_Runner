@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerSlime : MonoBehaviour
 {
@@ -7,8 +8,20 @@ public class PlayerSlime : MonoBehaviour
     public TMP_Text playerHpText;
     public static double playerHp;
 
+    public Button UI1;
+    public TMP_Text OVER;
+    public TMP_Text CLAER;
+
+    public int playTime1 = 0;
+    private float elapsedTime = 0f;
+
+    private bool isCounting = true;
+
     private string _deathAnimeKey;
     private string _runAnimeKey;
+
+    private int eatFruit;
+    private int killSlime;
 
     private void Start()
     {
@@ -17,32 +30,87 @@ public class PlayerSlime : MonoBehaviour
 
         _deathAnimeKey = "Death";
         _runAnimeKey = "IsRun";
+        
+        Debug.Log(PlayerManager.instance.PlayerData.killSlime);
+        Debug.Log(PlayerManager.instance.PlayerData.eatFruit);
+        Debug.Log(PlayerManager.instance.PlayerData.playTime1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
-        if (enemyHpText == null) return;
-
-        double enemyHp = double.Parse(enemyHpText.text);
-
-        if (playerHp <= enemyHp)
+        if (collision.CompareTag("Enemy"))
         {
-            FindObjectOfType<GameStartManager>().EndGame();
-            FindObjectOfType<GameOverManager>().Score();
-            _anime.SetTrigger(_deathAnimeKey);
-            _anime.SetBool(_runAnimeKey, false);
+            isCounting = false;
+            TMP_Text enemyHpText = collision.GetComponentInChildren<TMP_Text>();
+            if (enemyHpText == null) return;
+
+            double enemyHp = double.Parse(enemyHpText.text);
+
+            if (playerHp <= enemyHp)
+            {
+                PlayerManager.instance.PlayerData.killSlime += killSlime;
+                PlayerManager.instance.PlayerData.eatFruit += eatFruit;
+                PlayerManager.instance.PlayerData.playTime1 += playTime1;
+                Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
+                int playTime2 = timer.playTime2;
+                PlayerManager.instance.PlayerData.playTime2 += playTime2;
+                
+                killSlime = 0;
+                eatFruit = 0;
+                
+                FindObjectOfType<GameStartManager>().EndGame();
+                FindObjectOfType<GameOverManager>().Score();
+                _anime.SetTrigger(_deathAnimeKey);
+                _anime.SetBool(_runAnimeKey, false);
+            }
+            else
+            {
+                playerHp += enemyHp;
+                if (playerHp >= 100000000)
+                {
+                    OVER.gameObject.SetActive(false);
+                    CLAER.gameObject.SetActive(true);
+                    playerHp = 100000000;
+                    playerHpText.text = playerHp.ToString();
+                    UI1.interactable = false;
+                    FindObjectOfType<GameStartManager>().EndGame();
+                    FindObjectOfType<GameOverManager>().Score();
+                    _anime.speed = 0f;
+                }
+
+                playerHpText.text = playerHp.ToString();
+                killSlime++;
+            }
+
+            StaminaManager.instance.StaminaPlus(-15);
+            SoundManager.instance.SfxPlay("Attack");
         }
-        else 
+
+        if (collision.CompareTag("Fruit"))
         {
-            playerHp += enemyHp;
-            playerHpText.text = playerHp.ToString();
+            if (collision.transform.localScale.x >= 0.9)
+            {
+                StaminaManager.instance.StaminaPlus(40);
+            }
+            else
+            {
+                StaminaManager.instance.StaminaPlus(15);
+            }
+
+            SoundManager.instance.SfxPlay("Fruit");
+            eatFruit++;
         }
-        SoundManager.instance.SfxPlay("Eat");
+
     }
 
     void Update()
     {
+        if (isCounting)
+        {
+            elapsedTime += Time.deltaTime;
+            playTime1 = (int)elapsedTime;
+        }
+
         string value = playerHpText.text;
         int digitCount = value.Length;
 
@@ -70,5 +138,25 @@ public class PlayerSlime : MonoBehaviour
             fontSize = 0.9f;
 
         playerHpText.fontSize = fontSize;
+
+        float Stamina = StaminaManager.instance.GetCurrentStamina();
+
+        if (Stamina <= 0 && _anime.GetBool(_runAnimeKey))
+        {
+            PlayerManager.instance.PlayerData.killSlime += killSlime;
+            PlayerManager.instance.PlayerData.eatFruit += eatFruit;
+            PlayerManager.instance.PlayerData.playTime1 += playTime1;
+            Timer timer = GameObject.Find("TimerManager").GetComponent<Timer>();
+            int playTime2 = timer.playTime2;
+            PlayerManager.instance.PlayerData.playTime2 += playTime2;
+            
+            killSlime = 0;
+            eatFruit = 0;
+            
+            FindObjectOfType<GameStartManager>().EndGame();
+            FindObjectOfType<GameOverManager>().Score();
+            _anime.SetTrigger(_deathAnimeKey);
+            _anime.SetBool(_runAnimeKey, false);
+        }
     }
 }

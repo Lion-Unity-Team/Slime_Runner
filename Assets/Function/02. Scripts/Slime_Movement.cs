@@ -16,13 +16,10 @@ public class Slime_Movement : MonoBehaviour
     public GameObject UI2;
     public GameObject UI3;
 
-//#if UNITY_EDITOR || UNITY_WEBGL
-    //private Vector2 mousePos; // 기존 마우스포스
-//#endif
-
-//#if UNITY_ANDROID || UNITY_IOS
+    private Vector2 mousePos;
     private Vector2 touchPos;
-//#endif
+
+    private uint sideTouch;
 
     private void Start()
     {
@@ -41,10 +38,11 @@ public class Slime_Movement : MonoBehaviour
         {
             canMove = true;
         }
-
+        
         if (!canMove)
             return;
 
+#if UNITY_ANDROID || UNITY_IOS
         Touch touch = Input.GetTouch(0);
 
         if (touch.phase == TouchPhase.Began)
@@ -52,25 +50,15 @@ public class Slime_Movement : MonoBehaviour
             touchPos = Camera.main.ScreenToWorldPoint(touch.position);
             PlayerMove(touchPos);
         }
+#endif
 
-        //if (Input.touchCount > 0)
-        //{
-        //    if (IsPointerOverUI())
-        //    {
-        //        return;
-        //    }
-        //    else
-        //    {
-        //        Touch touch = Input.GetTouch(0);
-
-        //        if (touch.phase == TouchPhase.Began)
-        //        {
-        //            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-        //            PlayerMove(touchPos);
-        //            //MoveSlime(touchPos);
-        //        }
-        //    }
-        //}
+#if UNITY_EDITOR || UNITY_WEBGL
+        if (Input.GetMouseButtonDown(0))
+        {
+            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            PlayerMove(mousePos);
+        }
+#endif
     }
 
     private bool IsPointerOverUI()
@@ -90,7 +78,6 @@ public class Slime_Movement : MonoBehaviour
             if(currentLane>0)
             {
                 GetComponent<SpriteRenderer>().flipX = true;
-                _Anime.SetTrigger("Move");
                 currentLane--;
                 MoveToLane(currentLane);
             }
@@ -101,7 +88,6 @@ public class Slime_Movement : MonoBehaviour
             if(currentLane<2)
             {
                 GetComponent<SpriteRenderer>().flipX = false;
-                _Anime.SetTrigger("Move");
                 currentLane++;
                 MoveToLane(currentLane);
             }
@@ -110,9 +96,11 @@ public class Slime_Movement : MonoBehaviour
 
     private void MoveToLane(int laneIndex)
     {
-        Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -6);
+        Vector2 targetPos = new Vector2((laneIndex - 1) * laneDistance, -4);
         StopAllCoroutines(); // 이동 중 다시 이동하면 이전 코루틴 중단
         StartCoroutine(SlideToPosition(targetPos, moveDuration));
+        _Anime.SetTrigger("Move");
+        PlayerManager.instance.PlayerData.sideTouch++;
         SoundManager.instance.SfxPlay("Move");
     }
 
@@ -134,7 +122,7 @@ public class Slime_Movement : MonoBehaviour
 
     //private void OnTriggerEnter2D(Collider2D collision) //플레이어가 적과 부딫혔을때 딜레이를 거는 함수
     //{
-    //    StartCoroutine(EnableMovement(0.5f));
+    //    StartCoroutine(EnableMovement(2f));
     //}
 
     //IEnumerator EnableMovement(float delay) // 딜레이 코루틴

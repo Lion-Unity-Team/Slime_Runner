@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: c2e4b187ab3bff84ca8dcd3e2205f450
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2091052183746220595
+    second: human_noblewoman_shadow_0
+  - first:
+      213: -4530232214684897040
+    second: human_noblewoman_shadow_1
+  - first:
+      213: -9053422321364530635
+    second: human_noblewoman_shadow_2
+  - first:
+      213: -4003491373474785051
+    second: human_noblewoman_shadow_3
+  - first:
+      213: 911873573320928250
+    second: human_noblewoman_shadow_4
+  - first:
+      213: 7962015024863253107
+    second: human_noblewoman_shadow_5
+  - first:
+      213: -4017344134948435603
+    second: human_noblewoman_shadow_6
+  - first:
+      213: 4912708702734753754
+    second: human_noblewoman_shadow_7
+  - first:
+      213: -3639146032422857996
+    second: human_noblewoman_shadow_8
+  - first:
+      213: 8501732669430281797
+    second: human_noblewoman_shadow_9
+  - first:
+      213: 1175573228885148904
+    second: human_noblewoman_shadow_10
+  - first:
+      213: -7826332345493046188
+    second: human_noblewoman_shadow_11
+  - first:
+      213: 5797179876064320345
+    second: human_noblewoman_shadow_12
+  - first:
+      213: -7092371714532712509
+    second: human_noblewoman_shadow_13
+  - first:
+      213: 7111072427539954550
+    second: human_noblewoman_shadow_14
+  - first:
+      213: -1247505222610565996
+    second: human_noblewoman_shadow_15
+  - first:
+      213: -5516453732587778228
+    second: human_noblewoman_shadow_16
+  - first:
+      213: -6648456199172345226
+    second: human_noblewoman_shadow_17
+  - first:
+      213: 208292754262010439
+    second: human_noblewoman_shadow_18
+  - first:
+      213: 51195878056140721
+    second: human_noblewoman_shadow_19
+  - first:
+      213: -1510818763852080044
+    second: human_noblewoman_shadow_20
+  - first:
+      213: -5734116441494620805
+    second: human_noblewoman_shadow_21
+  - first:
+      213: -63699713716841636
+    second: human_noblewoman_shadow_22
+  - first:
+      213: -4755434185575380597
+    second: human_noblewoman_shadow_23
+  - first:
+      213: 3115325971678890179
+    second: human_noblewoman_shadow_24
+  - first:
+      213: -4249890867307082576
+    second: human_noblewoman_shadow_25
+  - first:
+      213: 1478566670961280939
+    second: human_noblewoman_shadow_26
+  - first:
+      213: 7096019277919537592
+    second: human_noblewoman_shadow_27
+  - first:
+      213: 6072931028904130146
+    second: human_noblewoman_shadow_28
+  - first:
+      213: 7055186028848695966
+    second: human_noblewoman_shadow_29
+  - first:
+      213: 6713227485828972679
+    second: human_noblewoman_shadow_30
+  - first:
+      213: -7721288054678497542
+    second: human_noblewoman_shadow_31
+  - first:
+      213: -6507512338335368721
+    second: human_noblewoman_shadow_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3329ffad1e8e40d10800000000000000
+      internalID: 2091052183746220595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0fcad8dc16121c0800000000000000
+      internalID: -4530232214684897040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a8975ad58cb5280800000000000000
+      internalID: -9053422321364530635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 710
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8d1b6aecdb078c0800000000000000
+      internalID: -4003491373474785051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb2cd10f20a7ac00800000000000000
+      internalID: 911873573320928250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 678
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3721c450b72ce7e60800000000000000
+      internalID: 7962015024863253107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6946e74bc68f38c0800000000000000
+      internalID: -4017344134948435603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf997759827d2440800000000000000
+      internalID: 4912708702734753754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2d9abe6f72f7dc0800000000000000
+      internalID: -3639146032422857996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546b9b891d83cf570800000000000000
+      internalID: 8501732669430281797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4882b8f99705010800000000000000
+      internalID: 1175573228885148904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cbcbc8238436390800000000000000
+      internalID: -7826332345493046188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b5bdbe168b37050800000000000000
+      internalID: 5797179876064320345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfdf3ca085d29d90800000000000000
+      internalID: -7092371714532712509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bf79f52ba9fa260800000000000000
+      internalID: 7111072427539954550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4944ade0c98ffaee0800000000000000
+      internalID: -1247505222610565996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4a31ce8e9173b0800000000000000
+      internalID: -5516453732587778228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672b697df40fbb3a0800000000000000
+      internalID: -6648456199172345226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a231b082104e200800000000000000
+      internalID: 208292754262010439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 550
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf108d3162e5b000800000000000000
+      internalID: 51195878056140721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c1a94c65e780be0800000000000000
+      internalID: -1510818763852080044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b757cf32a735c60b0800000000000000
+      internalID: -5734116441494620805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531d97a271bd1ff0800000000000000
+      internalID: -63699713716841636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 486
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89c708bdcd410eb0800000000000000
+      internalID: -4755434185575380597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8087d277cdb3b20800000000000000
+      internalID: 3115325971678890179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc0cf7e5ca5505c0800000000000000
+      internalID: -4249890867307082576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7016fad8ce48410800000000000000
+      internalID: 1478566670961280939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9c7bbdfef1a7260800000000000000
+      internalID: 7096019277919537592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26637435892674450800000000000000
+      internalID: 6072931028904130146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 422
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a43d1305e09e160800000000000000
+      internalID: 7055186028848695966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780893584dc2a2d50800000000000000
+      internalID: 6713227485828972679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6db646c6978d490800000000000000
+      internalID: -7721288054678497542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_noblewoman_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 390
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97c0ea10ca0b5a0800000000000000
+      internalID: -6507512338335368721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_noblewoman_shadow_0: 2091052183746220595
+      human_noblewoman_shadow_1: -4530232214684897040
+      human_noblewoman_shadow_10: 1175573228885148904
+      human_noblewoman_shadow_11: -7826332345493046188
+      human_noblewoman_shadow_12: 5797179876064320345
+      human_noblewoman_shadow_13: -7092371714532712509
+      human_noblewoman_shadow_14: 7111072427539954550
+      human_noblewoman_shadow_15: -1247505222610565996
+      human_noblewoman_shadow_16: -5516453732587778228
+      human_noblewoman_shadow_17: -6648456199172345226
+      human_noblewoman_shadow_18: 208292754262010439
+      human_noblewoman_shadow_19: 51195878056140721
+      human_noblewoman_shadow_2: -9053422321364530635
+      human_noblewoman_shadow_20: -1510818763852080044
+      human_noblewoman_shadow_21: -5734116441494620805
+      human_noblewoman_shadow_22: -63699713716841636
+      human_noblewoman_shadow_23: -4755434185575380597
+      human_noblewoman_shadow_24: 3115325971678890179
+      human_noblewoman_shadow_25: -4249890867307082576
+      human_noblewoman_shadow_26: 1478566670961280939
+      human_noblewoman_shadow_27: 7096019277919537592
+      human_noblewoman_shadow_28: 6072931028904130146
+      human_noblewoman_shadow_29: 7055186028848695966
+      human_noblewoman_shadow_3: -4003491373474785051
+      human_noblewoman_shadow_30: 6713227485828972679
+      human_noblewoman_shadow_31: -7721288054678497542
+      human_noblewoman_shadow_32: -6507512338335368721
+      human_noblewoman_shadow_4: 911873573320928250
+      human_noblewoman_shadow_5: 7962015024863253107
+      human_noblewoman_shadow_6: -4017344134948435603
+      human_noblewoman_shadow_7: 4912708702734753754
+      human_noblewoman_shadow_8: -3639146032422857996
+      human_noblewoman_shadow_9: 8501732669430281797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
