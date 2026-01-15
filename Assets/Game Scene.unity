@@ -71074,8 +71074,6 @@ MonoBehaviour:
   playTime: 0
   playTime2: 0
   elapsedTime: 0
-  _gameEndCanvasGroup: {fileID: 1159267100}
-  _gameEndRectTransform: {fileID: 804140215}
 --- !u!4 &2126359519
 Transform:
   m_ObjectHideFlags: 0
