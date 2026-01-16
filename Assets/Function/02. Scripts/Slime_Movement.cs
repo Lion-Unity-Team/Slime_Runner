@@ -38,32 +38,38 @@ public class Slime_Movement : MonoBehaviour
         {
             canMove = true;
         }
-        
+
         if (!canMove)
             return;
 
-#if UNITY_ANDROID || UNITY_IOS
-        Touch touch = Input.GetTouch(0);
-
-        if (touch.phase == TouchPhase.Began)
-        {
-            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
-            PlayerMove(touchPos);
-        }
-#endif
-
-#if UNITY_EDITOR || UNITY_WEBGL
         if (Input.GetMouseButtonDown(0))
         {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             PlayerMove(mousePos);
         }
-#endif
+
+        //#if UNITY_ANDROID || UNITY_IOS
+        //        Touch touch = Input.GetTouch(0);
+
+        //        if (touch.phase == TouchPhase.Began)
+        //        {
+        //            touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+        //            PlayerMove(touchPos);
+        //        }
+        //#endif
+
+        //#if UNITY_EDITOR || UNITY_WEBGL
+        //        if (Input.GetMouseButtonDown(0))
+        //        {
+        //            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //            PlayerMove(mousePos);
+        //        }
+        //#endif
     }
 
     private bool IsPointerOverUI()
     {
-        if(Input.touchCount>0)
+        if (Input.touchCount > 0)
         {
             return EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
         }
@@ -75,7 +81,7 @@ public class Slime_Movement : MonoBehaviour
         // 화면 왼쪽 절반 클릭 -> 왼쪽 이동
         if (position.x < 0)
         {
-            if(currentLane>0)
+            if (currentLane > 0)
             {
                 GetComponent<SpriteRenderer>().flipX = true;
                 currentLane--;
@@ -85,7 +91,7 @@ public class Slime_Movement : MonoBehaviour
         // 화면 오른쪽 절반 클릭 -> 오른쪽 이동
         else
         {
-            if(currentLane<2)
+            if (currentLane < 2)
             {
                 GetComponent<SpriteRenderer>().flipX = false;
                 currentLane++;
